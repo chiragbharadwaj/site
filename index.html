@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<!-- Set language to English. -->
+<html lang="en">
+	
+	<head>
+
+		<!-- Choosing the default character set. -->
+		<meta charset="utf-8">
+
+		<!-- Device-compatibility: Resizes on smaller-sized windows. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Description and author of the webpage. -->
+		<meta name="description" content="Webpage">
+		<meta name="author" content="Chirag Bharadwaj">
+
+		<!-- Importing/linking in the necessary stylesheets for good styling. -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet" type="text/css">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- The title to appear in the tab name. -->
+		<title>Chirag Bharadwaj</title>
+	</head>
+
+	<body>
+
+		<!-- Creates a navigation bar on the top of the webpage. Makes it collapseable
+		     with a linked button that appears if the screen-size is collapsed beyond
+		     the standard mobile size. -->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">Chirag Bharadwaj</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					
+					<!-- Creating the actual button with three bar-lines. -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- Linked to the screen-size so it collapses as needed. -->
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					
+					<!-- List of things on the navigation bar. -->
+					<ul class="nav navbar-nav navbar-right">
+
+						<li class="active"><a href="index.html">About Me</a></li>
+						<li><a href="https://www.github.com/chiragbharadwaj" target="_blank">Projects</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						
+						<!-- The "Other work" option is a dropdown menu. -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other work<b class="caret"></b></a>
+							
+							<!-- Again, list of things on the dropdown menu. -->
+							<ul class="dropdown-menu">
+								<li class=dropdown-header>WHAT I'VE TAUGHT...</li>
+								<li><a href="https://www.dropbox.com/sh/3t7lc8r21p39qz5/AADSufpzebET35UJNsT3yaHla" target="_blank">AP Calculus AB</a></li>
+								<li><a href="files/japanese.pdf" target="_blank">Japanese Language I</a></li>
+								<li><a href="files/specialpoly.pdf" target="_blank">Special Polynomials</a></li>
+								<li class=dropdown-header>WHAT I AM LEARNING...</li>
+								<li><a href="https://www.dropbox.com/sh/ct5l3c2i3vdwaju/AABX4ECEKBtUNC2wsSCEUERTa" target="_blank">Intermediate Japanese Language</a></li>
+								<li><a href="http://cryptopals.com/" target="_blank">Cryptography</a></li>
+								<li><a href="files/irodov.pdf" target="_blank">Advanced Classical Physics</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="team-member">
+						<img src="img/me.png" class="img-responsive img-circle" alt="Chirag Bharadwaj"></img>
+						<h3 style="font-weight:normal;" class="special">Chirag Bharadwaj<br><font size=+1>坂本·ひかる</font></h3>
+						<p class="text-muted">Developer &bull; Scholar &bull; Pianist</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h3 class="center">ABOUT ME</h3>
+					<div class="hover-img">
+						<p class="text-side">
+							<a href="https://www.linkedin.com/in/chiragbharadwaj" target="_blank"><img src="img/linkedin.png" height="74px" width="74px" alt="LinkedIn"></a>
+						&ensp;LINKEDIN
+						</p>
+					</div>
+					<div class="hover-img">
+						<p class="text-side">
+							<a href="https://www.github.com/chiragbharadwaj" target="_blank"><img src="img/github.png" height="74px" width="74px" alt="GitHub"></a>
+						&ensp;GITHUB
+						</p>
+					</div>
+					<div class="hover-img">
+						<p class="text-side">
+							<a href="files/resume.pdf" target="_blank"><img src="img/cv.png" height="74px" width="74px" alt="Résumé"></a>
+						&ensp;RÉSUMÉ
+						</p>
+					</div>
+				</div>
+				<div class="col-md-14">
+					<img src="img/signature.svg" class="img-responsive img-rounded" height=40% width=40% alt="My signature">
+				</div>
+			</div>
+		</div>
+
+		<!-- Text at top of the body section of webpage. A nice little gray box. -->
+		<section id="About">
+			<div class="container">
+				<div class="jumbotron">
+					<p>Hi, my name is Chirag Bharadwaj, pronounced <b><i>SHUH-rahg bah-ruhd-WAHJ</i></b> (<a href="https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration" target="_blank">traditional</a>: <i>Chirāg Bhāradvāj</i>).</p>
+					<p> I do a lot of things in my life, but right now the biggest one is probably serving my time as a computer science undergraduate at <a href="https://www.cs.cornell.edu/" target="_blank">Cornell University</a>, where I'll be graduating from in May 2017. It can be <a href="img/cherry.jpg" target="_blank">beautiful</a>, but it can definitely be <a href="img/shoveling.jpg" target="_blank">freezing cold</a>, too. It hit 30 below zero for a few days during both of the past two winters! I take classes in a variety of fields, including <a href="https://classes.cornell.edu/browse/roster/FA14/class/MATH/2930" target="_blank">mathematics</a>, <a href="https://classes.cornell.edu/browse/roster/FA14/class/CHEM/3890" target="_blank">the sciences</a>, engineering applications, and, of course, <a href="http://www.cs.cornell.edu/courses/cs6110/2016sp/syllabus.php" target="_blank">computer science</a>. I'm particularly interested in the development and implementation of <a href="https://www.cs.cornell.edu/research/lang" target="_blank">programming languages</a>.</p>
+					<p>I'm passionate about learning new things, whether they're about computer science or something completely different, like a well-written composition on the state of the American education system. I don't fit very well into a single category of interests unlike a lot of computer scientists, and I hope to tie some of my interests in engineering, research, and teaching some day to make the next generation of learning much more exciting. More information about me can be found below, but let's talk!</p>
+					<div class="container">
+						<a href="mailto:cb625@cornell.edu"><button type="button" class="btn btn-info pull-right">Email me!</button></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- What I do at Cornell. -->
+		<section class="what-i-do">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Things that I do at Cornell</h2>
+            </br>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3">
+            <img src="img/cornell.png" height="100px" width="100px" alt="Cornell logo">
+            <h4 class="service-heading">Study, Study, Study</h4>
+            <p class="text-muted">I study computer science at Cornell, and am graduating one year early with a B.Sc. I'd be lying if I said that I did not spend a <a href="http://www.cs.cornell.edu/courses/cs4120/2016sp/" target="_blank">lot of time</a> on the coursework. I have a love/hate relationship with the CS courses at Cornell—they let me learn lots of new things, but they are very rigorous.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/tree.png" class="display" height="100px" width="100px" alt="Tree of knowledge">
+            <h4 class="service-heading">Teaching Assistant</h4>
+            <p class="text-muted">I'm a teaching assistant for <a href="http://www.cs.cornell.edu/courses/cs3410/2015fa/" target="_blank">CS 3410: Computer Systems</a>. I fell in love with the material and the way it was presented when I took the class. I spend an hour or two each day answering students' questions on <a href="https://www.piazza.com" target="_blank">Piazza</a>, as it's exciting for me to talk about and teach the material.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/piano.jpg" class="display img-responsive img-circle" height="100px" width="100px" alt="Piano">
+            <h4 class="service-heading">More teaching!</h4>
+            <p class="text-muted">I'm also a piano teacher for the <a href="http://orgsync.rso.cornell.edu/org/pianosocietycornell71792/" target="_blank">Cornell Piano Society</a>. I teach two students the foundations of piano, from scales to chords to structured playing and practice. In Fall 2015, I was able to help students learn four major and minor scales as well as play Bach's <i><a href="https://www.youtube.com/watch?v=yIKKDXCP2_M" target="_blank">Minuet in G</a></i>. I love classical.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/scioly.png" class="display img-responsive img-circle" height="100px" width="100px" alt="SciTech">
+            <h4 class="service-heading">Science and Technology</h4>
+            <p class="text-muted">I was a big fan of <a href="http://www.cornellscioly.com/" target="_blank">Science Olympiad</a> back in high school. I made a lot of friends and had friendly encounters during competitions. At university, I help organize invitational events for other high school students so that we can help them experience this, too. I write <a href="files/compound.pdf" target="_blank">tests</a> and <a href="files/forensics.pdf" target="_blank">coordinate events</a>.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I do outside of Cornell! -->
+    <section class="what-i-do">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Things that I do for fun</h2>
+            </br>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3">
+            <img src="img/arduino.png" height="100px" width="100px" alt="Cornell logo">
+            <h4 class="service-heading">Playing with Technology</h4>
+            <p class="text-muted">I like to play around with the next big thing and learn about how we can push boundaries and do amazing things with them. These days, I'm tinkering with <a href="http://playground.arduino.cc/Projects/Ideas" target="_blank">Arduino</a> and hardware kits to learn about things at the hardware-software interface. I hope to make some music-related Arduino project sometime soon. Stay tuned!</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/book.png" class="display" height="100px" width="100px" alt="Tree of knowledge">
+            <h4 class="service-heading">The Art of Reading</h4>
+            <p class="text-muted">I have been a voracious reader since a child. I probably owe my terrible vision to too many books during late nights in the darkness. One of my resolutions for 2016 is to <a href="https://en.wikipedia.org/wiki/Mark_Zuckerberg_book_club" target="_blank">read a book every week</a>. I don't have the time to choose them, so I decided to let <a href="https://www.reddit.com/r/52in52/" target="_blank">Reddit</a> choose for me instead. I think it will be fun and challenging to do it.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/board.png" class="display img-responsive img-circle" height="100px" width="100px" alt="Autodidactism">
+            <h4 class="service-heading">Autodidactism</h4>
+            <p class="text-muted">One of the biggest things I learned in high school was how to teach myself and be honest about what I know and don't know. I've applied that to how I approach learning today, which makes learning new things fun (while keeping the challenge alive). I am now learning <a href="https://www.dropbox.com/sh/ct5l3c2i3vdwaju/AABX4ECEKBtUNC2wsSCEUERTa" target="_blank">Japanese</a>, among other interesting projects. I live to learn.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/note.png" class="display img-responsive img-circle" height="100px" width="100px" alt="Music">
+            <h4 class="service-heading">Performing and Composing</h4>
+            <p class="text-muted">When I was in junior high school, one of my dreams was to attend <a href="http://www.juilliard.edu/" target="_blank">Julliard</a> and study music. My music instructor let me know that making a livelihood with such a profession was difficult, and he had to work two jobs at night to keep up. I gave up going pro, but I still <a href="soundcloud.com/chiragbharadwaj" target="_blank">perform</a> and compose music as time permits, just as I did back then.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<!-- Copyright claim, fixed at bottom of screen. -->
+		<footer class="footer">
+		<div class="navbar navbar-static-bottom">
+			<div class="container">
+				<p class="navbar-text pull-left">Copyright <span style="font-family:sans-serif">&copy;</span> 2016 Chirag Bharadwaj. All Rights Reserved.</p>
+			</div>
+		</div>
+		</footer>
+
+		<!-- Adds jQuery and BootstrapJS libraries into the project. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
