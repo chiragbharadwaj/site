@@ -327,10 +327,11 @@ strong {
     padding-left: 1.7em;
     position: relative;
     overflow: hidden;
-    font-family: Osaka-Mono, Monaco, Courier, monospace;
     font-size: 1em;
-    margin-bottom: 1em;
   }
+  	.site-footer .email tt {
+  		font-family: Osaka-Mono, Monaco, Courier, monospace;
+  	}
     .site-footer .email::before {
       background: url(../img/mail.png);
       background-size: 100% 100%;
@@ -439,6 +440,8 @@ strong {
 			margin-top: 2em;
 		}
 		.homepage .sky h2 {
+			/* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+			font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", Osaka, "明朝", Mincho, "ＭＳ Ｐ明朝", "MS PMincho", serif;
 			margin-top: -1em;
 			font-size: 1.5rem;
 		}
@@ -446,6 +449,7 @@ strong {
 			font-size: 1.25rem;
 		}
 		.homepage .sky p {
+			text-align: justify;
 			font-size: 20px;
 			margin-left: 30em;
 			margin-right: 30em;
@@ -466,5 +470,5 @@ strong {
 		  display: flex;
 		  margin: 100px 0;
 		  margin-top: 0em;
-		  margin-bottom: 12em;
+		  margin-bottom: 10em;
 		}
