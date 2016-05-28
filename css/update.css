@@ -1,0 +1,470 @@
+/* Specify the character set as 'utf-8'. */
+@charset "utf-8";
+
+/* Specifies how centered text should look. Right now, it is just left-aligned. */
+.centered {
+  margin: 0 auto;
+}
+
+/* Specifies how the body should look. Margins are currently flushed to the left. */
+body {
+  margin: 0;
+  padding: 0;
+  font: 100 18px "proxima-nova", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+/* Specifies actions on mouse-over: color changes, etc. */
+a {
+  color: #1c84b0;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+          transition: color 0.4s;
+	}
+  a:hover {
+    color: #18739a;
+    -webkit-transition: color 0.2s;
+            transition: color 0.2s;
+  }
+  h1 a, h2 a, h3 a {
+    color: #333333;
+  }
+
+/* Specifies how section titles should look. Each one has a particular weight. */
+h1, h2, h3 {
+  font-weight: 100;
+}
+
+/* ...but the main one is bigger! */
+h1 {
+  line-height: 1em;
+  font-size: 3rem;
+}
+
+/* ...but the secondary one is half the size of the main one. */
+h2 {
+  font-size: 1.5rem;
+}
+
+/* ...but the tertiary one is just a bit smaller than the secondary one. */
+h3 {
+  font-size: 1.13rem;
+}
+
+/* Specifies how emphasized text should look. */
+strong {
+  font-weight: 400;
+}
+
+/* Specifies the flex-space for a "column" on the webpage: glue/boxes, like LaTeX. */
+@media only screen and (min-width: 50em) {
+  .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+
+  .column {
+    width: 100%; }
+    .column + .column {
+      margin-left: 32px; }
+    .column-1 {
+      max-width: 90px; }
+    .column-2 {
+      max-width: 180px; }
+    .column-3 {
+      max-width: 270px; }
+    .column-4 {
+      max-width: 360px; }
+    .column-5 {
+      max-width: 450px; }
+    .column-6 {
+      max-width: 540px; }
+    .column-7 {
+      max-width: 630px; }
+    .column-8 {
+      max-width: 720px; }
+    .column-9 {
+      max-width: 810px; }
+    .column-10 {
+      max-width: 900px; }
+    .column-11 {
+      max-width: 990px; }
+    .column-12 {
+      max-width: 1080px; } }
+
+/* Specification of how header/navigation bar should look. */
+.site-header {
+  border-bottom: 1px solid #eceeef;
+  padding: 1.5rem 0;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+  .site-header .header-wrapper {
+    margin: 0 auto;
+    max-width: 75rem;
+    overflow: hidden;
+    padding: 0 0.9rem;
+  }
+  .site-header .logo {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+  }
+    .site-header .logo img {
+      margin-right: 1.2em;
+      vertical-align: middle;
+      width: 2.66em;
+    }
+    .site-header .logo span {
+      color: #333333;
+      display: inline-block;
+      padding: 0.9rem 0;
+    }
+      .site-header .logo span strong {
+        font-weight: 200;
+      }
+  .site-header nav {
+    padding: 0.45rem 0;
+    text-align: center;
+  }
+    .site-header nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    .site-header nav li {
+      display: inline-block;
+      list-style: none;
+      margin: 0 0.25em;
+      vertical-align: middle;
+    }
+    .site-header nav a {
+      color: #cb1a38;
+      display: block;
+      font-size: 1.05rem;
+      padding: 0.8rem 0.2rem;
+      position: relative;
+      text-transform: uppercase;
+    }
+      .site-header nav a:hover, .site-header nav a:focus {
+        color: #8a142f;
+      }
+    .site-header nav li.active a:before {
+      background: #cb1a38;
+      bottom: 0.7rem;
+      content: '';
+      height: 0.05556em;
+      left: 0.45rem;
+      position: absolute;
+      right: 0.45rem;
+    }
+    .site-header nav li.active a:hover:before, .site-header nav li.active a:focus:before {
+      background: #8a142f;
+    }
+  @media only screen and (max-width: 18.75em) {
+    .site-header {
+      padding: 0.45rem 0;
+    }
+      .site-header .header-wrapper {
+        padding: 0 0.45rem;
+      }
+      .site-header .logo img {
+        margin: 0;
+      }
+      .site-header .logo span {
+        display: block;
+      }
+      .site-header nav {
+        padding: 0;
+      }
+        .site-header nav li {
+          margin: 0;
+        }
+  }
+  @media only screen and (min-width: 50em) {
+    .site-header .logo {
+      float: left;
+      text-align: left;
+      width: 32%;
+    }
+    .site-header nav {
+      float: right;
+      padding: 0;
+      text-align: right;
+      width: 68%;
+    }
+      .site-header nav a {
+        font-size: 1.13rem;
+        padding: 0.9rem 1.25rem;
+      }
+      .site-header nav li {
+        margin: 0;
+      }
+        .site-header nav li.active a:before {
+          left: 1.25rem;
+          right: 1.25rem;
+        }
+        .site-header nav li:last-child a {
+          padding-right: 0;
+        }
+        .site-header nav li.active:last-child a:before {
+          right: 0;
+        }
+  }
+
+/* Specification of how footer/bottom bar should look. */
+.site-footer {
+  background: #eef0f1;
+  padding: 1em;
+  padding-top: 2em;
+}
+  .site-footer h2 {
+    font-size: 0.94em;
+    font-weight: bold;
+    margin: 0;
+  }
+  .site-footer p {
+    margin: 0;
+  }
+  .site-footer .address {
+    padding-left: 1.7em;
+    position: relative;
+    overflow: hidden;
+  }
+    .site-footer .address::before {
+      background: url(../img/logo.png);
+      background-size: 100% 100%;
+      content: '';
+      display: inline-block;
+      margin-right: 0.5em;
+      height: 1em;
+      width: 1em;
+      left: 0;
+      line-height: 1;
+      font-size: 1.3em;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      text-align: center;
+      text-decoration: inherit;
+      text-rendering: optimizeLegibility;
+      text-transform: none;
+      vertical-align: middle;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 1em;
+    }
+    .site-footer .address a {
+      font-size: 0.866em;
+    }
+
+  .site-footer .linkedin {
+    padding-left: 1.7em;
+    position: relative;
+    overflow: hidden;
+  }
+    .site-footer .linkedin::before {
+      background: url(../img/linkedin.png);
+      background-size: 100% 100%;
+      content: '';
+      display: inline-block;
+      margin-right: 0.5em;
+      height: 0.9em;
+      width: 0.9em;
+      left: 0;
+      line-height: 1;
+      font-size: 1.3em;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      text-align: center;
+      text-decoration: inherit;
+      text-rendering: optimizeLegibility;
+      text-transform: none;
+      vertical-align: middle;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 1em;
+    }
+
+  .site-footer .github {
+    padding-left: 1.7em;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+    .site-footer .github::before {
+      background: url(../img/github.png);
+      background-size: 100% 100%;
+      content: '';
+      display: inline-block;
+      margin-right: 0.5em;
+      height: 1em;
+      width: 1em;
+      left: 0;
+      line-height: 1;
+      font-size: 1.3em;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      text-align: center;
+      text-decoration: inherit;
+      text-rendering: optimizeLegibility;
+      text-transform: none;
+      vertical-align: middle;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 1em;
+    }
+  .site-footer .email {
+    padding-left: 1.7em;
+    position: relative;
+    overflow: hidden;
+    font-family: Osaka-Mono, Monaco, Courier, monospace;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+    .site-footer .email::before {
+      background: url(../img/mail.png);
+      background-size: 100% 100%;
+      content: '';
+      display: inline-block;
+      margin-right: 0.5em;
+      height: 1em;
+      width: 1em;
+      left: 0;
+      line-height: 1;
+      font-size: 1.3em;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      text-align: center;
+      text-decoration: inherit;
+      text-rendering: optimizeLegibility;
+      text-transform: none;
+      vertical-align: middle;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 1em;
+    }
+  .site-footer .telephone {
+    padding-left: 1.7em;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+    .site-footer .telephone::before {
+      background: url(../img/phone.png);
+      background-size: 100% 100%;
+      content: '';
+      display: inline-block;
+      margin-right: 0.5em;
+      height: 1em;
+      width: 1em;
+      left: 0;
+      line-height: 1;
+      font-size: 1.3em;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      text-align: center;
+      text-decoration: inherit;
+      text-rendering: optimizeLegibility;
+      text-transform: none;
+      vertical-align: middle;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 1em;
+    }
+  .site-footer .copyright {
+  	text-align: center;
+  }
+  .site-footer a {
+    color: #1c84b0;
+    text-decoration: underline;
+  }
+    .site-footer a:hover, .site-footer a:focus {
+      color: #333333;
+    }
+    .site-footer a.mail, .site-footer a.linkedin, .site-footer a.github, .site-footer a.phone {
+      color: #333333;
+      text-decoration: none;
+    }
+      .site-footer a.mail:hover, .site-footer a.mail:focus, .site-footer a.linkedin:hover, .site-footer a.linkedin:focus, .site-footer a.github:hover, .site-footer a.github:focus, .site-footer a.phone:hover, .site-footer a.phone:focus {
+        color: #1c84b0;
+      }
+
+/* Specifies how three types of buttons should look. */
+.button {
+  padding: 0.4em 0.8em; }
+  .button.button-primary {
+    background: #cb1a38;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100; }
+  .button.button-secondary {
+    background: #cb1a38;
+    color: white;
+    font-weight: 100; }
+
+.button .icon {
+  color: currentColor;
+  font-size: 0.8rem; }
+.button-rounded {
+  border-radius: 5px; }
+.button-tertiary {
+  background: #3286b3;
+  color: white; }
+
+ /* Specifies how the body of the page should look. */
+.homepage {
+  overflow: hidden;
+}
+	.homepage .sky {
+		background: url(../img/sky.jpg);
+		background-size: cover;
+  	position: relative;
+  	text-align: center;
+  	color: white;
+  	border-bottom: 1px solid #eceeef;
+	}
+		.homepage .sky .fit {
+			margin-top: 2em;
+		}
+		.homepage .sky h2 {
+			margin-top: -1em;
+			font-size: 1.5rem;
+		}
+		.homepage .sky h3 {
+			font-size: 1.25rem;
+		}
+		.homepage .sky p {
+			font-size: 20px;
+			margin-left: 30em;
+			margin-right: 30em;
+			margin-top: 2em;
+		}
+			.homepage .sky p a {
+				color: #ffffff;
+    		text-decoration: underline;
+			}
+			.homepage .sky p a:hover {
+				color: #1c84b0;
+    		text-decoration: underline;
+			}
+		.homepage .sky .explore-work {
+		  display: -webkit-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+		  display: flex;
+		  margin: 100px 0;
+		  margin-top: 0em;
+		  margin-bottom: 12em;
+		}
