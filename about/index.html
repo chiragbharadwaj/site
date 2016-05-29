@@ -41,7 +41,7 @@
 	      
 	      <!-- The actual picture of the 'C'. -->
 	      <h1 class="logo">
-	        <a href="http://www.chiragbharadwaj.com"><img src="http://www.chiragbharadwaj.com/img/logo.png" alt="logo"><strong>Chirag</strong> Bharadwaj</a>
+	        <a href="http://www.chiragbharadwaj.com"><img src="http://www.chiragbharadwaj.com/img/logo.png" alt="Chirag Bharadwaj"><strong>Chirag</strong> Bharadwaj</a>
 	      </h1>
 
 	      <!-- The navigation bar itself. -->
@@ -57,21 +57,59 @@
 		</header>
 
 		<main class="about">
-			<div class="rocket">
-				<img src="http://www.chiragbharadwaj.com/img/me-new.png" class="fit" width="15%" height="15%"></img>
-				<h1>Chirag Bharadwaj</h1>
-				<h2>(坂本ひかる)</h2>
-				<h3>Developer &bull; Scholar &bull; Pianist</h3>
-				<p>
-					I am many things: a <b>researcher</b>, a <b>computer scientist</b>, a <b>musician</b>, etc., but most importantly, I am a <a href="http://www.chiragbharadwaj.com/img/thinker.jpg" target="_blank"><i>thinker</i></a>. I spend lots of time thinking about problems in various disciplines and how I could contribute to them. I usually find that I end up learning a lot more than I had set out to in order to understand what's going on. It makes for a fun time and a fulfilling life. If you'd like to get to know more about me, click the link!
-				</p>
-				<div class="row centered explore-work">
-					<a href="http://www.chiragbharadwaj.com/about" class="button button-tertiary button-rounded centered">
-						<span>Explore my life!</span>
-						<i class="icon icon-arrow-big"></i>
-					</a>
-				</div>
-			</div>
+			<article class="about-us">
+				<canvas id="canvas" style="background-image: url('http://www.chiragbharadwaj.com/img/map.png'); background-size: cover;" width="750" height="463.875"></canvas>
+    		<script>
+      		var canvas = document.getElementById('canvas');
+      		var context = canvas.getContext('2d');
+    			context.beginPath();
+					context.arc(663, 155.25, 3, 0, 2*Math.PI);
+					context.fillStyle = "rgba(203, 26, 56, 0.7)";
+					context.fill();
+
+      		var x = 629;
+      		var y = 123.25;
+      		var w = 68;
+      		var h = 22;
+      		var radius = 3;
+      		var r = x + w;
+				  var b = y + h;
+				  context.beginPath();
+				  context.fillStyle = "rgba(73, 73, 73, 0.8)";
+				  context.lineWidth = "2";
+				  context.moveTo(x + radius, y);
+				  context.lineTo(r - radius, y);
+				  context.quadraticCurveTo(r, y, r, y + radius);
+				  context.lineTo(r, y + h - radius);
+				  context.quadraticCurveTo(r, b, r - radius, b);
+				  context.lineTo(x + w/2 + 5, b);
+				  context.lineTo(x + w/2, b + 10);
+				  context.lineTo(x + w/2 - 5, b);
+				  context.lineTo(x + radius, b);
+				  context.quadraticCurveTo(x, b, x, b - radius);
+				  context.lineTo(x, y + radius);
+				  context.quadraticCurveTo(x, y, x + radius, y);
+				  context.fill();
+
+				  context.font = 'Proxima Nova';
+					context.fillStyle = '#ffffff';
+					context.textBaseline = 'top';
+				  context.fillText('Flushing, NY', 634, 128.25);
+    		</script>
+				<header class="spaced">
+					<h1>From humble beginnings...</h1>
+					<p class="column-8 centered">
+						I was born in Flushing, a diverse (and increasingly-gentrified) neighborhood in the borough of Queens in New York City. I grew up there for a little while, and the culture and livelihood of the area has certainly shaped much of who I am today. I don't think I'll ever forget <a href="http://www.chiragbharadwaj.com/img/flushing.jpg" target="_blank">the parks</a>.
+					</p>
+				</header>
+				<header class="spaced">
+					<img src="http://www.chiragbharadwaj.com/img/launch.png" width="100%" height="25%" alt="Launching upward."></img>
+					<h1>My story</h1>
+					<p class="column-8 centered">
+						Since the Flushing days, I've rocketed on towards <a href="http://www.cs.cornell.edu/undergrad" target="_blank">bigger things</a> as my life has progressed. You can find a snapshot of some of the highlights of my life in the timeline below. I view these as key events that really changed part of views or my character in some way over the years.
+					</p>
+				</header>
+			</article>
 		</main>
 
 		<!-- Footer: Another "navigation bar" with contact information. -->
@@ -111,8 +149,19 @@
 					<div class="copyright">
 						<p>
 						<h2>All rights reserved.</h2>
-						Copyright &copy; 2015-2016<br>
-						Chirag Bharadwaj.
+						Copyright &copy; 2015-2016<br><br>
+						<div class="time">
+							<!-- <div id="date" style="font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;"></div> -->
+							<div id="date" style="font-family: ヒラギノ明朝 Pro W3, Hiragino Mincho Pro, Osaka, 明朝, Mincho, ＭＳ Ｐ明朝, MS PMincho, serif;"></div>
+							<script>
+								var today = new Date();
+						    var dd = today.getDate();
+								var mm = today.getMonth() + 1; // Remember, January is 0!
+						    var yyyy = today.getFullYear();
+						    today = yyyy + "年" + mm + "月" + dd + "日";
+						    document.getElementById('date').innerHTML = "Last updated: " + today;
+							</script>
+						</div>
 						</p>
 					</div>
 				</div>

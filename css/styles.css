@@ -409,11 +409,14 @@ strong {
       vertical-align: middle;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      width: 1em;
     }
   .site-footer .copyright {
   	text-align: center;
   }
+    .site-footer .copyright .time {
+      text-align: center;
+      font-size: 0.75em;
+    }
   .site-footer a {
     color: #1c84b0;
     text-decoration: underline;
@@ -431,25 +434,31 @@ strong {
 
 /* Specifies how three types of buttons should look. */
 .button {
-  padding: 0.4em 0.8em; }
-  .button.button-primary {
+  padding: 0.4em 0.8em;
+}
+  .button .button-primary {
     background: #cb1a38;
     color: white;
     font-size: 1.5em;
-    font-weight: 100; }
-  .button.button-secondary {
+    font-weight: 100;
+  }
+  .button .button-secondary {
     background: #cb1a38;
     color: white;
-    font-weight: 100; }
+    font-weight: 100;
+  }
 
 .button .icon {
   color: currentColor;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+}
 .button-rounded {
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 .button-tertiary {
   background: #3286b3;
-  color: white; }
+  color: white;
+}
 
 /* Specifies how the body of the homepage should look. */
 .homepage {
@@ -478,8 +487,9 @@ strong {
 		.homepage .sky p {
 			text-align: center;
 			font-size: 20px;
-			margin-left: 30%;
-			margin-right: 30%;
+			margin-left: auto;
+			margin-right: auto;
+      width: 40%;
 			margin-top: 2em;
 		}
 			.homepage .sky p a {
@@ -497,54 +507,21 @@ strong {
 		  display: flex;
 		  margin: 100px 0;
 		  margin-top: 0em;
-		  margin-bottom: 10em;
+		  margin-bottom: 10%;
 		}
 
 /* Specifies how the body of the about page should look. */
 .about {
   overflow: hidden;
 }
-  .about .rocket {
-    background: url(http://www.chiragbharadwaj.com/img/launch.png);
-    background-size: cover;
-    position: relative;
+  .about .about-us {
     text-align: center;
-    color: white;
-    border-bottom: 1px solid #eceeef;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
-    .about .rocket .fit {
-      margin-top: 2em;
-    }
-    .about .rocket h2 {
-      /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
-      font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", Osaka, "明朝", Mincho, "ＭＳ Ｐ明朝", "MS PMincho", serif;
-      margin-top: -1em;
-      font-size: 1.5rem;
-    }
-    .about .rocket h3 {
-      font-size: 1.25rem;
-    }
-    .about .rocket p {
-      text-align: center;
-      font-size: 20px;
-      margin-left: 30%;
-      margin-right: 30%;
-      margin-top: 2em;
-    }
-      .about .rocket p a {
-        color: #ffffff;
-        text-decoration: underline;
-      }
-      .about .rocket p a:hover {
-        color: #1c84b0;
-        text-decoration: underline;
-      }
-    .about .rocket .explore-work {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      margin: 100px 0;
-      margin-top: 0em;
-      margin-bottom: 10em;
-    }
+  .about .about-us .spaced {
+    margin-bottom: 2em;
+  }

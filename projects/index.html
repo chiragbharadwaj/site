@@ -41,7 +41,7 @@
 	      
 	      <!-- The actual picture of the 'C'. -->
 	      <h1 class="logo">
-	        <a href="http://www.chiragbharadwaj.com"><img src="http://www.chiragbharadwaj.com/img/logo.png" alt="logo"><strong>Chirag</strong> Bharadwaj</a>
+	        <a href="http://www.chiragbharadwaj.com"><img src="http://www.chiragbharadwaj.com/img/logo.png" alt="Chirag Bharadwaj"><strong>Chirag</strong> Bharadwaj</a>
 	      </h1>
 
 	      <!-- The navigation bar itself. -->
@@ -58,7 +58,7 @@
 
 		<main class="homepage">
 			<div class="sky">
-				<img src="http://www.chiragbharadwaj.com/img/me-new.png" class="fit" width="15%" height="15%"></img>
+				<img src="http://www.chiragbharadwaj.com/img/me-new.png" class="fit" width="15%" height="15%" alt="What a beautiful night sky."></img>
 				<h1>Chirag Bharadwaj</h1>
 				<h2>(坂本ひかる)</h2>
 				<h3>Developer &bull; Scholar &bull; Pianist</h3>
@@ -111,8 +111,19 @@
 					<div class="copyright">
 						<p>
 						<h2>All rights reserved.</h2>
-						Copyright &copy; 2015-2016<br>
-						Chirag Bharadwaj.
+						Copyright &copy; 2015-2016<br><br>
+						<div class="time">
+							<!-- <div id="date" style="font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;"></div> -->
+							<div id="date" style="font-family: ヒラギノ明朝 Pro W3, Hiragino Mincho Pro, Osaka, 明朝, Mincho, ＭＳ Ｐ明朝, MS PMincho, serif;"></div>
+							<script>
+								var today = new Date();
+						    var dd = today.getDate();
+								var mm = today.getMonth() + 1; // Remember, January is 0!
+						    var yyyy = today.getFullYear();
+						    today = yyyy + "年" + mm + "月" + dd + "日";
+						    document.getElementById('date').innerHTML = "Last updated: " + today;
+							</script>
+						</div>
 						</p>
 					</div>
 				</div>
