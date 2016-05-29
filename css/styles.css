@@ -6,6 +6,11 @@
   margin: 0 auto;
 }
 
+/* Specifies some space metric to get display to look better. */
+.spaceout {
+  margin-bottom: 10%;
+}
+
 /* Defines the Proxima Nova font for usage. */
 @font-face {
     font-family: "Proxima Nova";
@@ -503,7 +508,6 @@ strong {
 		  display: flex;
 		  margin: 100px 0;
 		  margin-top: 0em;
-		  margin-bottom: 10%;
 		}
 
 /* Specifies how the body of the about page should look. */
