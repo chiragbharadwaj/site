@@ -11,37 +11,51 @@
   margin-bottom: 10%;
 }
 
-/* Defines the Proxima Nova font for usage. */
+/* Defines the New Rail Alphabet font for usage. */
 @font-face {
-    font-family: "Proxima Nova";
-    src: url(http://www.chiragbharadwaj.com/fonts/proximanova-light-webfont.ttf);
+    font-family: "New Rail Light";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-thin.otf);
 }
 @font-face {
-    font-family: "Proxima Nova";
-    src: url(http://www.chiragbharadwaj.com/fonts/proximanova-regitalic-webfont.ttf);
+    font-family: "New Rail Light";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-thin-italic.otf);
     font-style: italic;
 }
 @font-face {
-    font-family: "Proxima Nova";
-    src: url(http://www.chiragbharadwaj.com/fonts/proximanova-bold-webfont.ttf);
+    font-family: "New Rail";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-light.otf);
+}
+@font-face {
+    font-family: "New Rail";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-light-italic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "New Rail";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-bold.otf);
     font-weight: bold;
 }
 @font-face {
-    font-family: "Proxima Nova";
-    src: url(http://www.chiragbharadwaj.com/fonts/proximanova-boldit-webfont.ttf);
+    font-family: "New Rail";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-bold-italic.otf);
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
-    font-family: "Proxima Nova Regular";
-    src: url(http://www.chiragbharadwaj.com/fonts/proximanova-regular-webfont.ttf);
+    font-family: "New Rail Regular";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail.otf);
+}
+@font-face {
+    font-family: "New Rail Regular";
+    src: url(http://www.chiragbharadwaj.com/fonts/new-rail-italic.otf);
+    font-style: italic;
 }
 
 /* Specifies how the body should look. Margins are currently flushed to the left. */
 body {
   margin: 0;
   padding: 0;
-  font: 100 18px "Proxima Nova", Helvetica, Arial, sans-serif;
+  font: normal 18px "New Rail", Helvetica, Arial, sans-serif;
   color: #333333;
 }
 
@@ -63,7 +77,7 @@ a {
 
 /* Specifies how section titles should look. Each one has a particular weight. */
 h1, h2, h3 {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 /* ...but the main one is bigger! */
@@ -84,8 +98,8 @@ h3 {
 
 /* Specifies how emphasized text should look. */
 strong {
-  font-family: "Proxima Nova Regular", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: "New Rail", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 /* Specifies the flex-space for a "column" on the webpage: glue/boxes, like LaTeX. */
@@ -161,7 +175,7 @@ strong {
       padding: 0.9rem 0;
     }
       .site-header .logo span strong {
-        font-weight: 200;
+        font-weight: bold;
       }
   .site-header nav {
     padding: 0.45rem 0;
@@ -263,6 +277,8 @@ strong {
     margin: 0;
   }
   .site-footer p {
+    font-size: 0.94em;
+    font-weight: normal;
     margin: 0;
   }
   .site-footer .address {
@@ -441,12 +457,12 @@ strong {
     background: #cb1a38;
     color: white;
     font-size: 1.5em;
-    font-weight: 100;
+    font-weight: normal;
   }
   .button .button-secondary {
     background: #cb1a38;
     color: white;
-    font-weight: 100;
+    font-weight: normal;
   }
 
 .button .icon {
@@ -543,7 +559,7 @@ main section p, main aside p {
       margin: 0 auto;
     }
       .about .time .flush {
-        font-weight: 100;
+        font-weight: normal;
         line-height: 1em;
         font-size: 3rem;
         text-align: center;
@@ -815,7 +831,7 @@ main section p, main aside p {
 
 /* Specifies the color of "muted" text. */
 .text-muted {
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-family: "New Rail", Helvetica, Arial, sans-serif;
   font-size: 12pt;
   color: #777;
 }
@@ -824,7 +840,7 @@ main section p, main aside p {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-family: "New Rail", Helvetica, Arial, sans-serif;
 }
 
 /* Also stolen from Bootstrap: sizes/specifications of rows/columns. */
