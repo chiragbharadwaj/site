@@ -10,10 +10,13 @@
     <title>Chirag Bharadwaj</title>
 
     <!-- Device-compatibility: Resizes on smaller-sized windows. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                                   maximum-scale=1.0, user-scalable=no">
 
     <!-- Linking in some stylesheets to make things render nicely. -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <!-- Description and author of the webpage. -->
     <meta name="description" content="Webpage">
@@ -33,16 +36,141 @@
   <body>
     <div id="header-well" class="text-center well well-sm">
       <h1>Chirag Bharadwaj</h1>
-      <p>This site is currently undergoing construction!</p>
-    </div>
-    
-    <div id="main" class="container clear-top">
-      <p style="text-align:center">
-        <img src="img/construction.png" class="img-rounded" width="100%" height="100%" alt="This site is currently undergoing construction."/>
-      </p>
+      <p>Student &bullet; Researcher &bullet; Pianist</p>
     </div>
 
-    <div id="footer-well" class="footer navbar-fixed-bottom text-center well well-sm" style="margin-bottom: -10px">
+    <nav class="navbar navbar-default" style="margin-top: -21px">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Chirag Bharadwaj</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Misc.</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="col-sm-3">
+        <img src="img/me.jpg" alt="Portrait of Chirag Bharadwaj." width="100%"
+             class="img-rounded">
+        <div id="text">
+          <div id="box">
+            <h3><i>SHUH-rahg </br> bah-ruhd-WAHJ*</i></h3>
+            <h6>
+              *According to IAST, the traditional pronunciation is <i>Chirāg Bhāradvāja</i>.
+            </h6>
+            <table class="table table-condensed" style="margin-bottom: -5px">
+            <tbody>
+            <tr>
+            <td>
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            </td>
+            <td>Cornell University '17</td>
+            </tr>
+            <tr>
+            <td>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </td>
+            <td>
+              Princeton, NJ
+            </td>
+            </tr>
+            <tr>
+            <td>
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </td>
+            <td>
+              Created on June 25, 2009<sup>†</sup>
+            </td>
+            </tr>
+            <tr><td></td><td></td></tr>
+            </tbody>
+            </table>
+            <h6>
+              <sup>†</sup>Technically, this site is an amalgam of a number of sites
+              that I have operated since I was in high school, from a Wordpress
+              blog to a static HTML website to some Google sites. The modern site,
+              with the merged content and remastered appearance, was made in Jan. 2015.
+              I give it a new theme every year.
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="well well-md">
+          <h3 style="margin-top: 0px">Brief overview</h3>
+          <table class="table table-condensed">
+          <tbody><tr><td>
+            <div id="text">
+              <div id="box">
+                Hello! My name is Chirag Bharadwaj. I am currently a senior at
+                Cornell University, where I am a candidate for a B.Sc. degree in
+                computer science. I'll be graduating in May 2017, one year early,
+                and will hopefully attend graduate school in the fall! I'm interested
+                in areas like theory of computation, programming languages,
+                and—strangely—computer architecture. Outside of CS, I also hop
+                around other departments, such as electrical engineering, physics,
+                economics, and even nuclear science. </br></br>
+
+                On my own time, I enjoy running, watching basketball, playing
+                classical piano, and listening to modern alternative-rock. I also
+                actively follow the political discussions within the Asian-American
+                diaspora. </br></br>
+
+                Here's my CV [PDF | HTML]. If you would like to get in contact,
+                feel free to reach out via email (see my Contact page).
+              </div>
+            </div>
+          </td></tr></tbody>
+          </table>
+        </div>
+        <div class="well well-md">
+          <h3 style="margin-top: 0px">Research</h3>
+          <table class="table table-condensed"><tbody><tr><td>
+          <div id="text">
+            <div id="box">
+              I participate in undergraduate computer science research at school.
+              My research advisor is Adrian Sampson, who is a recent graduate from
+              the University of Washington and a new assistant professor at Cornell.
+              I find that my interests in computer science are quite an unusual
+              combination. Adrian's work is at the intersection of programming
+              languages and computer architecture, so working with him was a
+              rad option for me. </br></br>
+
+              A lot of our work has to do with developing hardware and software
+              abstractions for something known as <i>approximate computing</i>,
+              which is the notion that we can make certain systems faster by
+              trading off correctness for efficiency/performance, which could be
+              useful for applications where 100% correctness is not necessary.
+              This is an emergent field at the cornerstone of modern computing
+              formalisms, and it is one that I find quite fascinating precisely
+              for its ability to combine multiple disciplines. Indeed, knowledge
+              of statistics, programming languages, compiler design, and computer
+              systems only helps one dive a little into the potential for this
+              field. </br></br>
+
+              One of my current research projects under Adrian is the development
+              of a GPU-specific instruction set architecture. The goal is to be
+              able to write normal high-level code, as is done now, but have a
+              nice intermediate representation that could generate efficient
+              GPU-specific code instead of the CPU-tangled mess that plague
+              systems down to the metal right now. This could help improve the
+              performance of computationally intensive graphics code.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-well" class="navbar navbar-fixed-bottom text-center well well-sm"
+         style="margin-bottom: -10px">
       <p>Copyright &copy; 2009-2016, Chirag Bharadwaj</p>
     </div>
   </body>
