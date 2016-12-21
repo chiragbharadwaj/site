@@ -1,11 +1,7 @@
 ---
 layout: home
 excerpt: |
-  Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell
-  University. I am a candidate for a B.Sc. degree in computer science, and I will
-  be graduating in May 2017—one year early. With luck, I will be attending a graduate
-  program in the fall. I am interested in the intersection of programming languages
-  and computer architecture.
+  Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a B.Sc. degree in computer science, and I will be graduating in May 2017—one year early. With luck, I will be attending a graduate program in the fall. I am interested in the intersection of programming languages and computer architecture.
 ---
 
 <div id="text" class="well well-md" markdown="1">
