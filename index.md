@@ -33,12 +33,12 @@ research advisor is [Adrian Sampson][adrian], who is a recent graduate from the
 University of Washington and a new assistant professor at Cornell. I find that
 my interests in computer science are quite an unusual combination. Adrian's work
 is at the intersection of programming languages and computer architecture, so
-working with him was a rad option for me.
+working with him was a pretty sweet deal for me.
 
 A lot of the work has to do with developing hardware and software abstractions
 for something known as *[approximate computing][dissertation]*, which is the
 notion that we can make certain systems faster by trading off correctness for
-efficiency/performance. This could be useful for applications where 100%
+efficiency/performance. This could be useful for [applications][] where 100%
 correctness is not necessary. This is an emergent field at the cornerstone of
 modern computing formalisms, and it is one that I find quite fascinating precisely
 for its ability to combine multiple disciplines. Indeed, prior knowledge of
@@ -58,13 +58,14 @@ this means venturing out into the [graphics literature][graphics]...
 
 [cornell-cs]:   http://www.cs.cornell.edu
 [grad]:         http://matt.might.net/articles/phd-school-in-pictures
-[nuclear]:      {{ site.base }}/media/nuclear.pdf
-[cv]:           {{ site.base }}/media/cv.pdf
-[contact]:      {{ site.base }}/contact.html
+[nuclear]:      {{site.base}}/media/nuclear.pdf
+[cv]:           {{site.base}}/media/cv.pdf
+[contact]:      {{site.base}}/contact.html
 
 [research]:     http://www.cs.cornell.edu/research/lang
 [adrian]:       http://www.cs.cornell.edu/~asampson
 [dissertation]: http://www.cs.cornell.edu/~asampson/media/dissertation.pdf
+[applications]: http://adriansampson.net/doc/ppl.html
 [statistics]:   http://www.cs.cornell.edu/~asampson/blog/statsmistakes.html
 [pl]:           http://www.cs.cornell.edu/courses/cs6110/2016sp
 [compilers]:    http://www.cs.cornell.edu/courses/cs4120/2016sp

@@ -1,8 +1,19 @@
+// Choose a themed color for primary appearance of site.
+@primary-color: #646464;
+
 // Fonts for various purposes within CSS file.
 @default-font: sans-serif;
 @text-font: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
 @text-size: 16px;
 @code-font: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+// Set the thickness
+hr {
+    border: none;
+    height: 1px;
+    color: @primary-color;
+    background-color: @primary-color;
+}
 
 // For body text, use a Palatino variant to have nice integration with math.
 body #text, #box {
