@@ -1,16 +1,6 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 40px;
-}
-
 body #text {
   font-family: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
 }
-
 body #text #box {
   margin-top: 10px;
   margin-bottom: -20px;

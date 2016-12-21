@@ -1,0 +1,67 @@
+# Many of the ideas from this configuration file were borrowed from Adrian
+# Sampson, an assistant professor at Cornell University:
+#   https://www.cs.cornell.edu/~asampson
+#
+# Identifying/contact information.
+name:   Chirag Bharadwaj
+author: Chirag Bharadwaj
+email:  'cb625@cornell.edu'
+url:    http://www.chiragbharadwaj.com
+base:   ""
+github: https://github.com/chiragbharadwaj/home
+
+# Markdown configuration (using `kramdown` instead of `rdiscount`).
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: true
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  entity_output: symbolic
+  math_engine: mathjax
+highlighter: pygments
+
+# Files and directories to exclude when building the static site.
+exclude:
+  - .gitignore
+  - README.md
+  - Makefile
+
+# Link style for blog posts.
+permalink: /blog/:year:month:day/:title.html
+
+# Default scoping rules for posts/drafts in the blog structure.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+  - scope:
+      type: pages
+    values:
+      permalink: /:path/:basename:output_ext
+
+# Outline of website navigation/file structure.
+navigation:
+  - title: Home
+    link:  /
+  - title: About
+    link:  /about.html
+  - title: Blog
+    link:  /blog/
+  - title: Misc.
+    link:  /misc.html
+  - title: Contact
+    link:  /contact.html
+
+# Drafts of blog posts that will be created/posted in the future...
+collections:
+  drafts:
+    output:    true
+    permalink: /blog/drafts/:slug.html
