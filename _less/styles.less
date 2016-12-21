@@ -1,8 +1,11 @@
-body #text {
-  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
-}
+// Fonts for various purposes within CSS file.
+@default-font: sans-serif;
+@text-font: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
+@text-size: 16px;
+@code-font: Menlo, Monaco, Consolas, "Courier New", monospace;
 
-body #text #box {
-  margin-top: 10px;
-  margin-bottom: -20px;
+// For body text, use a Palatino variant to have nice integration with math.
+body #text, #box {
+  font-family: @text-font;
+  font-size:   @text-size;
 }

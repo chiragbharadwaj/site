@@ -3,19 +3,22 @@
 #   https://www.cs.cornell.edu/~asampson
 #
 # Identifying/contact information.
-name:   Chirag Bharadwaj
-author: Chirag Bharadwaj
-email:  'cb625@cornell.edu'
-url:    http://www.chiragbharadwaj.com
-base:   ""
-github: https://github.com/chiragbharadwaj/home
+name:     Chirag Bharadwaj
+author:   Chirag Bharadwaj
+email:    'cb625@cornell.edu'
+location: 'Princeton, NJ'
+created:  'June 25, 2009'
+url:      http://www.chiragbharadwaj.com
+base:     ""
+github:   https://github.com/chiragbharadwaj
 
 # Markdown configuration (using `kramdown` instead of `rdiscount`).
 markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
-  hard_wrap: true
+  hard_wrap: false
+  enable_coderay: false
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   entity_output: symbolic
   math_engine: mathjax
