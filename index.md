@@ -4,7 +4,7 @@ excerpt: |
   Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a B.Sc. degree in computer science, and I will be graduating in May 2017—one year early. With luck, I will be attending a graduate program in the fall. I am interested in the intersection of programming languages and computer architecture.
 ---
 
-<div id="text" class="well well-md" markdown="1">
+<div id="text" class="well well-md" markdown="1" style="margin-bottom: 40px">
 
 ### Brief overview
 
@@ -25,9 +25,8 @@ Here's my [CV][]. If you would like to get in contact, feel free to reach out vi
 
 </div>
 
-<div id="text" class="well well-md" markdown="1">
-
 ### Research
+
 I participate in undergraduate computer science [research][] at school. My
 research advisor is [Adrian Sampson][adrian], who is a recent graduate from the
 University of Washington and a new assistant professor at Cornell. I find that
@@ -53,8 +52,6 @@ that could generate efficient GPU-specific code instead of the CPU-tangled mess
 that plague systems down to the metal right now. This could potentially help
 improve the performance of computationally-intensive graphics code. Of course,
 this means venturing out into the [graphics literature][graphics]...
-
-</div>
 
 [cornell-cs]:   http://www.cs.cornell.edu
 [grad]:         http://matt.might.net/articles/phd-school-in-pictures

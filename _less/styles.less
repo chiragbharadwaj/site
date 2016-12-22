@@ -1,5 +1,6 @@
-// Choose a themed color for primary appearance of site.
-@primary-color: #646464;
+// Choose themed colors for primary/secondary appearance of site.
+@primary-color: #626262;
+@second-color:  #dcdcdc;
 
 // Fonts for various purposes within CSS file.
 @default-font: sans-serif;
@@ -7,7 +8,7 @@
 @text-size: 16px;
 @code-font: Menlo, Monaco, Consolas, "Courier New", monospace;
 
-// Set the thickness
+// Set the properties of a horizontal rule.
 hr {
     border: none;
     height: 1px;
@@ -19,4 +20,17 @@ hr {
 body #text, #box {
   font-family: @text-font;
   font-size:   @text-size;
+}
+
+// Table formatting for Kramdown.
+table {
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid @primary-color;
+}
+
+td {
+  border-bottom: 1px solid @second-color;
 }
