@@ -13,10 +13,12 @@ media/css/styles.css: _less/styles.less
 
 media/css/bootstrap.min.css: media/css/bootstrap.css
 	cleancss --skip-rebase -o $@ $<
+	rm media/css/bootstrap.css
 
 media/css/font-awesome.min.css: media/css/font-awesome.css
 	cleancss --skip-rebase -o $@ $<
+	rm media/css/font-awesome.css
 
-clean:
-	rm -rf media/css
+clean: media/css/styles.css
+	rm     media/css/styles.css
 	rm -rf _site
