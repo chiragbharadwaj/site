@@ -1,4 +1,6 @@
 .DS_Store
 googlef303c586f14284dd.html
+_less/bootstrap/*
+_less/font-awesome/*
 _site/*
 media/css/*
