@@ -27,15 +27,70 @@ body #text, #box {
   font-size:   @text-size;
 }
 
-// Table formatting for Kramdown.
+// Table formatting for Kramdown. Ensure that table takes full width.
 table {
   width: 100%;
 }
 
+// Make header's underlined border thicker.
 th {
   border-bottom: 1px solid @primary-color;
 }
 
+// Subtly pronounce lines between rows in table with a light color.
 td {
   border-bottom: 1px solid @second-color;
+}
+
+/* The article preview CSSes were borrowed directly from Adrian Sampson. */
+// Setting up the appearance of previews for blog posts based on excerpts.
+article .preview {
+  margin-top: 1.5em;
+
+  h3 {
+    margin: 0;
+    font-family: @text-font;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+  .excerpt p {
+    margin: 0;
+  }
+}
+
+// Setting up the appearance of the internals of the standalone previews.
+article .preview .alone {
+  // Puts an in-line block for a link to "READ MORE!"
+  .excerpt p {
+    display: inline;
+    margin-right: 0.5em;
+  }
+  .excerpt .tagline {
+    display: inline-block;
+  }
+}
+
+// Setting up the appearance of the full article/blog post.
+article .full {
+  margin-top: 1em;
+
+  // In full articles, shift down the type sizing to make things appear larger.
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 0.8em;
+  }
+  h5 {
+    font-size: 0.7em;
+  }
 }
