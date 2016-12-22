@@ -33,13 +33,13 @@ excerpt: |
 ----
 
 I really enjoy being a teacher. I have always liked showing other people how to
-do things after I have learned how to do them myself, and a large part of that
-is because I often [struggle to learn new things][sagan], so helping others have
-an easier time learning than I did is a definite source of joy for me. I definitely
-believe that teaching is one of my favorite pastimes as a full-time student. I
-hope to be [teaching][kinds] at some point in the future.
+do things after I have learned how to do them myself. A large part of that is
+probably because I often [struggle to learn new things][sagan], so helping others
+to have an easier time learning than I did is a definite source of joy for me. I
+definitely believe that teaching is one of my favorite pastimes as a full-time
+student. I hope to be [teaching][kinds] at some point in the future.
 
-### University-level
+<!-- ### University-level -->
 
 After being inspired by a [cool new lecturer][sid] during my first semester at
 university in Fall 2014, I really wanted to teach students or at least be able to
@@ -47,8 +47,11 @@ instruct them during times of struggle. In the following spring was invited to b
 a teaching assistant in a [class I had taken in the fall][discrete], and ever
 since then I have been in love with being on course staff. I have hopped around
 quite a few classes in my department throughout my tenure as a teaching assistant
-at Cornell:
+at Cornell. Check out my [CV][] for details.
 
+Interestingly, though, I also have some experience with teaching high-school students.
+
+<!--
 <div class="row">
 <div class="col-sm-6">
   <div class="well well-md" style="height: 270px" markdown="1">
@@ -169,8 +172,9 @@ at Cornell:
 </div>
 
 ### High school-level
+-->
 
-#### Splash! at Cornell
+### Splash! at Cornell
 
 Splash! is a learning initiative/educational outreach program at Cornell that is
 based on the [original version][splash-mit] created by students at MIT in 1957.
@@ -203,7 +207,7 @@ that I've taught before:
 
 </div>
 
-#### Independent Study Organization
+### Independent Study Organization
 
 Back when I was in [high school][sbhs], I created an organization for independent
 study (eponymously-named) where interested teachers like myself could teach younger
@@ -248,24 +252,169 @@ scattered across the Internet.
 
 ### Classical piano
 
-TBD
+I've been playing the piano since April 2005\. Growing up, I was trained to play
+classical, baroque, and (rarely) jazz music. I still remember the days of Hanon
+exercises as if it were yesterday. I have a lot of love for the piano, and it is
+one of the few things from my childhood that I still treasure today. Being able
+to understand the instrument, even at an admittedly piss-poor level, has helped
+me connect better with my calmer self and develop peace of mind during my most
+turbulent moments.
+
+These days, I still explore the vast literature of classical works to see what
+skills I can improve on and how I can become a better pianist. I mostly play a
+lot of Bach, Chopin, and Debussy. However, with some more experience, I hope to
+eventually explore works by Rachmaninoff, Ravel, and even Liszt.
+
+My [full repertoire][repertoire], while unimpressive by professional standards,
+contains a few of my choice favorite pieces from when I was growing up. I hope
+to eventually put up recordings of every piece I've learned to date, but for now
+that list is rather incomplete.
 
 ### Rock on!
 
-TBD
+In primary school, I never really listened to music. I was always too busy tinkering
+around with random puzzles or playing outside to really care about art. As I grew
+older, though, I became a lot more troubled, and some social problems pushed me
+towards a really edgy personality by the time I left the fifth grade. I really
+started getting into music only when some random kid on the 6:11 AM bus to school
+showed me Linkin Park's "Numb" and MCR's "Welcome to the Black Parade". In
+hindsight, he was probably just as socially inhibited as I was back then, but to
+share an earbud with someone was awesome, and I became absorbed with the lyrics.
+Powerful, powerful stuff to a kid going through some personal struggles, for sure.
+The emo/pop-punk sound was really nice, and I really wanted to hear more of it.
+
+So I looked for a radio around my parents' house.
+
+I started listening to my parents' radio when I entered junior high school in
+2006\. Back in those days, alternative rock ruled over all of the air waves,
+reaching all of us troubled youngsters in ways thought unimaginable. I mostly
+listened to alt-rock classics from the mid-to-late 1990s and early/mid 2000s
+throughout junior high school and high school. I was pretty reluctant to add modern
+pop songs to my personal favorites after around 2009, especially as the style
+of the stuff on radio changed (for the worse). But man, did alt-rock cheer me up.
+
+In 2011, when I was playing Coldplay's "Clocks", my mom recognized the tune right
+away, and asked me if I was using her CD or something. Turns out that she had a
+copy of *A Rush of Blood to the Head* that she bought way back in 2002. Crazy,
+right? She told me it was one of her favorites, and she was sad she didn't hear
+them as much as she used to. I had to sadly tell her that Coldplay's newer works
+came closer to the pop side of things, and their sound had really changed away
+from alternative rock over the last ten years.
+
+Discovering my mother's love of classic Coldplay, amongst other alt-rock bands
+that rose to fame in the 1990s, definitely helped me enjoy it a lot better, though.
+In a time when I wasn't really close to my parents, having a common interest in
+music helped bring us together (that is, when I wasn't yelling at them for something
+that I probably think is a dumb reason today). Ah, to be young.
+
+In 2012, upon a recommendation from a friend from high school that later also went
+to Cornell, I decided to check out progressive rock, and man, I fell in love
+*instantly*. It was exactly what I had been looking for after getting bored with
+alt-rock/New wave/pop-punk for five years. I picked up music from new bands and
+old, from the likes of Rush and Yes to Pink Floyd and Jethro Tull.
+
+From there, I branched out into other kinds of music, like symphonic/arena rock,
+R&B, folk/indie, soul, and even gospel music. A lot of that stuff is extremely
+powerful, and I love hearing musicians pour their raw emotions into the sinews of
+their core art form.
+
+The one thing I still cannot stand is the pop garbage that plays on the radio
+today. I guess I'm already one of the cranky old has-beens, waving my walking stick
+at the young-uns of today and yelling about "proper music standards", eh? :)
+
+These days, I maintain a pretty rad collection of many, many types of rock music
+that I listen to whenever classical fails me. Not all of them are in English,
+either. There are some awesome Japanese artists out there who are largely
+undiscovered in this part of the world, but they make some sweet alt-rock!
+
+I have a large [virtual collection of music][playlist] sitting around for the
+interested. I'd like to think that it is organized quite neatly. [Beets][] helps
+there. Interestingly, it was created by my undergraduate research advisor when
+*he* was a graduate student. How rad is that?
 
 <hr style="height: 2px;"/>
 
-## Autodidactism
+## Autodidacticism
 
 ----
 
-TBD
+`def` **au·to·di·dac·ti·cism** (*noun*) `:` Any self-directed learning or self-education.
+
+Whenever I get free time, I like to read and learn new things. Over the years, I
+have found that this penchant has led me to possess a richer vocabulary and a
+thirst to understand more of the world than I would have otherwise. In recent
+years, I haven't had nearly as much free time as I have had in the past, so I find
+that I am not able to learn as much on my own terms as I once was (c.f. high
+school).
+
+Some of the more recent projects on which I have embarked include the following:
+
+### Irodov's *Problems in General Physics*
+
+Despite learning physics twice in high school and taking two classes on waves and
+quantum physics at university, I still don't really feel satisfied that I understand
+the material. One of my long-standing goals since I first learned physics in 2010
+has been to sit down and properly learn all of the material that is typically
+taught in a third-year undergraduate general physics course (or, perhaps, two
+separate courses in analytical mechanics and electromagnetism), albeit at a
+sufficiently advanced level.
+
+To help accomplish this task, I am wading through I.E. Irodov's
+[classic text][gen-phys], which includes about 2000 problems covering all of the
+major results in general physics. These problems range from somewhat challenging
+to extremely difficult, and form the core of a standard Soviet Union-era text.
+
+I would like to wade through problem after problem, typing up my own solutions on
+here. With enough time (i.e. several years), perhaps I could cover them all. My
+(incomplete) solutions can be found [here][irodov]. 
+
+### Category Theory (in Computer Science)
+
+I must admit that I had virtually no background in computer science or seriously
+abstract mathematics prior to university. Although I studied subjects in moderate
+depth in high school, most of the mathematics and science that I studied were
+applied in nature, and thus I did not have much exposure to the rich abstraction
+that underlaid it all. After being introduced to the notion of *category theory*
+by a friend in Spring 2015, I became quite interested in getting to know what is
+essentially the core of modern computer science.
+
+Of course, to understand category theory, one almost always refers to Saunders
+Mac Lane's text, *Categories for the Working Mathematician*. However, I am hardly
+a mathematician by any standards, so I have a lot of catching up to do first (on
+prerequisite material, such as abstract linear algebra and some algebraic topology).
+
+I suspect that I will be exposed to the tenets of category theory as it applies
+to computer science at some point in graduate school, based on [graduate course
+offerings][courses] that I've seen at Cornell. Perhaps I could learn it from a
+computer science perspective there!
+
+Or, if I learn to manage my time better, perhaps I could just teach myself using
+Ross Tate's [CS 6117][6117] notes...
+
+----
+
+#### Subjects that I have learned in the past for fun:
+{:.no_toc}
+
+* Linguistics and formal systems
+* Basic quantum mechanics (using Griffiths' text)
+* Introductory neuroscience and biological neural networks
+* Elementary complex analysis
+* Real analysis (using Rudin's text)
+
+#### Other things that I have learned for fun:
+{:.no_toc}
+
+* Calligraphy (and font-emulation, I guess)
+* Audio engineering (setting up a complete stereo system from scratch)
+* Japanese (only a little—I would like to do more of this someday)
+* Arduinos and microcontrollers (and programming on/for them)
 
 [sagan]:       http://www.goodreads.com/quotes/1103405
 
 [sid]:         http://www.cs.cornell.edu/~sidch
 [discrete]:    http://www.cs.cornell.edu/courses/cs2800/2014fa/schedule.html
+[cv]:          {{site.base}}/media/cv.pdf
 [kinds]:       http://matt.might.net/articles/nine-kinds-of-students
 [2800]:        http://www.cs.cornell.edu/courses/cs2800
 [3410]:        http://www.cs.cornell.edu/courses/cs3410
@@ -290,3 +439,12 @@ TBD
 [cakir]:       http://www.sbschools.org/schools/sbhs/academic_departments/science/mcakir
 [iso]:         https://sites.google.com/site/independentstudyapcalculusab
 [iso-dropbox]: https://www.dropbox.com/sh/3t7lc8r21p39qz5/AADSufpzebET35UJNsT3yaHla
+
+[repertoire]:  {{site.base}}/misc/music/repertoire.html
+[playlist]:    {{site.base}}/misc/music/playlist.html
+[beets]:       http://beets.io
+
+[gen-phys]:    {{site.base}}/media/irodov.pdf
+[irodov]:      {{site.base}}/misc/irodov
+[courses]:     https://www.cs.cornell.edu/courseinfo/listofcscourses
+[6117]:        http://www.cs.cornell.edu/courses/cs6117/2014fa
