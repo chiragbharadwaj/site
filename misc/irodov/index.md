@@ -1,11 +1,6 @@
 ---
-layout: default
-Title: About
+layout: construction
+title: Irodov Physics
+excerpt: |
+  Me wading through I.E. Irodov's classic text on general physics. Pretty top-notch stuff, and really difficult for me at times. I look forward to getting through it all.
 ---
-
-<div id="main" class="container clear-top">
-  <p style="text-align: center">
-    <img src="{{ site.base }}/media/construction.png" class="img-rounded"
-         width="100%" height="100%" alt="This site is currently undergoing construction."/>
-  </p>
-</div>

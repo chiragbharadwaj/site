@@ -1,11 +1,6 @@
 ---
-layout: default
-Title: About
+layout: construction
+title: Repertoire
+excerpt: |
+  I listen to a lot of classical music when studying and doing yoga. Here's my collection. There are lots of fun, well-known works from the Western classical community included here, but I also listen to a few more obscure ones that are still really solid nevertheless.
 ---
-
-<div id="main" class="container clear-top">
-  <p style="text-align: center">
-    <img src="{{ site.base }}/media/construction.png" class="img-rounded"
-         width="100%" height="100%" alt="This site is currently undergoing construction."/>
-  </p>
-</div>

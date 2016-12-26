@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 404 not found
+title: 404 Not Found
+excerpt: Error — 404 not found! Better figure out what went wrong, bud.
 ---
     
 <div id="main" class="container clear-top">

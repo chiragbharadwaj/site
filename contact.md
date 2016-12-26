@@ -2,8 +2,12 @@
 layout: default
 title: Contact
 excerpt: |
-  If you'd like to get in touch, please shoot me an email at {{ site.email }}. Alternatively, if you're around the greater Princeton area, feel free to ask me to meet up somewhere! I'd love to chat over some Hoagie Haven.
+  If you'd like to get in touch, please shoot me an email. Alternatively, if you're around the greater Princeton area, feel free to ask me to meet up somewhere! I'd love to chat over some Hoagie Haven.
 ---
+
+# Contact
+
+----
 
 <div id="text" class="well well-md" markdown="1">
 
