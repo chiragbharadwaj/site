@@ -4,5 +4,6 @@ _less/bootstrap/*
 _less/font-awesome/*
 _less/katex/*
 _site/*
+media/fonts/*
 media/css/*
 media/js/*
