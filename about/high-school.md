@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Student Profile
+title: High School Profile
+katex: true
 excerpt: |
   This is the profile with which I applied to universities back in my senior year of high school in Fall 2013. Can't believe it was so long ago! I remember it like it was yesterday...
 ---
@@ -114,7 +115,7 @@ SENIOR YEAR:
   + National Merit Finalist 2013
   + National AP Scholar 2012
   + Outstanding Achievement in Chemistry (awarded by SBHS to 2 seniors)
-  + Graduation with Honors (for unweighted GPA ≥ 3.5)
+  + Graduation with Honors (for unweighted GPA $\geq$ 3.5)
   + High Honor Roll (16 quarters semesters)
   + Highest score on HSPA-verbal in the entire 11th grade (tied with 3 others)
   + Highest final average in the entire class for:

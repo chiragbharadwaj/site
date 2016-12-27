@@ -33,7 +33,7 @@ exclude:
   - Makefile
 
 # Link style for blog posts.
-permalink: /blog/:year:month:day/:title.html
+permalink: /blog/:title.html
 
 # Default scoping rules for posts/drafts in the blog structure.
 defaults:

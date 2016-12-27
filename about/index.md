@@ -216,7 +216,7 @@ Small steps.
 [bayside]:      {{site.base}}/media/bayside.png
 [princeton-1]:  {{site.base}}/media/princeton-1.jpg
 [princeton-2]:  {{site.base}}/media/princeton-2.jpg
-[profile]:      {{site.base}}/about/profile.html
+[profile]:      {{site.base}}/about/high-school.html
 
 [ithaca]:       {{site.base}}/media/ithaca.jpg
 [landscapes]:   {{site.base}}/media/ithaca-fall.jpg

@@ -4,16 +4,16 @@
 
 // Fonts for various purposes within CSS file.
 @default-font: sans-serif;
-@text-font: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
+@text-font: Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
 @text-size: 16px;
-@code-font: Menlo, Monaco, Consolas, "Courier New", monospace;
+@code-font: Inconsolata, Menlo, Monaco, Consolas, "Courier New", monospace;
 
 // Set the properties of a horizontal rule.
 hr {
-    border: none;
-    height: 1px;
-    color: @primary-color;
-    background-color: @primary-color;
+  border: none;
+  height: 1px;
+  color: @primary-color;
+  background-color: @primary-color;
 }
 
 // Set the properties of the bottom of the body frame.
@@ -91,7 +91,7 @@ article .full {
 
 // Adding extra line spacing for KaTeX fonts so that it renders well.
 .katex {
-  font-size: 1.05em !important;
+  font-size: 1em !important;
 }
 
 // When users hover over the audio clip.
