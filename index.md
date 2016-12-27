@@ -8,22 +8,18 @@ excerpt: |
 
 ----
 
-<div id="text" class="well well-md" markdown="1" style="margin-bottom: 40px">
-
 ### Brief overview
 
 Hello! I am currently a senior at [Cornell University][cornell-cs], where I am a
 candidate for a B.Sc. degree in computer science. I'll be graduating one year
 early in May 2017, and will hopefully attend [graduate school][grad] in the fall!
 I'm interested in areas like theory of computation, programming languages, and
-computer architecture. I like talking about theoretical concepts.
+computer architecture. I like talking about theoretical things.
 
 Here's an HTML version of my [curriculum vitae][cv] as of December 2016.
 
 I love talking about my interests and research work, so please feel free to reach
 out if you'd like to know more!
-
-</div>
 
 ### [Research][]
 
@@ -45,17 +41,25 @@ for its ability to combine multiple disciplines. Indeed, prior knowledge of
 [computer systems][systems] only helped me dive so far into the vast potential
 for this field.
 
-[cornell-cs]:   http://www.cs.cornell.edu
-[grad]:         http://matt.might.net/articles/phd-school-in-pictures
-[cv]:           {{site.base}}/cv
+### Papers/Projects
 
-[research]:     {{site.base}}/research
++ *[Refined Logic: Proof Assistants for the Masses][refined-logic]*. Siva
+  Somayyajula and Chirag Bharadwaj. November 2016.  
+  Final paper and implementation of proof assistant available.
 
-[pl-research]:  http://www.cs.cornell.edu/research/lang
-[adrian]:       http://www.cs.cornell.edu/~asampson
-[dissertation]: http://www.cs.cornell.edu/~asampson/media/dissertation.pdf
-[applications]: http://adriansampson.net/doc/ppl.html
-[statistics]:   http://www.cs.cornell.edu/~asampson/blog/statsmistakes.html
-[pl]:           http://www.cs.cornell.edu/courses/cs6110/2016sp
-[compilers]:    http://www.cs.cornell.edu/courses/cs4120/2016sp
-[systems]:      http://www.cs.cornell.edu/courses/cs3410/2015sp
+[cornell-cs]:    http://www.cs.cornell.edu
+[grad]:          http://matt.might.net/articles/phd-school-in-pictures
+[cv]:            {{site.base}}/cv
+
+[research]:      {{site.base}}/research
+
+[pl-research]:   http://www.cs.cornell.edu/research/lang
+[adrian]:        http://www.cs.cornell.edu/~asampson
+[dissertation]:  http://www.cs.cornell.edu/~asampson/media/dissertation.pdf
+[applications]:  http://adriansampson.net/doc/ppl.html
+[statistics]:    http://www.cs.cornell.edu/~asampson/blog/statsmistakes.html
+[pl]:            http://www.cs.cornell.edu/courses/cs6110/2016sp
+[compilers]:     http://www.cs.cornell.edu/courses/cs4120/2016sp
+[systems]:       http://www.cs.cornell.edu/courses/cs3410/2015sp
+
+[refined-logic]: {{site.base}}/research/refined-logic.html

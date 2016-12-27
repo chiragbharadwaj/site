@@ -49,8 +49,8 @@ piano. It's difficult to get access to French horns when compared to pianos...
 
 I also have a large [virtual collection of rock-esque music][playlist] sitting
 around for the interested. I'd like to think that it is organized quite neatly.
-[Beets][] helps there. Interestingly, it was created by my undergraduate research
-advisor back when *he* was a graduate student. How sweet is that?
+[Beets][] helps there. Interestingly, Beets was created by my undergraduate
+research advisor back when *he* was a graduate student. How sweet is that?
 
 Most of my favorite music falls into one of these categories:
   * Alternative rock and progressive rock

@@ -5,9 +5,8 @@ excerpt: |
   All about me, Chirag Bharadwaj. I'm a student, a researcher, and a pianist. Keep reading to learn more about me!
 ---
 
-<div id="main" class="container clear-top">
-  <p style="text-align: center">
-    <img src="{{ site.base }}/media/construction.png" class="img-rounded"
-         width="100%" height="100%" alt="This site is currently undergoing construction."/>
-  </p>
-</div>
+# About Me
+
+----
+
+A
