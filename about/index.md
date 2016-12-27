@@ -11,8 +11,13 @@ excerpt: |
 
 ### What's in a name?
 
-Hi! My name is Chirag Bharadwaj. That's colloquially pronounced as SHUH-rahg
-bah-ruhd-WAHJ, though the traditional pronunciation (according to [IAST][]) is
+<audio id="name" src="{{ site.base }}/media/name.mp3"></audio>
+
+Hi! My name is Chirag Bharadwaj. That's colloquially pronounced as
+  <a onclick="document.getElementById('name').play()">
+    <i class="fa fa-volume-up"></i>
+    SHUH-rahg bah-ruhd-WAHJ</a>,
+though the traditional pronunciation (according to [IAST][]) is
 actually Chirāg Bhāradvāja. The [IPA][] for my name is `/tʃiraːg bʱaːrədʋaːd͡ʑ/`,
 in case you were a linguistics enthusiast. (I sure am.)
 
