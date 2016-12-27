@@ -8,7 +8,7 @@ excerpt: |
 
 ----
 
-## Current projects
+### Current projects
 
 One of my current research projects under Adrian is the development of a
 [GPU-specific ISA][gpu-research]. The goal is to be able to write normal high-level

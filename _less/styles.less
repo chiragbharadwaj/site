@@ -42,6 +42,12 @@ td {
   border-bottom: 1px solid @second-color;
 }
 
+// Define the default appearance of figure captions (for images and such).
+figcaption {
+  margin-top: 10px;
+  display: block;
+}
+
 /* The article preview CSSes were borrowed directly from Adrian Sampson. */
 // Setting up the appearance of previews for blog posts based on excerpts.
 article .preview {
@@ -81,4 +87,9 @@ article .full {
   h5 {
     font-size: 0.7em;
   }
+}
+
+// Adding extra line spacing for KaTeX fonts so that it renders well.
+.katex {
+  font-size: 1.05em !important;
 }

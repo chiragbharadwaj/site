@@ -3,16 +3,11 @@ layout: default
 title: 404 Not Found
 excerpt: Error — 404 not found! Better figure out what went wrong, bud.
 ---
-    
-<div id="main" class="container clear-top">
-  <p>
-    <div class="col-sm-12">
-      <div class="text-center well">
-        <h2 style="font-weight: bold">That's an error.</h2>
-        <h4 style="font-weight: normal">Get your head in the game, yo.</h4>
-      </div>
-    </div>
-    <img src="{{ site.base }}/media/error.jpg" class="img-rounded" width="100%"
-         height="100%" alt="Get your head in the game, yo."/>
-  </p>
-</div>
+
+## That's an error.
+#### Get your head in the game, yo.
+
+----
+
+<img src="{{ site.base }}/media/error.jpg" class="img-rounded" width="100%"
+     height="100%" alt="Get your head in the game, yo."/>

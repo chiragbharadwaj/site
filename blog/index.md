@@ -13,7 +13,7 @@ title: Blog
   <h2>
     <a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a>
   </h2>
-  <h5 class="tagline" style="font-style: italic">
+  <h5 class="tagline">
     {{ post.date | date: 'posted on %-d %B %Y' }}
   </h5>
   <div class="excerpt">

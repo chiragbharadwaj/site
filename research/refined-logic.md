@@ -1,7 +1,7 @@
 ---
 layout: default
 excerpt: |
-  Siva Somayyajula and I wrote a paper on the design of logic proof assistants for our final project in CS 4860: Applied Logic in Fall 2016 at Cornell University. The details can be found on the website.
+  Siva Somayyajula and I wrote a paper on the design of refinement logic proof assistants for our final project in an applied logic class in Fall 2016 at Cornell University.
 ---
 
 # `refined-logic`

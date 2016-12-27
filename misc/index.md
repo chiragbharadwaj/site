@@ -158,7 +158,7 @@ Ross Tate's [CS 6117][6117] notes...
 * Calligraphy (and font-emulation, I guess)
 * Audio engineering (setting up a complete stereo system from scratch)
 * [Japanese][] (only a little—I would like to do more of this someday)
-* Arduinos and microcontrollers (and programming on/for them)
+* [Arduinos and microcontrollers][arduino] (and programming on/for them)
 
 [repertoire]: {{site.base}}/misc/music/repertoire.html
 [playlist]:   {{site.base}}/misc/music/playlist.html
@@ -172,3 +172,4 @@ Ross Tate's [CS 6117][6117] notes...
 [courses]:    https://www.cs.cornell.edu/courseinfo/listofcscourses
 [6117]:       http://www.cs.cornell.edu/courses/cs6117/2014fa
 [japanese]:   {{site.base}}/misc/japanese.html
+[arduino]:    {{site.base}}/media/arduino.jpg

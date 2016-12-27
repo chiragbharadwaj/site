@@ -43,8 +43,8 @@ for this field.
 
 ### Papers/Projects
 
-+ *[Refined Logic: Proof Assistants for the Masses][refined-logic]*. Siva
-  Somayyajula and Chirag Bharadwaj. November 2016.  
++ [*Refined Logic: Proof Assistants for the Masses*][refined-logic]. Siva
+  Somayyajula and Chirag Bharadwaj. December 2016.  
   Final paper and implementation of proof assistant available.
 
 [cornell-cs]:    http://www.cs.cornell.edu

@@ -23,7 +23,7 @@ kramdown:
   enable_coderay: false
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   entity_output: symbolic
-  math_engine: mathjax
+  math_engine: katex
 highlighter: pygments
 
 # Files and directories to exclude when building the static site.
@@ -57,7 +57,7 @@ navigation:
   - title: Home
     link:  /
   - title: About
-    link:  /about.html
+    link:  /about/
   - title: Blog
     link:  /blog/
   - title: Misc.
