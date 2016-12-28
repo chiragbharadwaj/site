@@ -72,7 +72,7 @@ Note: I also have some experience with teaching at the [high school-level][hs].
 ## Honors
 
 {% for honor in cv.honors %}
-  + {{ honor.title }}, {{ honor.when }}
+  + <div>{{ honor.title }}, {{ honor.when }}</div>
 {% endfor %}
 
 ## Skills
@@ -88,7 +88,7 @@ Note: I also have some experience with teaching at the [high school-level][hs].
 {% for field in school.fields %}
   **{{ field.name }}**:
   {% for course in field.courses %}
-  + {{ course.number }}: {{ course.title }}, {{ course.semester }}
+  + <div>{{ course.number }}: {{ course.title }}, {{ course.semester }}</div>
   {% endfor %}
 {% endfor %}
 {% endfor %}
