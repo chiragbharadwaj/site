@@ -1,0 +1,199 @@
+updated: 27 December 2016
+
+citizenship: Citizen of the United States.
+
+education:
+  - school: Cornell University
+    degree: B.Sc. candidate, Computer Science, 3.41/4.00
+    when:   Fall 2014 – Spring 2017
+    text: |
+            Research interests: Programming Languages and Computer Architecture  
+
+            Activities: Association of Computer Science Undergraduates, Cornell
+            Piano Society, NY State Science Olympiad, Splash! at Cornell,
+            Engineering Peer Advising, Orientation Leadership Committee, Cornell
+            Data Science
+
+research:
+  - title:  Undergraduate Research Assistant
+    where:  Department of Computer Science, Cornell University
+    when:   Fall 2016 – present
+    text: |
+            Advisor: Prof. [Adrian Sampson](http://www.cs.cornell.edu/~asampson)  
+            *Designing Hardware-Software Programming Languages for Approximate Computing*  
+              + Project: Generating intermediate representations equivalent in
+                behavior to complex integrated CPU/GPU programs.
+              + Applications: Creating a GPU-specific ISA that has language support
+                for choosing between approximate and exact calculations as the
+                cruciality of accuracy varies in target user applications.
+
+papers:
+  - title:   "Implementing Constructive Logics with OCaml"
+    link:    "/blog/refined-logic.html"
+    authors: Siva Somayyajula and Chirag Bharadwaj
+    when:    December 2016
+    text: |
+             Final paper and implementation of refinement logics proof assistant
+             available.
+
+teaching:
+  - title:  Head Undergraduate Teaching Assistant
+    where:  Department of Computer Science, Cornell University
+    when:   Fall 2016
+    topics: OCaml and functional programming; expressions and functions; pattern
+            matching; higher-order functions and functors; polymorphism, types
+            and specifications; interpreters, parsers, and formal semantics;
+            substitution and evaluation models; imperative and asynchronous
+            programming; monads and monoids; behavioral equivalence; efficiency
+            and amortized analysis; advanced data structures and object encodings
+    course: "CS 3110: Functional Programming and Data Structures"
+    link:   http://www.cs.cornell.edu/courses/cs3110/2016fa
+    tasks:  Monitored office hours, co-led review sessions, and helped shape the
+            course in addition to TA responsibilities.
+  - title:  Undergraduate Teaching Assistant
+    where:  Department of Computer Science, Cornell University
+    when:   Fall 2015, Spring 2016, and Spring 2017
+    topics: Transistors and CMOS circuits; boolean algebra and arithmetic; digital
+            logic; memory hierarchies; processor design; pipelined CPUs and
+            data/control hazards; ISA variations (RISC/CISC); calling conventions;
+            assemblers, linkers, and loaders; caches and virtual memory; traps,
+            interrupts, and exceptions; multicore architectures and synchronization;
+            GPUs and I/O
+    course: "CS 3410: Computer Systems"
+    link:   http://www.cs.cornell.edu/courses/cs3410/2017sp
+    tasks:  Led weekly labs, created homework problems, and beta-tested exams in
+            addition to consultant responsibilities.
+  - title:  Course Consultant
+    where:  Department of Computer Science, Cornell University
+    when:   Spring 2015
+    topics: Logic and formal notation; sets, functions, and relations; proof
+            techniques and induction; probability and statistics; finite automata
+            and regular languages; context-free languages and recursive/r.e. sets;
+            number theory and public key encryption; incomputability; graph theory
+    course: "CS 2800: Discrete Structures"
+    link:   http://www.cs.cornell.edu/courses/cs2800/2015sp
+    tasks:  Held weekly office hours, graded weekly homeworks, proctored/graded
+            exams, and answered questions on Piazza (student discussion forum).
+
+jobs:
+  - title: Goldman Sachs
+    where: Jersey City, NJ
+    when:  Summer 2016
+    unit:  Technology Infrastructure
+    role:  Summer Analyst
+    tasks: I co-developed administrative consoles for use in cloud platforms that
+           protected against ad-hoc SQL in production. I also created a RESTful
+           API with a fully-integrated internal authentication system for the
+           console's back-end endpoints.
+  - title: The Bank of Tokyo-Mitsubishi UFJ
+    where: New York, NY
+    when:  Summer 2015
+    unit:  Cloud Platforms
+    role:  Technology Operations Intern
+    tasks: I used Salesforce technology to integrate legacy systems and provide
+           CRM software in the cloud. I also co-led a group of five other interns
+           to create demo scripts and a sandbox environment for participation in
+           SIT/UAT workflow.
+
+schools:
+  - school: Cornell University
+    fields:
+      - name: Computer science
+        courses:
+          - number:   CS 2043
+            title:    UNIX and Scripting Tools
+            semester: Spring 2015
+          - number:   CS 2112
+            title:    Honors Data Structures and Object-Oriented Design
+            semester: Fall 2014
+          - number:   CS 2800
+            title:    Discrete Structures
+            semester: Fall 2014
+          - number:   CS 3110
+            title:    Functional Programming and Data Structures
+            semester: Fall 2015
+          - number:   CS 3410
+            title:    Computer Systems
+            semester: Spring 2015
+          - number:   CS 4410
+            title:    Operating Systems
+            semester: Fall 2015
+          - number:   CS 4700
+            title:    Foundations of Artificial Intelligence
+            semester: Spring 2017 (expected)
+          - number:   CS 4750
+            title:    Mathematical Foundations of Robotics
+            semester: Fall 2016
+          - number:   CS 4780
+            title:    Machine Learning
+            semester: Spring 2017 (expected)
+          - number:   CS 4810
+            title:    Introduction to the Theory of Computation
+            semester: Spring 2016
+          - number:   CS 4820
+            title:    Introduction to the Analysis of Algorithms
+            semester: Spring 2016
+          - number:   CS 4860
+            title:    Applied Logic
+            semester: Fall 2016
+      -
+        name: Graduate-level coursework
+        courses:
+          - number:   CS 5846
+            title:    Decision Theory
+            semester: Spring 2017 (expected)
+          - number:   CS 6110
+            title:    Advanced Programming Languages
+            semester: Spring 2016
+          - number:   CS 6810
+            title:    Advanced Theory of Computation
+            semester: Spring 2017 (expected)
+          - number:   CS 7190
+            title:    Seminar in Programming Languages
+            semester: Spring 2017 (expected)
+      -
+        name: Electrical engineering
+        courses:
+          - number:   ECE 2100
+            title:    Introduction to Circuits
+            semester: Fall 2015
+          - number:   ECE 2300
+            title:    Digital Logic and Computer Organization
+            semester: Fall 2015
+          - number:   ECE 3140
+            title:    Embedded Systems
+            semester: Spring 2016
+          - number:   ECE 4130
+            title:    Introduction to Nuclear Science
+            semester: Fall 2016
+          - number:   ECE 5210
+            title:    Theory of Linear Systems
+            semester: Spring 2017 (expected)
+
+honors:
+  - title: Outstanding teaching assistant in Computer Science
+    when:  Fall 2015, Spring 2016
+  - title: Selected for
+           [best final project](http://www.cs.cornell.edu/Courses/cs3110/archive/tournaments.html#fa2015)
+           in CS 3110
+    when:  Fall 2015
+  - title: Dean’s list in the College of Engineering
+    when:  Fall 2014, Spring 2015
+  - title: Outstanding achievement in chemistry
+    when:  Fall 2014
+
+skills: |
+  * High-level programming:
+      Java, OCaml, C, Python
+  * Assembly and intermediate programming:
+      CUDA, LLVM, ARM, MIPS, Verilog
+  * Scripting:
+      `bash`, `awk`, `sed`, `ruby`
+  * Web development: 
+      HTML5, CSS, `less`, vanillaJS, Bootstrap, Jekyll, Liquid,
+      Dropwizard, Jackson, Jersey, JDBC, MySQL, Guava
+  * Tools:
+      LaTeX, Sublime Text, Eclipse, `git`, `vim`, `valgrind`, `gdb`, `lex`/`yacc`,
+      `flex`/`bison`, `gcc`, `clang`
+  * Foreign languages:
+      English (native), Kannada (bilingual), Spanish (professionally-fluent)
