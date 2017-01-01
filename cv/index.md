@@ -9,7 +9,7 @@ excerpt: |
 {% assign cv = site.data.vitae %}
 
 # Curriculum Vitae
-#### rev. {{ cv.updated }}
+#### last updated on 1 January 2017
 
 ----
 
@@ -93,7 +93,13 @@ Note: I also have some experience with teaching at the [high school-level][hs].
 {% endfor %}
 {% endfor %}
 
-[pdf]:      {{site.base}}/media/cv.pdf
-[hs]:       {{site.base}}/cv/teaching-hs.html
+----
 
-[research]: {{site.base}}/research/
+###### An archived version of my high school CV is also [available][high-school].
+
+[pdf]:         {{site.base}}/media/cv.pdf
+[hs]:          {{site.base}}/cv/teaching-hs.html
+
+[research]:    {{site.base}}/research/
+
+[high-school]: {{site.base}}/cv/high-school.html

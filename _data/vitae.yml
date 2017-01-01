@@ -5,7 +5,7 @@ citizenship: Citizen of the United States.
 education:
   - school: Cornell University
     degree: B.Sc. candidate, Computer Science, 3.41/4.00
-    when:   Fall 2014 – Spring 2017
+    when:   Fall 2014 – Spring 2017 (early grad.)
     text: |
             Research interests: Programming Languages and Computer Architecture  
 
@@ -20,7 +20,7 @@ research:
     when:   Fall 2016 – present
     text: |
             Advisor: Prof. [Adrian Sampson](http://www.cs.cornell.edu/~asampson)  
-            *Designing Hardware-Software Programming Languages for Approximate Computing*  
+            *Approximate Computing: Programming Languages at the Hardware-Software Interface*  
               + Project: Generating intermediate representations equivalent in
                 behavior to complex integrated CPU/GPU programs.
               + Applications: Creating a GPU-specific ISA that has language support
@@ -50,6 +50,7 @@ teaching:
     link:   http://www.cs.cornell.edu/courses/cs3110/2016fa
     tasks:  Monitored office hours, co-led review sessions, and helped shape the
             course in addition to TA responsibilities.
+
   - title:  Undergraduate Teaching Assistant
     where:  Department of Computer Science, Cornell University
     when:   Fall 2015, Spring 2016, and Spring 2017
@@ -63,6 +64,7 @@ teaching:
     link:   http://www.cs.cornell.edu/courses/cs3410/2017sp
     tasks:  Led weekly labs, created homework problems, and beta-tested exams in
             addition to consultant responsibilities.
+
   - title:  Course Consultant
     where:  Department of Computer Science, Cornell University
     when:   Spring 2015
@@ -78,16 +80,17 @@ teaching:
 jobs:
   - title: Goldman Sachs
     where: Jersey City, NJ
-    when:  Summer 2016
+    when:  June 2016 – August 2016
     unit:  Technology Infrastructure
     role:  Summer Analyst
     tasks: I co-developed administrative consoles for use in cloud platforms that
            protected against ad-hoc SQL in production. I also created a RESTful
            API with a fully-integrated internal authentication system for the
            console's back-end endpoints.
+
   - title: The Bank of Tokyo-Mitsubishi UFJ
     where: New York, NY
-    when:  Summer 2015
+    when:  June 2015 – August 2015
     unit:  Cloud Platforms
     role:  Technology Operations Intern
     tasks: I used Salesforce technology to integrate legacy systems and provide
@@ -103,51 +106,61 @@ schools:
           - number:   CS 2043
             title:    UNIX and Scripting Tools
             semester: Spring 2015
+
           - number:   CS 2112
             title:    Honors Data Structures and Object-Oriented Design
             semester: Fall 2014
+
           - number:   CS 2800
             title:    Discrete Structures
             semester: Fall 2014
+
           - number:   CS 3110
             title:    Functional Programming and Data Structures
             semester: Fall 2015
+
           - number:   CS 3410
             title:    Computer Systems
             semester: Spring 2015
+
           - number:   CS 4410
             title:    Operating Systems
             semester: Fall 2015
+
           - number:   CS 4700
             title:    Foundations of Artificial Intelligence
             semester: Spring 2017 (expected)
+
           - number:   CS 4750
             title:    Mathematical Foundations of Robotics
             semester: Fall 2016
+
           - number:   CS 4780
             title:    Machine Learning
             semester: Spring 2017 (expected)
+
           - number:   CS 4810
             title:    Introduction to the Theory of Computation
             semester: Spring 2016
+
           - number:   CS 4820
             title:    Introduction to the Analysis of Algorithms
             semester: Spring 2016
+
           - number:   CS 4860
             title:    Applied Logic
             semester: Fall 2016
       -
         name: Graduate-level coursework
         courses:
-          - number:   CS 5846
-            title:    Decision Theory
-            semester: Spring 2017 (expected)
           - number:   CS 6110
             title:    Advanced Programming Languages
             semester: Spring 2016
+
           - number:   CS 6810
             title:    Advanced Theory of Computation
             semester: Spring 2017 (expected)
+
           - number:   CS 7190
             title:    Seminar in Programming Languages
             semester: Spring 2017 (expected)
@@ -157,26 +170,33 @@ schools:
           - number:   ECE 2100
             title:    Introduction to Circuits
             semester: Fall 2015
+
           - number:   ECE 2300
             title:    Digital Logic and Computer Organization
             semester: Fall 2015
+
           - number:   ECE 3140
             title:    Embedded Systems
             semester: Spring 2016
+
           - number:   ECE 4130
             title:    Introduction to Nuclear Science
             semester: Fall 2016
-          - number:   ECE 5210
-            title:    Theory of Linear Systems
+
+          - number:   ECE 4840
+            title:    Principles of Controlled Fusion
             semester: Spring 2017 (expected)
 
 honors:
   - title: Outstanding teaching assistant in Computer Science
     when:  Fall 2015, Spring 2016
+
   - title: Selected for best final project in CS 3110
     when:  Fall 2015
+
   - title: Dean’s list in the College of Engineering
     when:  Fall 2014, Spring 2015
+
   - title: Outstanding achievement in chemistry
     when:  Fall 2014
 

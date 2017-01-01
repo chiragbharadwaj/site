@@ -16,7 +16,7 @@ early in May 2017, and will hopefully attend [graduate school][grad] in the fall
 I'm interested in areas like theory of computation, programming languages, and
 computer architecture. I like talking about theoretical things.
 
-Here's an [HTML version of my CV][cv] as of December 2016.
+Here's my [CV][] as of January 2017.
 
 I love talking about my interests and research work, so please feel free to reach
 out if you'd like to know more!

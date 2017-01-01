@@ -22,7 +22,7 @@ actually Chirāg Bhāradvāja. The [IPA][] for my name is `/tʃiraːg bʱaːrəd
 in case you were a linguistics enthusiast. (I sure am.)
 
 The ethnic origins of my name are from the greater Indian subcontinent\*. In
-particular, *Chirag* is from an Indo-ethnic word that means "light or to enlighten",
+particular, *Chirag* is from an Indo-centric word that means "light or to enlighten",
 and *Bharadwaj* is a family name—after [Bharadwaja][], a great ancient Indian
 sage. Supposedly, I am part of a family that can trace their lineage back to
 this sage across many generations. My parents gave me the first name that I have
@@ -110,13 +110,14 @@ of Flushing, albeit with more non-minority representation. Kendall Park, which
 is part of the South Brunswick district, was about 40% Asian and Asian-American
 back when I was in high school.
 
-I graduated in the top 1% of my class of 750 in high school in 2014 after trudging
+I graduated near the top of my class of 750 in high school in 2014 after trudging
 through a bunch of AP classes in mathematics and the sciences, conquering the
-English language, and becoming surprisingly fluent at Spanish. I do remember being
-a [pretty good student][profile] back in the day, and I guess colleges realized
-this too. After admission to a few schools, I chose to matriculate to Cornell
-University to study computer science, and I headed to [Ithaca][] in Fall 2014 as
-a freshly-graduated seventeen-year-old science nerd.
+English language, and becoming surprisingly fluent at Spanish. I remember being
+a decent student back in the day, and I guess some colleges thought that too. After
+admission to a few schools and some consideration, I chose to matriculate to
+Cornell University to study either computer science or operations research (I
+ultimately chose CS), and I headed to [Ithaca][] in Fall 2014 as a freshly-graduated
+seventeen-year-old science nerd.
 
 I chose Cornell for its beautiful [landscapes][], picturesque [winters][], rigorous
 academics, and of course, its far distance from home (sorry Mom and Dad!). In my
@@ -179,7 +180,7 @@ to participate in various things that I would not have been able to do otherwise
 Overall, Cornell is a wonderful experience, and although it has taken me a while
 to appreciate it fully, I really love every bit of it. Ithaca can be [bleak][] at
 times, but it's way better than Starkfield, MA, I'll give it that. I think the
-lovely greenery in the [spring][] really makes up for the winters where the
+lovely flora in the [spring][] really makes up for the winters where the
 temperatures hit 30 below zero. How can you say no to cherry blossom trees?
 
 P.S. CKB is the best dorm ever. I lived in 2 Court in 2014-2015. Amazing experiences,
@@ -216,7 +217,6 @@ Small steps.
 [bayside]:      {{site.base}}/media/bayside.png
 [princeton-1]:  {{site.base}}/media/princeton-1.jpg
 [princeton-2]:  {{site.base}}/media/princeton-2.jpg
-[profile]:      {{site.base}}/about/high-school.html
 
 [ithaca]:       {{site.base}}/media/ithaca.jpg
 [landscapes]:   {{site.base}}/media/ithaca-fall.jpg
