@@ -37,6 +37,20 @@ papers:
              available.
 
 teaching:
+  - title:  Undergraduate Teaching Assistant
+    where:  Department of Computer Science, Cornell University
+    when:   Fall 2015, Spring 2016, Spring 2017
+    topics: Transistors and CMOS circuits; boolean algebra and arithmetic; digital
+            logic; memory hierarchies; processor design; pipelined CPUs and
+            data/control hazards; ISA variations (RISC/CISC); calling conventions;
+            assemblers, linkers, and loaders; caches and virtual memory; traps,
+            interrupts, and exceptions; multicore architectures and synchronization;
+            GPUs and I/O
+    course: "CS 3410: Computer Systems"
+    link:   http://www.cs.cornell.edu/courses/cs3410/2017sp
+    tasks:  Led weekly labs, created homework problems, and beta-tested exams in
+            addition to consultant responsibilities.
+
   - title:  Head Undergraduate Teaching Assistant
     where:  Department of Computer Science, Cornell University
     when:   Fall 2016
@@ -50,20 +64,6 @@ teaching:
     link:   http://www.cs.cornell.edu/courses/cs3110/2016fa
     tasks:  Monitored office hours, co-led review sessions, and helped shape the
             course in addition to TA responsibilities.
-
-  - title:  Undergraduate Teaching Assistant
-    where:  Department of Computer Science, Cornell University
-    when:   Fall 2015, Spring 2016, and Spring 2017
-    topics: Transistors and CMOS circuits; boolean algebra and arithmetic; digital
-            logic; memory hierarchies; processor design; pipelined CPUs and
-            data/control hazards; ISA variations (RISC/CISC); calling conventions;
-            assemblers, linkers, and loaders; caches and virtual memory; traps,
-            interrupts, and exceptions; multicore architectures and synchronization;
-            GPUs and I/O
-    course: "CS 3410: Computer Systems"
-    link:   http://www.cs.cornell.edu/courses/cs3410/2017sp
-    tasks:  Led weekly labs, created homework problems, and beta-tested exams in
-            addition to consultant responsibilities.
 
   - title:  Course Consultant
     where:  Department of Computer Science, Cornell University
