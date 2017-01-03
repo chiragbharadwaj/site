@@ -89,6 +89,17 @@ article .full {
   }
 }
 
+// Defining the list appearance for blog archives.
+.archive ul {
+  list-style: none;
+  margin-left: -25px;
+}
+
+// Zeroes out the margins for any panel groups used.
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
 // Attributes to center a column horizontally on the page.
 .col-center {
   float: none;
@@ -105,10 +116,4 @@ article .full {
   text-decoration: none;
   color: #dddddd;
   opacity: 1.0;
-}
-
-// Defining the list appearance for blog archives.
-.archive ul {
-  list-style: none;
-  margin-left: -25px;
 }

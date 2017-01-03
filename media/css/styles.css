@@ -58,6 +58,13 @@ article .full h4 {
 article .full h5 {
   font-size: 0.7em;
 }
+.archive ul {
+  list-style: none;
+  margin-left: -25px;
+}
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
 .col-center {
   float: none;
   margin: 0 auto;
@@ -69,8 +76,4 @@ article .full h5 {
   text-decoration: none;
   color: #dddddd;
   opacity: 1.0;
-}
-.archive ul {
-  list-style: none;
-  margin-left: -25px;
 }
