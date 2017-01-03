@@ -6,12 +6,12 @@ excerpt: |
 ---
 
 <div class="row">
-<div class="col-sm-2"></div>
-<div class="col-sm-8">
+<div class="col-sm-3"></div>
+<div class="col-sm-6">
   <img src="{{ site.base }}/media/sky.png" alt="A beautiful sunset in watercolor."
        width="100%" height="100%" class="img-rounded"/>
 </div>
-<div class="col-sm-2"></div>
+<div class="col-sm-3"></div>
 </div>
 
 <hr style="height: 2px;"/>
