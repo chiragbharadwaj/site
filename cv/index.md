@@ -36,7 +36,7 @@ often.
   **{{ position.title }}**  
   {{ position.where }}  
   *{{ position.when }}*  
-  {{ position.text | markdownify }}  
+  <div>{{ position.text | markdownify }}</div>  
 {% endfor %}
 
 ## Papers and Projects
@@ -55,11 +55,11 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   {{ position.where }}  
   *{{ position.when }}*  
 
-  + Syllabus: *{{ position.topics }}*  
+  + <div>Syllabus: <i>{{ position.topics }}</i></div>  
 
-  + Course:   [{{ position.course }}]({{ position.link }})  
-  
-  + Tasks:    {{ position.tasks }}  
+  + <div>Course: <a href="{{ position.link }}">{{ position.course }}</a></div>  
+
+  + <div>Tasks: {{ position.tasks }}</div>  
 {% endfor %}
 
 ## Industry Positions
@@ -69,11 +69,11 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   {{ position.where }}  
   *{{ position.when }}*  
 
-  + Division: {{ position.unit }}  
+  + <div>Division: {{ position.unit }}</div>  
 
-  + Role:     {{ position.role }}  
+  + <div>Role: {{ position.role }}</div>  
 
-  + Tasks:    {{ position.tasks }}  
+  + <div>Tasks: {{ position.tasks }}</div>  
 {% endfor %}
 
 ## Honors
