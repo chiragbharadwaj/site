@@ -4,3 +4,7 @@ _less/bootstrap/*
 _less/font-awesome/*
 _less/katex/*
 _site/*
+media/js/auto-render.js
+media/js/bootstrap.js
+media/js/jquery-3.1.1.js
+media/js/katex.js
