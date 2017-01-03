@@ -54,8 +54,11 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   **{{ position.title }}**  
   {{ position.where }}  
   *{{ position.when }}*  
-  + Syllabus: *{{ position.topics }}*
+
+  + Syllabus: *{{ position.topics }}*  
+
   + Course:   [{{ position.course }}]({{ position.link }})  
+  
   + Tasks:    {{ position.tasks }}  
 {% endfor %}
 
@@ -65,8 +68,11 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   **{{ position.title }}**  
   {{ position.where }}  
   *{{ position.when }}*  
-  + Division: {{ position.unit }}
+
+  + Division: {{ position.unit }}  
+
   + Role:     {{ position.role }}  
+
   + Tasks:    {{ position.tasks }}  
 {% endfor %}
 
