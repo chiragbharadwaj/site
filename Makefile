@@ -1,5 +1,7 @@
 all: media/css/bootstrap.min.css media/css/font-awesome.min.css media/css/katex.min.css media/css/styles.css
 	jekyll build
+
+test: all
 	jekyll serve
 
 media/css/bootstrap.css: _less/bootstrap/bootstrap.less

@@ -41,6 +41,9 @@ to combine multiple disciplines. Indeed, prior knowledge of [statistics][],
 [computer systems][systems] only helped me dive so far into the vast potential
 for this field.
 
+Some of these [projects][research] involve building new tools, languages, compilers,
+and hardware components for use in approximate computing.
+
 [cornell-cs]:    http://www.cs.cornell.edu
 [grad]:          http://matt.might.net/articles/phd-school-in-pictures
 [cv]:            {{site.base}}/cv
