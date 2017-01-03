@@ -16,16 +16,16 @@ excerpt: |
 
 ### School
 
-#### *High school*:
+#### High school:
   South Brunswick High School  
-#### *GPA*:
+#### GPA:
   3.94/4.00 (weighted: 4.49/4.00)  
-#### *Rank*:
+#### Rank:
   top 1% of graduating class of 750
 
 ### Coursework
 
-#### *AP coursework*:
+#### AP coursework:
 
 <div class="well well-md" markdown="1">
 
@@ -48,7 +48,7 @@ excerpt: |
 
 </div>
 
-#### *Advanced coursework*:
+#### Advanced coursework:
 
 <div class="well well-md" markdown="1">
 
@@ -74,20 +74,20 @@ excerpt: |
 
 ## Standardized Test Scores
 
-#### *One-time SAT*:
+#### One-time SAT:
   2330 (730 V, 800 M, 800 W, 12 E)  
-#### *SAT superscore*:
+#### SAT superscore:
   2360 (760 V, 800 M, 800 W, 12 E)  
-#### *SAT Math II*:
+#### SAT Math II:
   800  
-#### *SAT Physics*:
+#### SAT Physics:
   800
 
 ----
 
 ## Extracurricular Activities
 
-#### *Extracurricular activities*:
+#### Extracurricular activities:
   + Creator of [Independent-Study Organization][iso] (ISO):
     - Created in 2010 after self-learning basic calculus from 2009-2010
     - Self-taught AP Calculus-AB to over twenty interested students
@@ -119,7 +119,7 @@ excerpt: |
 
 ## Awards and Accolades
 
-#### *Academic accolades*:
+#### Academic accolades:
   + National Merit Finalist 2013
   + National AP Scholar 2012
   + Outstanding Achievement in Chemistry (awarded by SBHS to 2 seniors)
@@ -130,7 +130,7 @@ excerpt: |
   + Science Honors Society
   + Spanish Honors Society
 
-#### *Non-academic accolades*:
+#### Non-academic accolades:
   + Various awards through SBHS VEX Robotics (team 750R)
   + VEX Robotics NJ state championship, 4th place (2014)
   + Participation in the AIME in 2013 due to high AMC-12 score

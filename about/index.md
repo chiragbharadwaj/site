@@ -203,7 +203,9 @@ Small steps.
 
 ----
 
-##### * Interestingly, Chirag is also the name of a [local dialect variation][russian] in Dagestan, Russia.
+<div class="side-text" markdown="1">
+  \* Interestingly, Chirag is also the name of a [local dialect variation][russian] in Dagestan, Russia.
+</div>
 
 [iast]:         https://en.wikipedia.org/wiki/IAST
 [ipa]:          https://en.wikipedia.org/wiki/IPA

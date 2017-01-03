@@ -20,7 +20,7 @@ excerpt: |
 
 ----
 
-**`au·to·di·dac·ti·cism`**: *n.* Any self-directed learning or self-education.
+`au·to·di·dac·ti·cism`: *n.* Any self-directed learning or self-education.
 
 ----
 
@@ -82,8 +82,7 @@ Most of my favorite music falls into one of these categories:
   * Ethereal/dream pop
   * World/ethnic music
 
-If you want to read the back story on how I came to like this kind of music,
-feel free to [check it out][back-story].
+[Here's][back-story] the back story on how I came to like this kind of music.
 
 ----
 

@@ -15,6 +15,12 @@ title: Blog
     {{ post.date | date: 'posted on %-d %B %Y' }}
   </h5>
   <div class="excerpt">
-    {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}    </div>
+    {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
+    <h4>
+      <a href="{{ site.base }}{{ post.url }}">
+        READ MORE...
+      </a>
+    </h4>
+  </div>
 </article>
 {% endfor %}

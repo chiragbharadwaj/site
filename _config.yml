@@ -12,7 +12,6 @@ url:      http://www.chiragbharadwaj.com
 base:     ""
 github:   https://github.com/chiragbharadwaj
 linkedin: https://www.linkedin.com/in/chiragbharadwaj
-quora:    https://www.quora.com/profile/Chirag-Bharadwaj
 
 # Markdown configuration (using `kramdown` instead of `rdiscount`).
 markdown: kramdown

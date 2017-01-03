@@ -44,6 +44,29 @@ for this field.
 Some of these [projects][research] involve building new tools, languages, compilers,
 and hardware components for use in approximate computing.
 
+### Personal projects
+
+I also have a few projects on [Github][] that are worth checking out. Notably:
+
+  * [Ro][], an imperative language for modern programming that I am writing with
+    [Peter Li][peter]. Right now, we only have specs and markups done, but we
+    really want to jump right in and get a working lexer and parser using
+    `ocamllex`/`menhir`.
+
+  * [PokéSnowdown][poke], a winter-themed spin-off of Pokémon Showdown that
+    [Matthew Zang][zang] and I wrote with some other teammates over the course of
+    six weeks for our final project in CS 3110. We won the award for the
+    [best final project][hall-fame] of the semester. We have since open-sourced
+    this project.
+
+  * [Cryptography][crypto], which is an in-progress repository containing my
+    solutions to the Cryptopals' [cryptography challenge][pals] (which in turn
+    is based on the Matasano cryptography challenge) in [OCaml][].
+    
+  * This [website][site] itself—it is a work in progress, of course.
+
+Feel free to ask to contribute to any of these projects by submitting a pull request!
+
 [cornell-cs]:    http://www.cs.cornell.edu
 [grad]:          http://matt.might.net/articles/phd-school-in-pictures
 [cv]:            {{site.base}}/cv
@@ -58,3 +81,14 @@ and hardware components for use in approximate computing.
 [pl]:            http://www.cs.cornell.edu/courses/cs6110/2016sp
 [compilers]:     http://www.cs.cornell.edu/courses/cs4120/2016sp
 [systems]:       http://www.cs.cornell.edu/courses/cs3410/2015sp
+
+[github]:    {{site.github}}
+[ro]:        https://github.com/chiragbharadwaj/ro
+[poke]:      https://github.com/maZang/PokeSnowdown
+[hall-fame]: http://www.cs.cornell.edu/Courses/cs3110/archive/tournaments.html#fa2015
+[crypto]:    https://github.com/chiragbharadwaj/Cryptography
+[pals]:      http://cryptopals.com
+[ocaml]:     http://www.ocaml.org
+[peter]:     https://www.linkedin.com/in/peteli3
+[zang]:      https://www.linkedin.com/in/msz45
+[site]:      {{site.base}}/

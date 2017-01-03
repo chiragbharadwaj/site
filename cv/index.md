@@ -87,7 +87,7 @@ Note: I also have some experience with teaching at the [high school-level][hs].
 {% for school in cv.schools %}
 <h4>{{ school.school }}</h4>
 {% for field in school.fields %}
-  **{{ field.name }}**:
+  {{ field.name }}:
   {% for course in field.courses %}
   + <div>{{ course.number }}: {{ course.title }}, {{ course.semester }}</div>
   {% endfor %}
@@ -95,8 +95,9 @@ Note: I also have some experience with teaching at the [high school-level][hs].
 {% endfor %}
 
 ----
-
-###### An archived version of my high school CV is also [available][high-school].
+<div class="side-text" markdown="1">
+  An archived version of my high school CV is also [available][high-school].
+</div>
 
 [pdf]:         {{site.base}}/media/cv.pdf
 [hs]:          {{site.base}}/cv/teaching-hs.html
