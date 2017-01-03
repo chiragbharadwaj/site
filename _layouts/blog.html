@@ -39,7 +39,7 @@ layout: default
         {% assign date = current_date %}
       {% endif %}
         <li class="list-group-item">
-          <a href="{{ post.url }}">
+          <a href="{{ post.url }}" style="font-size: 14px">
             {{ post.date | date: "%b %-d" }}: {{ post.title }}
           </a>
         </li>
