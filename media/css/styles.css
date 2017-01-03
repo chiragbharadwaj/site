@@ -70,3 +70,7 @@ article .full h5 {
   color: #dddddd;
   opacity: 1.0;
 }
+.archive ul {
+  list-style: none;
+  margin-left: -25px;
+}
