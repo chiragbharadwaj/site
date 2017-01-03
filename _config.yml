@@ -69,4 +69,4 @@ navigation:
 collections:
   drafts:
     output:    true
-    permalink: http://www.chiragbharadwaj.com/blog/drafts/:slug.html
+    permalink: /blog/drafts/:slug.html

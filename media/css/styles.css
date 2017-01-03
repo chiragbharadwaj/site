@@ -1,0 +1,68 @@
+hr {
+  border: none;
+  height: 1px;
+  color: #626262;
+  background-color: #626262;
+}
+body {
+  margin-bottom: 20px;
+}
+body #text,
+#box {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+table {
+  width: 100%;
+}
+th {
+  border-bottom: 1px solid #626262;
+}
+td {
+  border-bottom: 1px solid #dcdcdc;
+}
+figcaption {
+  margin-top: 10px;
+  display: block;
+}
+/* The article preview CSSes were borrowed directly from Adrian Sampson. */
+article .preview {
+  margin-top: 1.5em;
+}
+article .preview h3 {
+  margin: 0;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
+}
+article .preview h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+article .preview .excerpt p {
+  margin: 0;
+}
+article .full {
+  margin-top: 1em;
+}
+article .full h1 {
+  font-size: 1.5em;
+}
+article .full h2 {
+  font-size: 1.3em;
+}
+article .full h3 {
+  font-size: 1em;
+}
+article .full h4 {
+  font-size: 0.8em;
+}
+article .full h5 {
+  font-size: 0.7em;
+}
+.katex {
+  font-size: 1em !important;
+}
+.audio-clip:hover {
+  text-decoration: none;
+  color: #dddddd;
+  opacity: 1.0;
+}
