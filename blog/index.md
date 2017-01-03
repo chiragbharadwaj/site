@@ -18,7 +18,7 @@ title: Blog
     {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
     <h4>
       <a href="{{ site.base }}{{ post.url }}">
-        READ MORE...
+        KEEP READING...
       </a>
     </h4>
   </div>

@@ -21,8 +21,10 @@ research:
     text: |
             Advisor: Prof. [Adrian Sampson](http://www.cs.cornell.edu/~asampson)  
             *Approximate Computing: Programming Languages at the Hardware-Software Interface*  
+              
               + Project: Generating intermediate representations equivalent in
                 behavior to complex integrated CPU/GPU programs.
+                
               + Applications: Creating a GPU-specific ISA that has language support
                 for choosing between approximate and exact calculations as the
                 cruciality of accuracy varies in target user applications.
