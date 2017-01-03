@@ -4,6 +4,7 @@ title: Blog
 ---
 
 # Bloggings
+
 #### AN ACADEMIC BLOG
 
 ----

@@ -22,6 +22,7 @@ to meet up somewhere! I'd love to chat over some [Hoagie Haven][hoagie].
 ### Personal projects
 
 I also have a few projects on [Github][] that are worth checking out. Notably:
+
   * [Ro][], a functional-like imperative language for modern programming that I am
     writing with [Peter Li][peter]. Right now, we only have specs and markups
     done, but we really want to jump right in and get a working lexer and parser
