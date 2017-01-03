@@ -55,18 +55,18 @@ defaults:
 # Outline of website navigation/file structure.
 navigation:
   - title: Home
-    link:  /
+    link:  http://www.chiragbharadwaj.com/
   - title: About
-    link:  /about/
+    link:  http://www.chiragbharadwaj.com/about/
   - title: Blog
-    link:  http://blog.chiragbharadwaj.com
+    link:  http://blog.chiragbharadwaj.com/
   - title: Misc.
-    link:  /misc/
+    link:  http://www.chiragbharadwaj.com/misc/
   - title: Contact
-    link:  /contact.html
+    link:  http://www.chiragbharadwaj.com/contact.html
 
 # Drafts of blog posts that will be created/posted in the future...
 collections:
   drafts:
     output:    true
-    permalink: /blog/drafts/:slug.html
+    permalink: http://www.chiragbharadwaj.com/blog/drafts/:slug.html
