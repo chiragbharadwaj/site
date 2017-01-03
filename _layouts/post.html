@@ -2,30 +2,32 @@
 layout: default
 ---
 
-<h2 class="with-tagline">{{ page.title }}</h2>
+<div class="col-sm-9 col-center">
+  <h2 class="with-tagline">{{ page.title }}</h2>
 
-{% if page.collection == "drafts" %}
-<p class="tagline">unpublished draft</p>
-{% else %}
-<p class="tagline">{{ page.date | date: '%-d %B %Y' }}</p>
-{% endif %}
+  {% if page.collection == "drafts" %}
+  <p class="tagline">unpublished draft</p>
+  {% else %}
+  <p class="tagline">{{ page.date | date: '%-d %B %Y' }}</p>
+  {% endif %}
 
-<hr style="height: 3px" />
+  <hr style="height: 3px" />
 
-<article class="full">
+  <article class="full">
 
-  {{ content }}
+    {{ content }}
 
-</article>
+  </article>
 
-<hr />
+  <hr />
 
-<footer>
-  Questions, comments, or concerns? Feel free to reach out to me
-  <a href="mailto:{{ site.email }}?subject={{ page.title | prepend: 'Re: ' | url_escape }}">
-    via email</a>.
+  <footer>
+    Questions, comments, or concerns? Feel free to reach out to me
+    <a href="mailto:{{ site.email }}?subject={{ page.title | prepend: 'Re: ' | url_escape }}">
+      via email</a>.
 
-  Also, if you find a typo, please let me know! You can
-  <a href="{{ site.github }}/home/edit/master/{{ page.path }}">
-    issue a pull request</a> on Github.
-</footer>
+    Also, if you find a typo, please let me know! You can
+    <a href="{{ site.github }}/home/edit/master/{{ page.path }}">
+      issue a pull request</a> on Github.
+  </footer>
+</div>

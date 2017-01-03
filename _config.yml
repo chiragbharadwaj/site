@@ -34,7 +34,7 @@ exclude:
   - CNAME
 
 # Link style for blog posts.
-permalink: /blog/:year/:month/:title.html
+permalink: /blog/:title.html
 
 # Default scoping rules for posts/drafts in the blog structure.
 defaults:

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1><a href="{{ site.base }}/blog/">Bloggings</a></h1>
+<h4>AN ACADEMIC BLOG</h4>
+
+<hr/>
+
+<div class="row">
+  <div class="col-sm-3">
+    <h3>Archive</h3>
+    {% for post in site.posts %}
+      {% capture cp_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture np_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if cp_year != np_year %}
+        <h4 style="font-weight: bold">{{ post.date | date: '%Y' }}</h4>
+      {% endif %}
+      <div style="margin-left: 10px">
+        {{ post.date | date: "%d %b." }} &emsp;
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <br/>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="col-sm-9">
+    {{ content }}
+  </div>
+</div>

@@ -1,5 +1,6 @@
 ---
-title: Refined Logic—Proof Assistants for the Masses
+title: Refined Logic
+subtitle: Proof Assistants for the Masses
 layout: post
 excerpt: |
   Siva Somayyajula and I wrote a paper on the theoretical design of a refinement logics proof assistant for our final project in Prof. Bob Constable's undergraduate applied logic class (CS 4860) at Cornell University. We also implemented such an assistant by following our design. We hope that our assistant makes it easier for students and researchers alike to work with proof assistants based on custom proof calculi by generating executables.

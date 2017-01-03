@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="{{ site.base }}/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.base }}/media/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.base }}/media/css/styles.css">
-
+    
     {% if page.katex %}
     <!-- Linking in KaTeX if MathJax is chosen (i.e. overriding it.) -->
     <link rel="stylesheet" href="{{ site.base }}/media/css/katex.min.css">
     {% endif %}
-
+    
     <!-- Description and author of the webpage. -->
     <meta name="description" content="Webpage">
     <meta name="author" content="Chirag Bharadwaj">
@@ -70,10 +70,8 @@
       </div>
     </nav>
 
-    <div id="text" class="container">
-      
+    <div id="text" class="container container-md">
       {{ content }}
-
     </div>
 
     {% if page.katex %}
@@ -91,5 +89,6 @@
       });
     </script>
     {% endif %}
+
   </body>
 </html>
