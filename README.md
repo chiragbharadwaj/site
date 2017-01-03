@@ -11,4 +11,4 @@ To use the Makefile, I needed each of the following:
 
 A lot of the inspiration for the way I set up this site in Jekyll comes from [Adrian Sampson](http://www.cs.cornell.edu/~asampson) at Cornell University. In particular, his suggestions on [a blog post from 2014](http://www.cs.cornell.edu/~asampson/blog/jekyll.html) were really helpful. Thanks, Adrian.
 
-Copyright &copy; 2009-2016 Chirag Bharadwaj. All rights reserved.
+Copyright &copy; 2009-2017 Chirag Bharadwaj. All rights reserved.
