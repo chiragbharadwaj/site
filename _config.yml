@@ -24,16 +24,17 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   entity_output: symbolic
   math_engine: katex
-highlighter: pygments
+highlighter: rouge
 
 # Files and directories to exclude when building the static site.
 exclude:
   - .gitignore
   - README.md
   - Makefile
+  - CNAME
 
 # Link style for blog posts.
-permalink: /blog/:title.html
+permalink: /blog/:year/:month/:title.html
 
 # Default scoping rules for posts/drafts in the blog structure.
 defaults:
