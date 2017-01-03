@@ -9,6 +9,7 @@ excerpt: |
 {% assign cv = site.data.vitae %}
 
 # Curriculum Vitae
+
 #### last updated on 1 January 2017
 
 ----

@@ -6,6 +6,7 @@ excerpt: |
 ---
 
 # Teaching
+
 #### HIGH-SCHOOL EXPERIENCE
 
 ----

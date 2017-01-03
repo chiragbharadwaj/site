@@ -7,6 +7,7 @@ excerpt: |
 ---
 
 # Curriculum Vitae
+
 #### last updated on 30 June 2014
 
 ----
