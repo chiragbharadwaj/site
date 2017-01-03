@@ -61,7 +61,7 @@
           <ul class="nav navbar-nav navbar-right">
             {% assign shorturl = page.url | replace:'index.html','' %}
             {% for item in site.navigation %}
-            <li{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="active"{% endif %}>
+            <li{% if item.link == shorturl and page.dat %} class="active"{% endif %}>
               <a href="{{ site.base }}{{ item.link }}">{{ item.title }}</a>
             </li>
             {% endfor %}
