@@ -131,7 +131,7 @@ schools:
 
           - number:   CS 4700
             title:    Foundations of Artificial Intelligence
-            semester: Spring 2017 (expected)
+            semester: Spring 2017
 
           - number:   CS 4750
             title:    Mathematical Foundations of Robotics
@@ -139,7 +139,7 @@ schools:
 
           - number:   CS 4780
             title:    Machine Learning
-            semester: Spring 2017 (expected)
+            semester: Spring 2017
 
           - number:   CS 4810
             title:    Introduction to the Theory of Computation
@@ -161,11 +161,7 @@ schools:
 
           - number:   CS 6810
             title:    Advanced Theory of Computation
-            semester: Spring 2017 (expected)
-
-          - number:   CS 7190
-            title:    Seminar in Programming Languages
-            semester: Spring 2017 (expected)
+            semester: Spring 2017
       -
         name: Electrical engineering
         courses:
@@ -181,13 +177,13 @@ schools:
             title:    Embedded Systems
             semester: Spring 2016
 
+          - number:   ECE 3150
+            title:    Introduction to Microcontrollers
+            semester: Spring 2017
+
           - number:   ECE 4130
             title:    Introduction to Nuclear Science
             semester: Fall 2016
-
-          - number:   ECE 4840
-            title:    Principles of Controlled Fusion
-            semester: Spring 2017 (expected)
 
 honors:
   - title: Outstanding teaching assistant in Computer Science
@@ -197,7 +193,7 @@ honors:
     when:  Fall 2015
 
   - title: Dean’s list in the College of Engineering
-    when:  Fall 2014, Spring 2015
+    when:  Fall 2014, Spring 2015, Fall 2016
 
   - title: Outstanding achievement in chemistry
     when:  Fall 2014
