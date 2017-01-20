@@ -25,10 +25,10 @@ excerpt: |
 ----
 
 Whenever I get free time, I like to read and learn new things. Over the years, I
-have found that this penchant has led me to possess a richer vocabulary and a
-thirst to understand more of the world than I would have otherwise. In recent
-years, I haven't had nearly as much free time as I have had in the past, so I find
-that I am not able to learn as much on my own terms as I once was.
+have found that this penchant has led to a richer vocabulary and a thirst to
+understand more of the world than I would have otherwise. In recent years, I
+haven't had nearly as much free time as I have had in the past, so I find that
+I am not able to learn as much on my own terms as I once was able to.
 
 I would like to eventually put up a [page][] about all of the fun things I have
 learned and taught myself since the beginning.

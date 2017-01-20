@@ -10,7 +10,7 @@ excerpt: |
 
 # Curriculum Vitae
 
-#### last updated on 1 January 2017
+#### last updated on {{ cv.updated }}
 
 ----
 
