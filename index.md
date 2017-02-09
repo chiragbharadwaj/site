@@ -13,9 +13,8 @@ excerpt: |
 Hello! I am currently a senior at [Cornell University][cornell-cs], where I am a
 candidate for a B.Sc. degree in computer science. I'll be graduating one year
 early in May 2017, and will be attending [graduate school][grad] in the fall for
-Cornell's [M.Sc. program][ms]!
-I'm interested in areas like theory of computation, programming languages, and
-computer architecture. I like talking about theoretical things.
+Cornell's [M.Sc. program][ms]. I'm interested in areas like theory of computation,
+programming languages, and computer architecture. I like talking about theoretical things.
 
 Here's my [CV][] as of February 2017.
 

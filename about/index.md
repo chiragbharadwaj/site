@@ -88,8 +88,7 @@ parents moved to an area known as Kendall Park, which is a small village just on
 the *border* of Princeton. Indeed, we were about five minutes away from Princeton
 University, so throughout junior high school, my mother and I would often attend
 science talks and music concerts at the university, which were absolutely wonderful.
-These excursions definitely served as the initial inspiration that helped shape
-my interests today.
+These excursions definitely inspired who I am today.
 
 <div class="row">
 
@@ -107,8 +106,8 @@ my interests today.
 I went to junior high and high school near Princeton in what is actually quite a
 competitive school district. The demographics around my area were similar to that
 of Flushing, albeit with more non-minority representation. Kendall Park, which
-is part of the South Brunswick district, was about 40% Asian and Asian-American
-back when I was in high school.
+is part of the South Brunswick district, was about 40% Asian-American back when
+I was in high school.
 
 I graduated near the top of my class of 750 in high school in 2014 after trudging
 through a bunch of AP classes in mathematics and the sciences, conquering the
@@ -117,16 +116,12 @@ a decent student back in the day, and I guess some colleges thought that too. Af
 admission to a few schools and some consideration, I chose to matriculate to
 Cornell University to study either computer science or operations research (I
 ultimately chose CS), and I headed to [Ithaca][] in Fall 2014 as a freshly-graduated
-seventeen-year-old science nerd.
+17 year-old science nerd.
 
 I chose Cornell for its beautiful [landscapes][], picturesque [winters][], rigorous
 academics, and of course, its far distance from home (sorry Mom and Dad!). In my
 mind, Cornell was the epitome of what I had always wanted—a collection of scholarly
-people who also knew how to have fun when needed. And in fact, my experiences at
-Cornell aren't too different from what I had expected. At times it is disillusioning,
-even humbling, to be in the presence of so many people who are far superior to
-me intellectually. But I am able to learn a lot from these wonderful people, and
-to me, that's what makes Cornell a really great experience. Go Big Red!
+people who also knew how to have fun when needed.
 </div>
 
 </div>
@@ -152,19 +147,15 @@ to me, that's what makes Cornell a really great experience. Go Big Red!
 
 </div>
 
-Currently, I am a senior at Cornell—I decided in Fall 2014 that I wanted to graduate
-a year early so I could have time to explore and think for that extra year, kind
-of like a gap year. I have since decided that if I'm going to spend the next 6 to
-8 years in school anyway to get a Ph.D., it's probably better that I shave off a
-year somewhere. It was a hard decision to make, though, as balancing the costs of
-losing out on a complete social experience as well as taking fewer classes with
-the benefits of less financial debt was not so simple. Ultimately, I convinced
-myself that I made the right decision for me given my situation, so here I stand
-as a second-semester senior, about to graduate one year early.
+Currently, I am a senior at Cornell.
 
-At Cornell, though, I take some unusual CS courses (like [applied logic][4860]
-and [decision theory][5846]), participate in unusual activities (like
-[Piano Society][piano] and [Splash!][splash]), and have unusual colleagues for
+My experiences at Cornell aren't too different from what I had expected. At times
+it is disillusioning, even humbling, to be in the presence of so many people who
+are far superior to me intellectually. But I am able to learn a lot from these
+wonderful people, and to me, that's what makes Cornell really great. Go Big Red!
+
+At Cornell, I take unusual classes (like [applied logic][4860]), participate
+in unusual activities (like [Splash!][splash]), and have unusual colleagues for
 friends (no comment).
 
 I mostly stick around areas like theory of computation, programming languages,
@@ -172,10 +163,7 @@ and computer architecture, as the intersection of these areas forms the core of
 my current research interests and my research project with Prof. Adrian Sampson.
 However, that is not to say that I don't dabble around other departments occasionally.
 I have also hopped around physics, economics, linguistics, electrical engineering,
-and even [nuclear science][nuclear] classes. I underestimated the difficulty of
-a lot of these departments, and definitely paid the price in my grade-point average,
-but ultimately it was worth it to better understand my (broad) interests and get
-to participate in various things that I would not have been able to do otherwise.
+and even [nuclear science][nuclear].
 
 Overall, Cornell is a wonderful experience, and although it has taken me a while
 to appreciate it fully, I really love every bit of it. Ithaca can be [bleak][] at
@@ -183,23 +171,15 @@ times, but it's way better than Starkfield, MA, I'll give it that. I think the
 lovely flora in the [spring][] really makes up for the winters where the
 temperatures hit 30 below zero. How can you say no to cherry blossom trees?
 
-P.S. CKB is the best dorm ever. I lived in 2 Court in 2014-2015. Amazing experiences,
-yo.
+P.S. [CKB][] is the best dorm ever. I lived in 2 Court in 2014-2015. Amazing
+experiences, yo.
 
-### Graduate studies and the future?
+### Graduate studies
 
-I hope to attend graduate school in Fall 2017. Ultimately, I would really like to
-pursue a Ph.D. and then enter academia on the faculty of a respected institution
-as I continue to do my research. Of course, that dream is far, far away, and I am
-still quite young.
-
-For now, I would like to get a taste of what research is like, and I plan on
-getting my metaphorical feet wet, as it were, by completing a thesis-based 2-year
-M.Sc. degree first, to see if I like it. I suspect I will, but one never knows,
-so I look forward to trying this out and seeing where it takes me. I have no idea
-where I'll be in five years, but hopefully it's Ph.D. school!
-
-Small steps.
+I will be attending [graduate school][ms] a Cornell in Fall 2017. Ultimately, I
+would really like to pursue a Ph.D. and then enter academia on the faculty of a
+respected institution as I continue to do my research. Of course, that dream is
+far, far away, and I am still quite young. Small steps.
 
 ----
 
@@ -225,9 +205,9 @@ Small steps.
 [winters]:      {{site.base}}/media/ithaca-winter.jpg
 [bleak]:        {{site.base}}/media/ithaca-bleak.jpg
 [spring]:       {{site.base}}/media/ithaca-spring.jpg
+[ckb]:          {{site.base}}/media/ckb.jpg
+[ms]:           https://www.cs.cornell.edu/ms
 
 [4860]:         http://www.cs.cornell.edu/courses/cs4860/2016fa
-[5846]:         http://www.cs.cornell.edu/courses/cs5846/2017sp
-[piano]:        http://orgsync.rso.cornell.edu/org/pianosocietycornell71792
 [splash]:       https://cornell.learningu.org
 [nuclear]:      {{site.base}}/media/nuclear.pdf
