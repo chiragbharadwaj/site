@@ -17,7 +17,7 @@ Cornell's [M.Sc. program][ms]!
 I'm interested in areas like theory of computation, programming languages, and
 computer architecture. I like talking about theoretical things.
 
-Here's my [CV][] as of January 2017.
+Here's my [CV][] as of February 2017.
 
 I love talking about my interests and research work, so please feel free to reach
 out if you'd like to know more!
