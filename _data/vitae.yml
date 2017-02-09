@@ -4,6 +4,11 @@ citizenship: Citizen of the United States.
 
 education:
   - school: Cornell University
+    degree: M.Sc. candidate, Computer Science
+    when:   Fall 2017 – Spring 2019
+    text: |
+            Incoming student.
+  - school: Cornell University
     degree: B.Sc. candidate, Computer Science, 3.41/4.00
     when:   Fall 2014 – Spring 2017 (early grad.)
     text: |
@@ -178,7 +183,7 @@ schools:
             semester: Spring 2016
 
           - number:   ECE 3150
-            title:    Introduction to Microcontrollers
+            title:    Introduction to Microelectronics
             semester: Spring 2017
 
           - number:   ECE 4130

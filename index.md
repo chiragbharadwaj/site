@@ -1,7 +1,7 @@
 ---
 layout: home
 excerpt: |
-  Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a B.Sc. degree in computer science, and I will be graduating in May 2017—one year early. With luck, I will be attending a graduate program in the fall. I am interested in the intersection of programming languages and computer architecture.
+  Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a B.Sc. degree in computer science, and I will be graduating in May 2017—one year early. I will be attending Cornell's M.Sc. program in the fall. I am interested in the intersection of programming languages and computer architecture.
 ---
 
 # Home
@@ -12,7 +12,8 @@ excerpt: |
 
 Hello! I am currently a senior at [Cornell University][cornell-cs], where I am a
 candidate for a B.Sc. degree in computer science. I'll be graduating one year
-early in May 2017, and will hopefully attend [graduate school][grad] in the fall!
+early in May 2017, and will be attending [graduate school][grad] in the fall for
+Cornell's [M.Sc. program][ms]!
 I'm interested in areas like theory of computation, programming languages, and
 computer architecture. I like talking about theoretical things.
 
@@ -69,6 +70,7 @@ Feel free to ask to contribute to any of these projects by submitting a pull req
 
 [cornell-cs]:    http://www.cs.cornell.edu
 [grad]:          http://matt.might.net/articles/phd-school-in-pictures
+[ms]:            https://www.cs.cornell.edu/ms
 [cv]:            {{site.base}}/cv
 
 [research]:      {{site.base}}/research
