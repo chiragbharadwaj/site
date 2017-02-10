@@ -176,10 +176,11 @@ experiences, yo.
 
 ### Graduate studies
 
-I will be attending [graduate school][ms] a Cornell in Fall 2017. Ultimately, I
-would really like to pursue a Ph.D. and then enter academia on the faculty of a
-respected institution as I continue to do my research. Of course, that dream is
-far, far away, and I am still quite young. Small steps.
+I will be attending graduate school in Fall 2017. I'm still on the fence between
+two schools, but it'll be fun either way, I imagine. Ultimately, I would really
+like to pursue a Ph.D. and then enter academia on the faculty of a respected
+institution as I continue to do my research. Of course, that dream is far, far
+away, and I am still quite young. Small steps.
 
 ----
 
@@ -206,7 +207,6 @@ far, far away, and I am still quite young. Small steps.
 [bleak]:        {{site.base}}/media/ithaca-bleak.jpg
 [spring]:       {{site.base}}/media/ithaca-spring.jpg
 [ckb]:          {{site.base}}/media/ckb.jpg
-[ms]:           https://www.cs.cornell.edu/ms
 
 [4860]:         http://www.cs.cornell.edu/courses/cs4860/2016fa
 [splash]:       https://cornell.learningu.org
