@@ -176,11 +176,12 @@ experiences, yo.
 
 ### Graduate studies
 
-I will be attending graduate school in Fall 2017. I'm still on the fence between
-two schools, but it'll be fun either way, I imagine. Ultimately, I would really
-like to pursue a Ph.D. and then enter academia on the faculty of a respected
-institution as I continue to do my research. Of course, that dream is far, far
-away, and I am still quite young. Small steps.
+I will be attending graduate school at [Princeton University][princeton] starting
+in Fall 2017. I am finally coming home after three long years in Ithaka, much
+like Odysseus. Ultimately, I would really like to pursue a [Ph.D.][grad] and then
+enter academia on the faculty of a respected institution as I continue to do my
+research. Of course, that dream is far, far away, and I am still quite young.
+Small steps.
 
 ----
 
@@ -204,10 +205,12 @@ away, and I am still quite young. Small steps.
 [ithaca]:       {{site.base}}/media/ithaca.jpg
 [landscapes]:   {{site.base}}/media/ithaca-fall.jpg
 [winters]:      {{site.base}}/media/ithaca-winter.jpg
+[4860]:         http://www.cs.cornell.edu/courses/cs4860/2016fa
+[splash]:       https://cornell.learningu.org
+[nuclear]:      {{site.base}}/media/nuclear.pdf
 [bleak]:        {{site.base}}/media/ithaca-bleak.jpg
 [spring]:       {{site.base}}/media/ithaca-spring.jpg
 [ckb]:          {{site.base}}/media/ckb.jpg
 
-[4860]:         http://www.cs.cornell.edu/courses/cs4860/2016fa
-[splash]:       https://cornell.learningu.org
-[nuclear]:      {{site.base}}/media/nuclear.pdf
+[princeton]:    http://www.cs.princeton.edu/grad
+[grad]:         http://matt.might.net/articles/phd-school-in-pictures

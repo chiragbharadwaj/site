@@ -54,12 +54,12 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   **{{ position.title }}**  
   {{ position.where }}  
   *{{ position.when }}*  
-
-  + Syllabus: *{{ position.topics }}*  
-
-  + Course:   [{{ position.course }}]({{ position.link }})  
+  {% for course in position.courses %}
+  [{{ course.title }}]({{ course.link }})  
+  *{{ course.when }}*  
   
-  + Tasks:    {{ position.tasks }}  
+  {{ course.topics }}
+  {% endfor %}
 {% endfor %}
 
 ## Industry Positions

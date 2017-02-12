@@ -1,7 +1,7 @@
 ---
 layout: home
 excerpt: |
-  Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a B.Sc. degree in computer science, and I will be graduating in May 2017—one year early. I will be attending Cornell's M.Sc. program in the fall. I am interested in the intersection of programming languages and computer architecture.
+  Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a BSc degree in computer science, and I will be graduating in May 2017—one year early. I will be attending Princeton's MSE program in the fall.
 ---
 
 # Home
@@ -12,10 +12,10 @@ excerpt: |
 
 Hello! I am currently a senior at [Cornell University][cornell-cs], where I am a
 candidate for a B.Sc. degree in computer science. I'll be graduating one year
-early in May 2017, and will be attending [graduate school][grad] in the fall for
-my M.Sc. degree, though I'm still not sure where yet (I'm on the fence between
-two schools). I'm interested in areas like theory of computation, programming
-languages, and computer architecture. I like talking about theoretical things.
+early in May 2017. Starting in Fall 2017, I will be a candidate for an MSE in
+computer science at [Princeton University][mse]. I'm interested in areas like
+theory of computation, programming languages, and computer architecture. I like
+talking about theoretical things.
 
 Here's my [CV][] as of February 2017.
 
@@ -69,7 +69,7 @@ I also have a few projects on [Github][] that are worth checking out. Notably:
 Feel free to ask to contribute to any of these projects by submitting a pull request!
 
 [cornell-cs]:    http://www.cs.cornell.edu
-[grad]:          http://matt.might.net/articles/phd-school-in-pictures
+[mse]:           http://www.cs.princeton.edu/grad/degrees
 [cv]:            {{site.base}}/cv
 
 [research]:      {{site.base}}/research

@@ -3,11 +3,16 @@ updated: 9 February 2017
 citizenship: Citizen of the United States.
 
 education:
+  - school: Princeton University
+    degree: MSE candidate, Computer Science
+    when:   Fall 2017 – Spring 2019 (expected)
+    text: |
+            Incoming student.
   - school: Cornell University
     degree: B.Sc. candidate, Computer Science, 3.41/4.00
     when:   Fall 2014 – Spring 2017 (early grad.)
     text: |
-            Research interests: Programming Languages and Computer Architecture  
+            Research interests: Programming languages, computer architecture  
 
             Activities: Association of Computer Science Undergraduates, Cornell
             Piano Society, NY State Science Olympiad, Splash! at Cornell,
@@ -21,13 +26,12 @@ research:
     text: |
             Advisor: Prof. [Adrian Sampson](http://www.cs.cornell.edu/~asampson)  
             *Approximate Computing: Programming Languages at the Hardware-Software Interface*  
-              
-              + Project: Generating intermediate representations equivalent in
+
+            Projects:           
+              + **CUDA**: Generating intermediate representations equivalent in
                 behavior to complex integrated CPU/GPU programs.
-                
-              + Applications: Creating a GPU-specific ISA that has language support
-                for choosing between approximate and exact calculations as the
-                cruciality of accuracy varies in target user applications.
+
+              + **LambdaLab (λab)**: Interactive λ-calculus for student learning.
 
 papers:
   - title:   "Implementing Constructive Logics with OCaml"
@@ -39,45 +43,38 @@ papers:
              available.
 
 teaching:
-  - title:  Undergraduate Teaching Assistant
-    where:  Department of Computer Science, Cornell University
-    when:   Fall 2015, Spring 2016, Spring 2017
-    topics: Transistors and CMOS circuits; boolean algebra and arithmetic; digital
+  - title:   Undergraduate Teaching Assistant
+    where:   Department of Computer Science, Cornell University
+    when:    Spring 2015 – Spring 2017
+    courses:
+      - title:  "CS 3410: Computer Systems"
+        link:   http://www.cs.cornell.edu/courses/cs3410/2017sp
+        when:   Fall 2015, Spring 2016, Spring 2017
+        topics: |
+            Transistors and CMOS circuits; boolean algebra and arithmetic; digital
             logic; memory hierarchies; processor design; pipelined CPUs and
             data/control hazards; ISA variations (RISC/CISC); calling conventions;
             assemblers, linkers, and loaders; caches and virtual memory; traps,
             interrupts, and exceptions; multicore architectures and synchronization;
             GPUs and I/O
-    course: "CS 3410: Computer Systems"
-    link:   http://www.cs.cornell.edu/courses/cs3410/2017sp
-    tasks:  Led weekly labs, created homework problems, and beta-tested exams in
-            addition to consultant responsibilities.
-
-  - title:  Head Undergraduate Teaching Assistant
-    where:  Department of Computer Science, Cornell University
-    when:   Fall 2016
-    topics: OCaml and functional programming; expressions and functions; pattern
+      - title:  "CS 3110: Functional Programming"
+        link:   http://www.cs.cornell.edu/courses/cs3110/2016fa
+        when:   Fall 2016
+        topics: |
+            OCaml and functional programming; expressions and functions; pattern
             matching; higher-order functions and functors; polymorphism, types
             and specifications; interpreters, parsers, and formal semantics;
             substitution and evaluation models; imperative and asynchronous
             programming; monads and monoids; behavioral equivalence; efficiency
             and amortized analysis; advanced data structures and object encodings
-    course: "CS 3110: Functional Programming and Data Structures"
-    link:   http://www.cs.cornell.edu/courses/cs3110/2016fa
-    tasks:  Monitored office hours, co-led review sessions, and helped shape the
-            course in addition to TA responsibilities.
-
-  - title:  Course Consultant
-    where:  Department of Computer Science, Cornell University
-    when:   Spring 2015
-    topics: Logic and formal notation; sets, functions, and relations; proof
+      - title:  "CS 2800: Discrete Structures"
+        link:   http://www.cs.cornell.edu/courses/cs2800/2015sp
+        when:   Spring 2015
+        topics: |
+            Logic and formal notation; sets, functions, and relations; proof
             techniques and induction; probability and statistics; finite automata
             and regular languages; context-free languages and recursive/r.e. sets;
             number theory and public key encryption; incomputability; graph theory
-    course: "CS 2800: Discrete Structures"
-    link:   http://www.cs.cornell.edu/courses/cs2800/2015sp
-    tasks:  Held weekly office hours, graded weekly homeworks, proctored/graded
-            exams, and answered questions on Piazza (student discussion forum).
 
 jobs:
   - title: Goldman Sachs
