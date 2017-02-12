@@ -69,11 +69,11 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   {{ position.where }}  
   *{{ position.when }}*  
 
-  + Division: {{ position.unit }}  
+  + **Division**: {{ position.unit }}  
 
-  + Role:     {{ position.role }}  
+  + **Role**:     {{ position.role }}  
 
-  + Tasks:    {{ position.tasks }}  
+  + **Tasks**:    {{ position.tasks }}  
 {% endfor %}
 
 ## Honors

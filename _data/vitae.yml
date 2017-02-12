@@ -15,9 +15,9 @@ education:
     degree: B.Sc. candidate, Computer Science, 3.41/4.00
     when:   Fall 2014 – Spring 2017 (early grad.)
     text: |
-            Research interests: **programming languages**, **computer architecture**  
+            **Research interests**: *programming languages*, *computer architecture*  
 
-            Activities: Association of Computer Science Undergraduates, Cornell
+            **Activities**: Association of Computer Science Undergraduates, Cornell
             Piano Society, NY State Science Olympiad, Splash! at Cornell,
             Engineering Peer Advising, Orientation Leadership Committee, Cornell
             Data Science
@@ -30,7 +30,8 @@ research:
             Advisor: Prof. [Adrian Sampson](http://www.cs.cornell.edu/~asampson)  
             *Approximate Computing: Programming Languages at the Hardware-Software Interface*  
 
-            Projects:           
+            Projects:  
+
               + **CUDA**: Generating intermediate representations equivalent in
                 behavior to complex integrated CPU/GPU programs.
 
@@ -199,17 +200,17 @@ honors:
     when:  Fall 2014
 
 skills: |
-  * High-level programming:
+  * **High-level programming**:
       Java, OCaml, C, Python
-  * Assembly and intermediate programming:
+  * **Assembly and intermediate programming**:
       CUDA, LLVM, ARM, MIPS, Verilog
-  * Scripting:
+  * **Scripting**:
       `bash`, `awk`, `sed`, `ruby`
-  * Web development: 
+  * **Web development**: 
       HTML5, CSS, `less`, vanillaJS, Bootstrap, Jekyll, Liquid,
       Dropwizard, Jackson, Jersey, JDBC, MySQL, Guava
-  * Tools:
+  * **Tools**:
       LaTeX, Sublime Text, Eclipse, `git`, `vim`, `valgrind`, `gdb`, `lex`/`yacc`,
       `flex`/`bison`, `gcc`, `clang`
-  * Foreign languages:
+  * **Foreign languages**:
       English (native), Kannada (bilingual), Spanish (professionally-fluent)
