@@ -4,6 +4,8 @@ excerpt: |
   Hi, my name is Chirag Bharadwaj, and I am currently a senior at Cornell University. I am a candidate for a BSc degree in computer science, and I will be graduating in May 2017—one year early. I will be attending Princeton's MSE program in the fall.
 ---
 
+{% assign updated = site.data.vitae.updated %}
+
 # Home
 
 ----
@@ -17,7 +19,7 @@ computer science at [Princeton University][mse]. I'm interested in areas like
 theory of computation, programming languages, and computer architecture. I like
 talking about theoretical things.
 
-Here's my [CV][] as of February 2017.
+Here's my [CV][] as of {{ updated.month }} {{ updated.year }}.
 
 I love talking about my interests and research work, so please feel free to reach
 out if you'd like to know more!

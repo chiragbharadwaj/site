@@ -1,4 +1,7 @@
-updated: 9 February 2017
+updated:
+  day:   12
+  month: February
+  year:  2017
 
 citizenship: Citizen of the United States.
 
@@ -12,7 +15,7 @@ education:
     degree: B.Sc. candidate, Computer Science, 3.41/4.00
     when:   Fall 2014 – Spring 2017 (early grad.)
     text: |
-            Research interests: Programming languages, computer architecture  
+            Research interests: **programming languages**, **computer architecture**  
 
             Activities: Association of Computer Science Undergraduates, Cornell
             Piano Society, NY State Science Olympiad, Splash! at Cornell,
