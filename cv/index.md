@@ -14,9 +14,6 @@ excerpt: |
 
 ----
 
-Note: A [PDF][] version of my CV is also available, though it is not updated as
-often.
-
 ## Citizenship
 
 {{ cv.citizenship }}
@@ -105,9 +102,6 @@ Note: I also have some experience with teaching at the [high school-level][hs].
   An archived version of my high school CV is also [available][high-school].
 </div>
 
-[pdf]:         {{site.base}}/media/cv.pdf
 [hs]:          {{site.base}}/cv/teaching-hs.html
-
 [research]:    {{site.base}}/research/
-
 [high-school]: {{site.base}}/cv/high-school.html

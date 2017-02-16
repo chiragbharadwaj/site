@@ -16,11 +16,6 @@ title: Blog
   </h5>
   <div class="excerpt">
     {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
-    <h4>
-      <a href="{{ site.base }}{{ post.url }}">
-        KEEP READING...
-      </a>
-    </h4>
   </div>
 </article>
 {% endfor %}
