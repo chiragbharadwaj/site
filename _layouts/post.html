@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="col-sm-9 col-center">
-  <h2 class="with-tagline">{{ page.title }}</h2>
-  <h4 class="with-tagline"><i>{{ page.subtitle }}</i></h4>
+  <h2>{{ page.title }}</h2>
+  <h4><i>{{ page.subtitle }}</i></h4>
 
   {% if page.collection == "drafts" %}
-  <p class="tagline">unpublished draft</p>
+  <h4>UNPUBLISHED DRAFT</h4>
   {% else %}
-  <p class="tagline">{{ page.date | date: '%-d %B %Y' }}</p>
+  <p>{{ page.date | date: '%-d %B %Y' }}</p>
   {% endif %}
 
   <hr style="height: 3px" />

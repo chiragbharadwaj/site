@@ -1,9 +1,9 @@
 ---
-layout: blog
-title: Blog
+layout: drafts
+title: Blog Drafts
 ---
 
-{% for post in site.posts %}
+{% for post in site.drafts %}
 <article class="preview">
   <h2>
     <a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a>
@@ -11,9 +11,6 @@ title: Blog
   <h4 style="font-style: italic">
     {{ post.subtitle }}
   </h4>
-  <h5>
-    {{ post.date | date: 'posted on %-d %B %Y' }}
-  </h5>
   <div class="excerpt">
     {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
   </div>
