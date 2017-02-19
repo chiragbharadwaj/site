@@ -58,10 +58,10 @@ navigation:
     link:  /
   - title: About
     link:  /about/
+  - title: Research
+    link:  /research/
   - title: Blog
     link:  /blog/
-  - title: Misc.
-    link:  /misc/
   - title: Contact
     link:  /contact/
 

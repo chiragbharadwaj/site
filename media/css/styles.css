@@ -1,68 +1,76 @@
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Merriweather'), local('Merriweather'), url('../fonts/merriweather-light.woff2') format('woff2'), url('../fonts/merriweather-light.woff') format('woff');
+  src: local('Open Sans'), local('Open Sans'), url('../fonts/open-sans.woff2') format('woff2'), url('../fonts/open-sans.woff') format('woff');
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: local('Merriweather Italic'), local('Merriweather-Italic'), url('../fonts/merriweather-light-italic.woff2') format('woff2'), url('../fonts/merriweather-light-italic.woff') format('woff');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../fonts/open-sans-italic.woff2') format('woff2'), url('../fonts/open-sans-italic.woff') format('woff');
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Merriweather Bold'), local('Merriweather-Bold'), url('../fonts/merriweather.woff2') format('woff2'), url('../fonts/merriweather.woff') format('woff');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/open-sans-bold.woff2') format('woff2'), url('../fonts/open-sans-bold.woff') format('woff');
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url('../fonts/merriweather-italic.woff2') format('woff2'), url('../fonts/merriweather-italic.woff') format('woff');
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('../fonts/open-sans-bold-italic.woff2') format('woff2'), url('../fonts/open-sans-bold-italic.woff') format('woff');
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Sans'), local('PT Sans'), url('../fonts/pt-sans.woff2') format('woff2'), url('../fonts/pt-sans.woff') format('woff');
+  src: local('Inconsolata'), local('Inconsolata'), url('../fonts/inconsolata.woff2') format('woff2'), url('../fonts/inconsolata.woff') format('woff');
 }
 @font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('PT Sans Italic'), local('PTSans-Italic'), url('../fonts/pt-sans-italic.woff2') format('woff2'), url('../fonts/pt-sans-italic.woff') format('woff');
-}
-@font-face {
-  font-family: 'PT Sans';
+  font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
-  src: local('PT Sans Bold'), local('PTSans-Bold'), url('../fonts/pt-sans-bold.woff2') format('woff2'), url('../fonts/pt-sans-bold.woff') format('woff');
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url('../fonts/inconsolata-bold.woff2') format('woff2'), url('../fonts/inconsolata-bold.woff') format('woff');
 }
-@font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url('../fonts/pt-sans-bold-italic.woff2') format('woff2'), url('../fonts/pt-sans-bold-italic.woff') format('woff');
+.header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e1e1e1;
 }
-nav {
-  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+.header h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+.header h5 {
+  margin-top: -25px;
+}
+.header a {
+  text-decoration: none;
+  color: #434343;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #7d1935;
+  background-color: #e1e1e1;
+}
+.nav-pills {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 body {
   margin-bottom: 20px;
 }
 body #text {
-  font-family: Merriweather, Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
+  margin-top: 15px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
-body .side-text {
-  font-family: Merriweather, Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
-  font-size: 12px;
-}
 body .bottom-text {
-  font-family: Merriweather, Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 8px !important;
 }
@@ -72,7 +80,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 hr {
   border: none;
@@ -99,7 +108,7 @@ article .preview {
 }
 article .preview h3 {
   margin: 0;
-  font-family: Merriweather, Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 article .preview h3 a {
   color: inherit;
@@ -142,6 +151,6 @@ article .full h5 {
 }
 .audio-clip:hover {
   text-decoration: none;
-  color: #dddddd;
+  color: #434343;
   opacity: 1.0;
 }

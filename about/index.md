@@ -11,16 +11,7 @@ excerpt: |
 
 ### What's in a name?
 
-<audio id="name" src="{{ site.base }}/media/name.mp3"></audio>
-
-Hi! My name is
-  <a onclick="document.getElementById('name').play()">
-    <i class="fa fa-volume-up"></i>
-    Chirag Bharadwaj</a><sup>1</sup>.
-The [IPA][] for my name is `/tʃiraːg bʱaːrədʋaːd͡ʑ/`, in case you are a linguistics
-enthusiast. (I sure am.)
-
-The ethnic origins of my name are from the greater Indian subcontinent<sup>2</sup>.
+The ethnic origins of my name are from the greater Indian subcontinent\*.
 In particular, *Chirag* is from an Indo-centric word that means "light or to
 enlighten", and *Bharadwaj* is a family name—after [Bharadwaja][], a great ancient
 Indian sage. Supposedly, I am part of a family that can trace their lineage back
@@ -30,7 +21,7 @@ have because I was born soon after [Diwali][], which is a festival of lights.
 Of course, in Indian culture, the family name comes first, so historically my
 name would have been *Bharadwaj Chirag*. Names aside, though, I am not very
 culturally Indian at all. I was born and raised in the United States, so a lot
-of my views and values are uniquely American. Read more below!
+of my views and values are uniquely American.
 
 ### Origins and the early years
 
@@ -56,9 +47,6 @@ certainly wonderful.
   <figure>
   <img src="{{site.base}}/media/princeton-3.jpg" alt="Princeton during autumn."
        width="100%" class="img-rounded"/>
-  <figcaption align="center">
-    In the fall, Princeton is often breathtakingly beautiful.
-  </figcaption>
   </figure>
 </div>
 
@@ -78,6 +66,9 @@ Of course, I should be honest—I didn't exactly move to *Princeton*. My parents
 moved to a small village just on the border of Princeton. Indeed, since we lived
 about ten minutes away from Princeton University, my mother and I would often
 attend science talks and music concerts at the university.
+</div>
+
+</div>  
 
 I went to junior high and high school in what was actually quite a competitive
 school district. The demographics around my area were similar to that of Flushing,
@@ -87,9 +78,6 @@ I graduated at age 17 [near the top][semifinalist] of my class of 750 in high
 school in 2014. Through the years, I trudged through a bunch of AP classes in
 mathematics and the sciences, ran a lot of track, and became surprisingly fluent
 at Spanish.
-</div>
-
-</div>
 
 ### Undergraduate studies
 
@@ -105,7 +93,7 @@ at Spanish.
 <img src="{{site.base}}/media/ithaca-joke.png" alt="Ithaca, NY? NO, GREEK Ithaca!"
      width="100%" class="img-rounded"/>
 <figcaption align="center">
-  From one of my favorite comics, <i>Foxtrot</i>. Ah, Cornell...
+  From one of my favorite comic strips, <i>Foxtrot</i>.
 </figcaption>
 </figure>
 </div>
@@ -162,13 +150,10 @@ Small steps.
 ----
 
 <div class="bottom-text" markdown="1">
-  <sup>1</sup> According to [IAST][], the traditional pronunciation is actually Chirāg Bhāradvāja.
-
-  <sup>2</sup> Interestingly, Chirag is also the name of a [local dialect variation][russian] in Dagestan, Russia.
+  \* Interestingly, Chirag is also the name of a [local dialect variation][russian] in Dagestan, Russia.
 </div>
 
 [iast]:         https://en.wikipedia.org/wiki/IAST
-[ipa]:          https://en.wikipedia.org/wiki/IPA
 [russian]:      https://en.wikipedia.org/wiki/Chirag_language
 [bharadwaja]:   https://en.wikipedia.org/wiki/Bharadwaja
 [diwali]:       {{site.base}}/media/diwali.png

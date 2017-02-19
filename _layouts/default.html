@@ -46,18 +46,11 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{ site.base }}/">Chirag Bharadwaj</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right" style="margin-top: 10px">
             {% assign shorturl = page.url | replace:'index.html','' %}
             {% for item in site.navigation %}
             <li{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="active"{% endif %}>
@@ -65,9 +58,12 @@
             </li>
             {% endfor %}
           </ul>
-        </div>
+        </nav>
+        <h3><b><a href="{{ site.base }}">Chirag Bharadwaj</a></b></h3>
+        </br>
+        <h5>B.Sc. candidate in Computer Science</h5>
       </div>
-    </nav>
+    </div>
 
     <div id="text" class="container container-md">
       {{ content }}
