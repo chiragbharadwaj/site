@@ -32,7 +32,7 @@ exclude:
   - Makefile
   - CNAME
 
-# Link style for blog posts.
+# Link style for blog-style posts.
 permalink: /blog/:title.html
 
 # Default scoping rules for posts/drafts in the blog structure.
@@ -70,3 +70,6 @@ collections:
   drafts:
     output:    true
     permalink: /blog/drafts/:slug.html
+  winskel:
+    output:    true
+    permalink: /winskel/:slug.html
