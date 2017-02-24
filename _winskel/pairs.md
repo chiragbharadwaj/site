@@ -1,8 +1,8 @@
 ---
 layout: problem
-title: Exercise 1.1
-name: Ordered Pairs
-excerpt: Informal, logical, and set-theoretic notation/concepts. The topics discussed here will be used extensively in the following chapters as the mathematical language of the formalisms we will develop.
+title: Ordered Pairs
+chapter: 1
+problem: 1
 katex: true
 ---
 

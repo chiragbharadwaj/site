@@ -1,0 +1,13 @@
+chapters:
+  - num: 1
+    title: Basic Set Theory
+    excerpt: |
+      Informal, logical, and set-theoretic notation/concepts. The topics discussed
+      here will be used extensively in the following chapters as the mathematical
+      language of the formalisms we will develop.
+  - num: 2
+    title: Introduction to Operational Semantics
+    excerpt: |
+      Syntax-directed semantics of small so-called "while" programs. The first
+      notion of semantics here are introduced via the vehicle of `IMP`, a simple
+      imperative language.

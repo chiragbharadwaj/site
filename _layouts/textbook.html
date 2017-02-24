@@ -8,27 +8,23 @@ layout: default
 <hr/>
 
 {% if page.location == "winskel" %}
-  {% assign loc = site.data.winskel %}
-{% elsif page.location == "irodov" %}
-  {% assign loc = site.data.irodov %}
-{% else %}
-  {% assign loc = site.data.japanese %}
+  {% assign loc = site.winskel %}
+  {% assign yml = site.data.winskel %}
 {% endif %}
 
-{% for chapter in loc.chapters %}
-<article class="preview">
+{% for chapter in yml.chapters %}
   <h2>Chapter {{ chapter.num }}: {{ chapter.title }}</h2>
   <div class="excerpt">
     {{ chapter.excerpt | markdownify }}
   </div>
-  {% for problem in chapter.problems %}
-    <b>Exercise {{ chapter.num }}.{{ problem.num }}:</b>
-    <a href="{{ site.base }}{{ problem.url }}">{{ problem.title }}</a>
+  {% assign sorted = (loc | where: 'chapter', chapter.num | sort: 'problem')%}
+  {% for post in sorted %}
+    <b>Exercise {{ post.chapter }}.{{ post.problem }}:</b>
+    <a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></br>
   {% endfor %}
-</article>
-{% endfor %}
 
-<br/>
+  <br/>
+{% endfor %}
 
 {{ content }}
 
