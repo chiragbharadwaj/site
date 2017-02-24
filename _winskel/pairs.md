@@ -60,6 +60,6 @@ Then, we end up with two possible cases:
    finite set of size 2. So we ignore this.
 
 Thus, using the result from Case 1 directly, we see that $a = a^\prime$ and
-$b = b^\prime$, which is what we wanted to show.
+$b = b^\prime$.
 
 $\square$
