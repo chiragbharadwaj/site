@@ -12,7 +12,7 @@ pairs is defined as follows.
 **Definition.** Consider two ordered pairs $(a,b)$ and $(a^\prime,b^\prime)$. Then,
 we have that
 
-$$(a,b) = (a',b') \Leftrightarrow a = a' \mathrm{\ and\ } b = b',$$
+\\[(a,b) = (a^\prime,b^\prime) \Leftrightarrow a = a^\prime \mathrm{\ and\ } b = b^\prime,\\]
 
 i.e. the pairs are component-wise equal.
 
@@ -20,7 +20,7 @@ $\square$
 
 Let us now consider the following set representation of ordered pairs:
 
-$$(a,b) \triangleq \{\{a\},\{a,b\}\}.$$
+\\[(a,b) \triangleq \\{\\{a\\},\\{a,b\\}\\}.\\]
 
 We must argue that this satisfies the aforementioned property of pair equality.
 
@@ -33,7 +33,7 @@ $(\Leftarrow)$: This direction is trivial.
 
 We know that $a = a^\prime$ and $b = b^\prime$. Then, it trivially follows that
 
-$$(a,b) = (a',b')$$
+\\[(a,b) = (a^\prime,b^\prime)\\]
 
 by substituting the known equalities.
 
@@ -42,7 +42,7 @@ $(\Rightarrow)$: This direction requires more thought.
 We know that $(a,b) = (a^\prime,b^\prime)$. Appealing to our constructive set
 definition of ordered pairs, this reduces to
 
-$$\{\{a\},\{a,b\}\} = \{\{a^\prime\},\{a^\prime,b^\prime\}\}.$$
+\\[\\{\\{a\\},\\{a,b\\}\\} = \\{\\{a^\prime\\},\\{a^\prime,b^\prime\\}\\}.\\]
 
 We recall that two sets are equal if and only if they contain the same elements.
 Then, we end up with two possible cases:
