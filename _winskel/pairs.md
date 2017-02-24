@@ -47,14 +47,14 @@ definition of ordered pairs, this reduces to
 We recall that two sets are equal if and only if they contain the same elements.
 Then, we end up with two possible cases:
 
- * **Case 1**: $\\{a\\} = \\{a^\prime\\}$ and $\\{a,b\\} = \\{a^\prime,b^\prime\\}$.
+ * **Case 1.** $\\{a\\} = \\{a^\prime\\}$ and $\\{a,b\\} = \\{a^\prime,b^\prime\\}$.
 
    It is immediately clear that $a = a^\prime$, since both sets only contain 1
    element. Then, combining the first result with the second equality, we see that
    $\\{a,b\\} = \\{a^\prime,b\\} = \\{a^\prime,b^\prime\\}$. This implies that
    $b = b^\prime$ based on distinctness of elements.
 
- * **Case 2**: $\\{a\\} = \\{a^\prime,b^\prime\\}$ and $\\{a,b\\} = \\{a^\prime\\}$.
+ * **Case 2.** $\\{a\\} = \\{a^\prime,b^\prime\\}$ and $\\{a,b\\} = \\{a^\prime\\}$.
 
    This case cannot occur, as a finite set of size 1 cannot be equal to another
    finite set of size 2. So we ignore this.

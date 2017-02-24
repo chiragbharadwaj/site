@@ -3,8 +3,8 @@ chapters:
     title: Basic Set Theory
     excerpt: |
       Informal, logical, and set-theoretic notation/concepts. The topics discussed
-      here will be used extensively in the following chapters as the mathematical
-      language of the formalisms we will develop.
+      here will be used extensively as the mathematical language of the formalisms
+      developed in the following chapters.
   # - num: 2
   #   title: Operational Semantics
   #   excerpt: |
