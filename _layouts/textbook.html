@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<h1>{{ page.topics | markdownify }}</h1>
-<h5>{{ page.description | markdownify }}</h5>
-
-<hr/>
-
 {% if page.location == "winskel" %}
   {% assign loc = site.winskel %}
   {% assign yml = site.data.winskel %}
 {% endif %}
+
+<h1><a href="{{site.base}}/media/{{yml.text}}">{{ page.topics | markdownify }}</a></h1>
+<h5>{{ page.description | markdownify }}</h5>
+
+<hr/>
 
 {% for chapter in yml.chapters %}
   <h2>Chapter {{ chapter.num }}: {{ chapter.title }}</h2>

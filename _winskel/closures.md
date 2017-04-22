@@ -30,7 +30,22 @@ We can then show the following results.
 
 *Proof.*
 
-Forthcoming.
+Let us put $S = (R \cup R^{op})^*$.
+
+As always, to prove that a relation is an equivalence relation, we simply show
+that it is reflexive, symmetric, and transitive. We proceed:
+
+ * **Reflexivity.** $\forall x \in X, x S x$.
+
+   TBD
+
+ * **Symmetry.** $\forall x,y \in X, x S y \Rightarrow y S x$.
+
+   TBD
+
+ * **Transitivity.** $\forall x,y,z \in X, (x S y \mathrm{\ and\ } y S z) \Rightarrow x S z$.
+
+   TBD
 
 $\square$
 
