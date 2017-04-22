@@ -36,7 +36,7 @@ Flushing is home to about 70,000 people, of which about 69-70% are of Asian heri
 time, and it taught me how to navigate the city and deal with many kinds of people
 by myself at a young age. Worth the toughness points.
 
-I lived in Flushing until 2001, and the hustle and bustle of the city life was
+I lived in Flushing until 2007, and the hustle and bustle of the city life was
 certainly wonderful.
 
 ### Growing up
@@ -51,7 +51,7 @@ certainly wonderful.
 </div>
 
 <div class="col-sm-6" markdown="1">
-In November 2001, my parents moved to Princeton, NJ, a relatively quiet neighborhood
+In November 2007, my parents moved to Princeton, NJ, a relatively quiet neighborhood
 in suburbia.
 
 I'm not going to lie, Princeton is [downright beautiful][princeton-2]. There is
