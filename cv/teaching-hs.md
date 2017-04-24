@@ -57,7 +57,7 @@ that I've taught before:
 | ----------- | ---------------------------------------| ------------------------------------------------------------------ |
 | Fall 2016   | Basic Group Theory in Music            | [`topics`][groups] &#124; [`lecture`][groups-lec]                  |
 | ----------- | -------------------------------------- | ------------------------------------------------------------------ |
-| Spring 2017 | Parametric Models in Mathematics       | stay tuned!                                                        |
+| Spring 2017 | Techniques in Mathematics              | [`topics`][tech] &#124; [`lecture`][tech-lec]                      |
 
 </div>
 
@@ -119,6 +119,8 @@ scattered across the Internet.
 [yt]:          https://www.youtube.com/watch?v=1VGFAbL0VHc
 [groups]:      https://cornell.learningu.org/learn/Splash/2016_Fall/catalog#cat5
 [groups-lec]:  {{site.base}}/media/music-groups.pdf
+[tech]:        https://cornell.learningu.org/learn/Splash/2017_Spring/catalog#cat5
+[tech-lec]:    {{site.base}}/media/techniques-math.pdf
 
 [sbhs]:        http://www.sbschools.org/schools/sbhs
 [davis]:       https://www.linkedin.com/in/davisliu95
