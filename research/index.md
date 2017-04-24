@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: construction
 excerpt: |
   My research lies at the intersection of computer architecture and programming languages. A lot of what I like learning about is about approximate computing, which is the notion that we can trade off correctness for efficiency in applications where exact answers are important, but not critical. I help design better abstractions for this new computing formalism.
 ---
