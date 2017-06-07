@@ -124,7 +124,7 @@ excerpt: |
   + National AP Scholar 2012
   + Outstanding Achievement in Chemistry (awarded by SBHS to 2 seniors)
   + Graduation with Honors (for unweighted GPA $\geq$ 3.5)
-  + High Honor Roll (16 quarters semesters)
+  + High Honor Roll (16 quarters)
   + Highest score on HSPA-verbal in the entire 11th grade (four-way tie)
   + (Mu Alpha Theta) Math Honors Society
   + Science Honors Society
