@@ -1,156 +1,162 @@
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('Open Sans'), url('../fonts/open-sans.woff2') format('woff2'), url('../fonts/open-sans.woff') format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../fonts/open-sans-italic.woff2') format('woff2'), url('../fonts/open-sans-italic.woff') format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/open-sans-bold.woff2') format('woff2'), url('../fonts/open-sans-bold.woff') format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('../fonts/open-sans-bold-italic.woff2') format('woff2'), url('../fonts/open-sans-bold-italic.woff') format('woff');
-}
-@font-face {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
   src: local('Inconsolata'), local('Inconsolata'), url('../fonts/inconsolata.woff2') format('woff2'), url('../fonts/inconsolata.woff') format('woff');
 }
+
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
   src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url('../fonts/inconsolata-bold.woff2') format('woff2'), url('../fonts/inconsolata-bold.woff') format('woff');
 }
-.header {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #e1e1e1;
+
+table, td, tbody, tr, th {
+  font-family: Optima, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
 }
-.header h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 40px;
+
+.navi {
+  line-height: 90%;
 }
-.header h5 {
-  margin-top: -25px;
+
+.navi a {
+  line-height: 90%;
 }
-.header a {
-  text-decoration: none;
-  color: #434343;
+
+.navi table {
+  width: 75%;
 }
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #7d1935;
-  background-color: #e1e1e1;
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 250%;
+  padding: 0em;
+  margin: 0em;
 }
-.nav-pills {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+
+h2 {
+  font-style: normal;
+  font-size: 130%;
+  font-weight: normal;
+  margin: 0em;
+  padding: 0px;
 }
+
+.info {
+  font-size: 120%;
+}
+
+.quote {
+  font-size: 90%;
+}
+
+.contact td {
+  vertical-align: top;
+}
+.contact table {
+  padding-left: 4em;
+}
+.contact td {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
 body {
+  background-color: #e3e3e3;
   margin-bottom: 20px;
+  font-family: Optima, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
 }
-body #text {
-  margin-top: 15px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+
+.module {
+  max-width: 70em;
+  min-width: 40em;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2em;
+  border-radius: 9px;
+  box-shadow: 0 2px 3px #333333;
 }
-body .bottom-text {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  line-height: 8px !important;
+
+.me {
+  border-radius: 9px;
+  box-shadow: 0 2px 3px #333333;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+audio {
+  background-color: #0033a0;
 }
-hr {
-  border: none;
-  height: 1px;
-  color: #626262;
-  background-color: #626262;
+
+a:link,
+a:visited,
+.audio-clip:link,
+.audio-clip:visited {
+  text-decoration: none;
+  color: #0033a0;
 }
-table {
-  width: 100%;
+
+a:hover,
+.audio-clip:hover {
+  text-decoration: none;
+  color: #9a0000;
 }
-th {
-  border-bottom: 1px solid #626262;
-}
-td {
-  border-bottom: 1px solid #dcdcdc;
-}
-figcaption {
-  margin-top: 10px;
-  display: block;
-}
+
 /* The article preview CSSes were borrowed directly from Adrian Sampson. */
 article .preview {
   margin-top: 1.5em;
 }
+
 article .preview h3 {
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Optima, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 article .preview h3 a {
   color: inherit;
   text-decoration: none;
 }
+
 article .preview .excerpt p {
   margin: 0;
 }
+
 article .full {
   margin-top: 1em;
 }
+
 article .full h1 {
   font-size: 1.5em;
 }
+
 article .full h2 {
   font-size: 1.3em;
 }
+
 article .full h3 {
   font-size: 1em;
 }
+
 article .full h4 {
   font-size: 0.8em;
 }
+
 article .full h5 {
   font-size: 0.7em;
 }
+
 .archive ul {
   list-style: none;
   margin-left: -25px;
 }
-.panel-group .panel + .panel {
-  margin-top: 0;
-}
-.col-center {
-  float: none;
-  margin: 0 auto;
-}
+
 .katex {
   font-size: 1.15em !important;
-}
-.audio-clip:hover {
-  text-decoration: none;
-  color: #434343;
-  opacity: 1.0;
 }

@@ -46,27 +46,46 @@
   </head>
 
   <body>
-
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right" style="margin-top: 10px">
-            {% assign shorturl = page.url | replace:'index.html','' %}
-            {% for item in site.navigation %}
-            <li{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="active"{% endif %}>
-              <a href="{{ site.base }}{{ item.link }}">{{ item.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </nav>
-        <h3><b><a href="{{ site.base }}/">Chirag Bharadwaj</a></b></h3>
-        </br>
-        <h5>M.Sc. candidate in Computer Science</h5>
+    <div class="module">
+      <div class="row">
+      <div class="col-sm-5">
+        <h1>Chirag Bharadwaj</h1>
+        <div class="info">
+            M.S.E. candidate in Computer Science <br>
+        </div>
       </div>
-    </div>
+      <div class="col-sm-7">
+        <div class="quote" style="text-align: right">
+          <i>“Nothing can take the place of persistence. Talent will not; nothing is more common than unsuc&shy;cessful people with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent."</i>
+          <br>
+          ―<a href="https://www.goodreads.com/quotes/2749-nothing-in-this-world-can-take-the-place-of-persistence">Calvin Coolidge</a>
+        </div>
+      </div>
+      </div>
+      <div class="navi">
+        <hr>
+        <table style="text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+          <tr align="center">
+            {% assign shorturl = page.url | replace:'index.html','' %}
+            {% assign width = 100.0 | divided_by: site.navigation.size %}
+            {% for item in site.navigation %}
+            <td width="{{ width }}%">
+              <a href="{{ site.base }}{{ item.link }}">{{ item.title }}</a>
+            </td>
+            {% endfor %}
 
-    <div id="text" class="container container-md">
+          </tr>
+          </tbody>
+        </table>
+        <hr>
+      </div>
       {{ content }}
+      <hr>
+      <div align="center" style="margin-top: 0px">
+        Copyright &copy; 2009–<script>document.write(new Date().getFullYear())</script>, Chirag Bharadwaj.
+        All rights reserved.
+      </div>
     </div>
 
     <script src="{{ site.base }}/media/js/jquery-3.1.1.min.js"></script>
@@ -87,6 +106,5 @@
       });
     </script>
     {% endif %}
-
   </body>
 </html>

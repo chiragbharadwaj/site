@@ -5,9 +5,16 @@
 # Identifying/contact information.
 name:     Chirag Bharadwaj
 author:   Chirag Bharadwaj
-email:    'cb625@cornell.edu'
+email1:   'chiragb@princeton.edu'
+email2:   'cb625@cornell.edu'
+phone:    '+1 609 937-6050'
+skype:    'theRealChiggy'
 location: 'Princeton, NJ'
-created:  'June 25, 2009'
+address: 
+  - 'Chirag Bharadwaj'
+  - '8 Lawrence Drive, Apt. 308'
+  - 'Princeton, NJ 08540'
+born:     '23 November 1996'
 url:      http://www.chiragbharadwaj.com
 base:     ""
 github:   https://github.com/chiragbharadwaj
@@ -70,6 +77,3 @@ collections:
   drafts:
     output:    true
     permalink: /blog/drafts/:slug.html
-  winskel:
-    output:    true
-    permalink: /winskel/:slug.html

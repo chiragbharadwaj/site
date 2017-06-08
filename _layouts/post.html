@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div>
-  <h2>{{ page.title }}</h2>
-  <h4><i>{{ page.subtitle }}</i></h4>
+  <h1>{{ page.title }}</h1>
+  <h2><i>{{ page.subtitle }}</i></h2>
 
   {% if page.collection == "drafts" %}
   <h4>UNPUBLISHED DRAFT</h4>
@@ -24,11 +24,11 @@ layout: default
 
   <footer>
     Questions, comments, or concerns? Feel free to reach out to me
-    <a href="mailto:{{ site.email }}?subject={{ page.title | prepend: 'Re: ' | url_escape }}">
+    <a href="mailto:{{ site.email1 }}?subject={{ page.title | prepend: 'Re: ' | url_escape }}">
       via email</a>.
 
     Also, if you find a typo, please let me know! You can
     <a href="{{ site.github }}/home/edit/master/{{ page.path }}">
-      issue a pull request</a> on Github.
+      issue a pull request</a>.
   </footer>
 </div>

@@ -4,10 +4,12 @@ layout: default
 
 <div class="row">
 <div class="col-sm-3">
-  <img src="{{ site.base }}/media/me.jpg" alt="Portrait of Chirag Bharadwaj."
-       width="100%" class="img-rounded" style="margin-bottom: 15px"/>
+  <div class="me">
+    <img src="{{ site.base }}/media/me.jpg" alt="Photo: Chirag Bharadwaj."
+         width="100%" class="img-rounded"/>
+  </div>
   <h5>Alter ego: Carl Sagan.</h5>
-  <h4><code>@chiragbharadwaj</code></h4>
+  <h4><a href="https://github.com/chiragbharadwaj"><code>@chiragbharadwaj</code></a></h4>
   <table class="table table-condensed" style="margin-bottom: 20px">
   <tbody>
     <tr>
@@ -15,8 +17,7 @@ layout: default
         <i class="fa fa-graduation-cap" aria-hidden="true"></i>
       </td>
       <td>
-        Cornell University '17</br>
-        Princeton University '19
+        Cornell University '17
       </td>
     </tr>
     <tr>
@@ -32,7 +33,7 @@ layout: default
         <i class="fa fa-clock-o" aria-hidden="true"></i>
       </td>
       <td>
-        Created on {{ site.created }}
+        {{ site.born }}
       </td>
     </tr>
   </tbody>
@@ -43,10 +44,4 @@ layout: default
   {{ content }}
 
 </div>
-</div>
-
-<div align="center" style="margin-top: 0px">
-  Copyright &copy; 2009–<script>document.write(new Date().getFullYear())</script>, Chirag Bharadwaj.
-  </br>
-  All rights reserved.
 </div>
