@@ -4,32 +4,35 @@
   font-weight: 400;
   src: local('Inconsolata'), local('Inconsolata'), url('../fonts/inconsolata.woff2') format('woff2'), url('../fonts/inconsolata.woff') format('woff');
 }
-
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
   src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url('../fonts/inconsolata-bold.woff2') format('woff2'), url('../fonts/inconsolata-bold.woff') format('woff');
 }
-
-table, td, tbody, tr, th {
+code {
+  font-family: Inconsolata, Menlo, Monaco, "Lucida Console", Courier, monospace;
+  font-size: inherit;
+  font-weight: inherit;
+}
+table,
+td,
+tbody,
+tr,
+th {
   font-family: Optima, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: inherit;
   font-weight: inherit;
 }
-
 .navi {
   line-height: 90%;
 }
-
 .navi a {
   line-height: 90%;
 }
-
 .navi table {
   width: 75%;
 }
-
 h1 {
   font-style: normal;
   font-weight: normal;
@@ -37,7 +40,6 @@ h1 {
   padding: 0em;
   margin: 0em;
 }
-
 h2 {
   font-style: normal;
   font-size: 130%;
@@ -45,15 +47,12 @@ h2 {
   margin: 0em;
   padding: 0px;
 }
-
 .info {
   font-size: 120%;
 }
-
 .quote {
   font-size: 90%;
 }
-
 .contact td {
   vertical-align: top;
 }
@@ -64,7 +63,6 @@ h2 {
   padding-left: 1em;
   padding-bottom: 1em;
 }
-
 body {
   background-color: #e3e3e3;
   margin-bottom: 20px;
@@ -72,7 +70,6 @@ body {
   font-weight: normal;
   font-size: 16px;
 }
-
 .module {
   max-width: 70em;
   min-width: 40em;
@@ -85,16 +82,10 @@ body {
   border-radius: 9px;
   box-shadow: 0 2px 3px #333333;
 }
-
 .me {
   border-radius: 9px;
   box-shadow: 0 2px 3px #333333;
 }
-
-audio {
-  background-color: #0033a0;
-}
-
 a:link,
 a:visited,
 .audio-clip:link,
@@ -102,61 +93,48 @@ a:visited,
   text-decoration: none;
   color: #0033a0;
 }
-
 a:hover,
 .audio-clip:hover {
   text-decoration: none;
   color: #9a0000;
 }
-
 /* The article preview CSSes were borrowed directly from Adrian Sampson. */
 article .preview {
   margin-top: 1.5em;
 }
-
 article .preview h3 {
   margin: 0;
   font-family: Optima, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 article .preview h3 a {
   color: inherit;
   text-decoration: none;
 }
-
 article .preview .excerpt p {
   margin: 0;
 }
-
 article .full {
   margin-top: 1em;
 }
-
 article .full h1 {
   font-size: 1.5em;
 }
-
 article .full h2 {
   font-size: 1.3em;
 }
-
 article .full h3 {
   font-size: 1em;
 }
-
 article .full h4 {
   font-size: 0.8em;
 }
-
 article .full h5 {
   font-size: 0.7em;
 }
-
 .archive ul {
   list-style: none;
   margin-left: -25px;
 }
-
 .katex {
   font-size: 1.15em !important;
 }
