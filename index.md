@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: construction
 excerpt: |
   Hi, my name is Chirag Bharadwaj, and I am currently an incoming graduate student at Princeton University. I am a candidate for an MSc degree in computer science. I received my BSc in computer science from Cornell University in May 2017.
 ---
