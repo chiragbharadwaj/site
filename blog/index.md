@@ -5,15 +5,10 @@ title: Blog
 
 {% for post in site.posts %}
 <article class="preview">
-  <h2>
+  <h3>
     <a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a>
-  </h2>
-  <h4 style="font-style: italic">
-    {{ post.subtitle }}
-  </h4>
-  <h5>
-    {{ post.date | date: 'posted on %-d %B %Y' }}
-  </h5>
+  </h3>
+  {{ post.date | date: 'posted on %-d %B %Y' }}
   <div class="excerpt">
     {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}
   </div>
