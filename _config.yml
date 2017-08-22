@@ -9,6 +9,7 @@ email:  'cb625@cornell.edu'
 url:    http://www.chiragbharadwaj.com
 base:   ""
 github: https://github.com/chiragbharadwaj/site
+updated: February 2017
 
 # Markdown configuration (using `kramdown` instead of `rdiscount`).
 markdown: kramdown
@@ -19,7 +20,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   entity_output: symbolic
   math_engine: katex
-highlighter: pygments
+highlighter: rouge
 
 # Files and directories to exclude when building the static site.
 exclude:
