@@ -2,7 +2,7 @@ all: media/css/bootstrap.min.css media/css/font-awesome.min.css media/css/katex.
 	jekyll build
 
 serve: all
-	jekyll serve
+	jekyll serve --baseurl ""
 
 media/css/bootstrap.css: _less/bootstrap/bootstrap.less
 	lessc $< $@

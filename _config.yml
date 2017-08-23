@@ -3,12 +3,12 @@
 #   https://www.cs.cornell.edu/~asampson
 #
 # Identifying/contact information.
-name:   Chirag Bharadwaj
-author: Chirag Bharadwaj
-email:  'cb625@cornell.edu'
-url:    http://www.chiragbharadwaj.com
-base:   ""
-github: https://github.com/chiragbharadwaj/site
+name:    Chirag Bharadwaj
+author:  Chirag Bharadwaj
+email:   'cb625@cornell.edu'
+baseurl: http://www.cs.princeton.edu/~chiragb
+url:     http://www.cs.princeton.edu/~chiragb
+github:  https://github.com/chiragbharadwaj/site
 updated: February 2017
 
 # Markdown configuration (using `kramdown` instead of `rdiscount`).
@@ -29,7 +29,7 @@ exclude:
   - Makefile
 
 # Link style for blog posts.
-permalink: /blog/:year:month:day/:title.html
+permalink: /blog/:year/:month/:title.html
 
 # Default scoping rules for posts/drafts in the blog structure.
 defaults:

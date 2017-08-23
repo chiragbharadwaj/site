@@ -6,10 +6,10 @@ title: Blog Drafts
 {% for post in site.drafts %}
 <article class="preview">
   <h2>
-    <a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
   </h2>
   <h4 style="font-style: italic">
-    {{ post.subtitle }}
+    {{post.subtitle}}
   </h4>
   <div class="excerpt">
     {{ post.excerpt | replace: 'SITE_BASE', site.url | markdownify }}

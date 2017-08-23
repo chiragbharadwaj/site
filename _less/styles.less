@@ -1,6 +1,31 @@
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arizonia Regular'), local('Arizonia-Regular'),
+       url('../fonts/Arizonia-Regular.woff2') format('woff2'),
+       url('../fonts/Arizonia-Regular.woff') format('woff');
+}
+
+.logo {
+  font-family: Arizonia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #c7254e;
+}
+
 body {
   overflow: auto;
   margin-bottom: 60px;
+}
+
+.date {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
+  font-size: 16px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
 }
 
 #footer {

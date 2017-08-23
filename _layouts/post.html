@@ -2,30 +2,28 @@
 layout: default
 ---
 
-<h2 class="with-tagline">{{ page.title }}</h2>
+<h2>{{page.title}}</h2>
 
 {% if page.collection == "drafts" %}
-<p class="tagline">unpublished draft</p>
+<p>Unpublished Draft</p>
 {% else %}
-<p class="tagline">{{ page.date | date: '%-d %B %Y' }}</p>
+<h4 style="font-weight: normal">{{ page.date | date: '%-d %B %Y' }}</h4>
 {% endif %}
 
-<hr style="height: 3px" />
+<hr style="height: 3px"/>
 
-<article class="full">
-
+<article>
   {{ content }}
-
 </article>
 
-<hr />
+<hr/>
 
 <footer>
   Questions, comments, or concerns? Feel free to reach out to me
-  <a href="mailto:{{ site.email }}?subject={{ page.title | prepend: 'Re: ' | url_escape }}">
+  <a href="mailto:{{site.email}}?subject={{ page.title | prepend: 'Re: ' | url_escape }}">
     via email</a>.
 
   Also, if you find a typo, please let me know! You can
-  <a href="{{ site.github }}/edit/master/{{ page.path }}">
+  <a href="{{site.github}}/edit/master/{{page.path}}">
     issue a pull request</a>.
 </footer>
