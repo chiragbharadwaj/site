@@ -7,7 +7,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 
 ### About
 
-Hi, I'm Chirag (`SHUH-rahg`, [IPA][]: `[]`), and I am a first-year [MSE][] candidate in computer science at [Princeton University][princeton]. I have yet to be assigned an advisor at Princeton. My research interests lie in an unlikely pair of fields: [programming languages][pl] and [computer architecture][comparch].
+Hi, I'm Chirag (`SHUH-rahg`, [IPA][]: `/ʃɪɹɑːg/`), and I am a first-year [MSE][] candidate in computer science at [Princeton University][princeton]. I have yet to be assigned an advisor at Princeton. My research interests lie in an unlikely pair of fields: [programming languages][pl] and [computer architecture][comparch].
 
 I previously attended [Cornell University][cornell], where I received a B.Sc. in computer science in May 2017. I was fortunate to have been advised by [Adrian Sampson][samps], who helped cultivate my initial interests and synthesize them into a veritable form. My [undergraduate thesis][thesis] focused on a theoretical framework called LambdaLab that would provide appropriate tools for instruction in the lambda calculus. I also [tinkered with][llvm] NVIDIA's [CUDA][] programming language with applications to [heterogeneous hardware][braid] in graphics programming.
 
