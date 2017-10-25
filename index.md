@@ -8,10 +8,10 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
     <div id="profile" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-2.jpg" height="90%" width="90%" alt="2017.09.14" title="2017.09.14">
+          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-2.jpg" height="100%" width="100%" alt="2017.09.14" title="2017.09.14">
         </div>
         <div class="carousel-item">
-          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-1.png" height="90%" width="90%" alt="2015.08.28" title="2015.08.28">
+          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-1.png" height="100%" width="100%" alt="2015.08.28" title="2015.08.28">
         </div>
       </div>
       <a class="carousel-control-next" href="#profile" data-slide="next">
