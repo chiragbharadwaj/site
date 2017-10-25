@@ -46,18 +46,18 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-lg navbar-light bg-faded">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/"><div class="logo">Chirag Bharadwaj</div></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbarCollapse" class="navbar-collapse collapse">
-          <ul class="navbar-nav">
+          <ul class="nav nav-pills ml-auto">
             {% assign shorturl = page.url | replace:'index.html','' %}
             {% for item in site.navigation %}
-            <li{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="nav-item active"{% else %} class="nav-item"{% endif %}>
-              <a class="nav-link" href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
+            <li class="nav-item">
+              <a{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="nav-link active"{% else %} class="nav-link"{% endif %} href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
             </li>
             {% endfor %}
           </ul>
@@ -72,7 +72,7 @@
     <div id="footer">
       <div class="container">
         <p class="text-muted">
-          &copy; 2014-2017 Chirag Bharadwaj, with some help from <a href="https://jekyllrb.com/">Jekyll</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://khan.github.io/KaTeX/">KaTeX</a>, and <code>less</code>
+          &copy; 2014-2017 Chirag Bharadwaj, with some help from <a href="https://jekyllrb.com/">Jekyll</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://khan.github.io/KaTeX/">KaTeX</a>, and <code>sass</code>
         </p>
       </div>
     </div>

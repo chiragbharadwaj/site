@@ -9,15 +9,15 @@ excerpt: "Miscellaneous: what I do in my free time."
     <img src="{{site.baseurl}}/media/sky.png" alt="Miscellaneous: what I do in my free time." width="100%" class="rounded"/>
   </div>
   <div class="col-sm-6">
-    <h1>Miscellaneous</h1>
-    <h3>What makes me tick?</h3>
+    <h2>Miscellaneous</h2>
+    <h4>What makes me tick?</h4>
     I do lots of <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Random.html">random</a> things in my <a href="https://en.wikipedia.org/wiki/Free_monoid">free</a> time, from distance running, to <a href="http://www.nsmspiano.org">classical piano</a>, to learning <a href="{{site.baseurl}}/media/nuclear.pdf">new things</a>, to <a href="https://www.youtube.com/user/maangchi">cooking</a>, to <a href="{{site.baseurl}}/media/itinerary.pdf">exploring</a> the United States, to urban male <a href="https://www.reddit.com/r/malefashionadvice">fashion trends</a>, to writing long, run-on sentences with lots of gratuitous <a href="https://cdecl.org">pointers</a> and <a href="https://www.youtube.com/watch?v=lLMawsZ4vdo">Oxford commas</a>. I've caricatured some of these personal interests below, along with various things I've done over the years in my free time. You could consider this an "enrichment" page, as it were.
   </div>
 </div>
 
 <hr/>
 
-<h3>"Classical" Piano</h3>
+<h4>"Classical" Piano</h4>
 
 <img src="{{site.baseurl}}/media/piano.jpg" width="37.5%" alt="Classical piano, Steinway and Sons edition." class="rounded" style="float: right; margin-left: 16px"/>
 
@@ -28,57 +28,57 @@ Over the years—in no small part due to Ashish Xiangyi Kumar's <a href="https:/
 I present these pieces below, replete with links to my favorite recordings of each:
 
 <div class="tabbable"> 
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#bach">Bach</a></li>
-    <li><a data-toggle="tab" href="#mozart">Mozart</a></li>
-    <li><a data-toggle="tab" href="#beethoven">Beethoven</a></li>
-    <li><a data-toggle="tab" href="#chopin">Chopin</a></li>
-    <li><a data-toggle="tab" href="#schumann">Schumann</a></li>
-    <li><a data-toggle="tab" href="#liszt">Liszt</a></li>
-    <li><a data-toggle="tab" href="#debussy">Debussy</a></li>
-    <li><a data-toggle="tab" href="#rachmaninoff">Rachmaninoff</a></li>
-    <li><a data-toggle="tab" href="#ravel">Ravel</a></li>
-    <li><a data-toggle="tab" href="#shostakovich">Shostakovich</a></li>
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#bach">Bach</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#mozart">Mozart</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#beethoven">Beethoven</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#chopin">Chopin</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#schumann">Schumann</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#liszt">Liszt</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#debussy">Debussy</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#rachmaninoff">Rachmaninoff</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ravel">Ravel</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#shostakovich">Shostakovich</a></li>
   </ul>
 
   <div class="tab-content">
-    <div id="bach" class="tab-pane active">
+    <div id="bach" class="tab-pane active" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="mozart" class="tab-pane">
+    <div id="mozart" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="beethoven" class="tab-pane">
+    <div id="beethoven" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="chopin" class="tab-pane">
+    <div id="chopin" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="schumann" class="tab-pane">
+    <div id="schumann" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="liszt" class="tab-pane">
+    <div id="liszt" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="debussy" class="tab-pane">
+    <div id="debussy" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="rachmaninoff" class="tab-pane">
+    <div id="rachmaninoff" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="ravel" class="tab-pane">
+    <div id="ravel" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
-    <div id="shostakovich" class="tab-pane">
+    <div id="shostakovich" class="tab-pane" role="tabpanel">
       <br>
       <p>Not yet available.</p>
     </div>
@@ -87,7 +87,7 @@ I present these pieces below, replete with links to my favorite recordings of ea
 
 <hr/>
 
-<h3>Linguistics</h3>
+<h4>Linguistics</h4>
 
 <img src="{{site.baseurl}}/media/nixie.jpg" width="37.5%" alt="Autodidactism: teaching myself for fun." class="rounded" style="float: left; margin-right: 16px; margin-bottom: 16px"/>
 
@@ -95,16 +95,18 @@ In Fall 2014, I took an <a href="https://classes.cornell.edu/browse/roster/FA14/
 
 In mid-2017, I began compiling together a curriculum to teach myself the material from scratch. I initially chose The Ohio State University's <a href="https://linguistics.osu.edu/research/pubs/lang-files">classic textbook</a> to revise the introductory material, but I soon realized that each chapter in the handbook was basically offered as a <a href="http://courses.cornell.edu/content.php?filter%5B27%5D=LING&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=26&expand=&navoid=6782&search_database=Filter#acalog_template_course_filter">separate class</a> altogether at Cornell.
 
-Ultimately, I decided to pool together several textbooks and use each chapter in OSU's textbook as a summary of an entire semester's worth of material. I am currently (albeit slowly) trudging through the OSU textbook in this fashion, supplementing each chapter with the raw source texts from the semester-long classes. The notes below are the byproduct of my efforts. Many of the later chapters are still forthcoming, so I will try to update this listing as often as I can. An <a href="{{site.baseurl}}/media/ling/overview.pdf">overview</a> of the course structure and goals is also available. My hope is to eventually compile a comprehensive collection of notes on linguistics from which one can completely teach himself or herself the tenets.
+Ultimately, I decided to pool together several textbooks and use each chapter in OSU's textbook as a summary of an entire semester's worth of material. I am currently (albeit slowly) trudging through the OSU textbook in this fashion, supplementing each chapter with the raw source texts from the semester-long classes. The notes below are the byproduct of my efforts. Many of the later chapters are still forthcoming, so I will try to update this listing as often as I can. An <a href="{{site.baseurl}}/media/ling/overview.pdf">overview</a> of the course structure and goals is also available. My hope is to eventually compile a comprehensive collection of notes on linguistics from which one can completely teach himself or herself the tenets of modern linguistic theory.
 
-<div class="panel panel-default accordion" id="accordionLing">
-  <div class="panel-heading">
-    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLing" href="#collapseLing">Expand/collapse table</a>
-  </div>
-
-  <div id="collapseLing" class="panel-collapse collapse">
-    <div class="panel-body">
-      <table class="table table-bordered table-hover">
+<div id="accordionLing" class="accordion">
+  <div class="card m-b-0">
+    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordionLing" href="#collapseLing">
+      <a class="card-title" href="#">
+        Expand/collapse table
+      </a>
+    </div>
+    <div id="collapseLing" class="card-block collapse">
+      <p>* work in progress</p>
+      <table class="table table-sm table-bordered table-hover">
         <thead>
           <tr>
             <th>#</th>
@@ -125,7 +127,7 @@ Ultimately, I decided to pool together several textbooks and use each chapter in
           <tr>
             <th scope="row">2</th>
             <td>Phonetics</td>
-            <td><a href="{{site.baseurl}}/media/ling/notes/phonetics.pdf">2017.08.14</a><sup>WIP</sup></td>
+            <td><a href="{{site.baseurl}}/media/ling/notes/phonetics.pdf">2017.08.14</a>*</td>
             <td>Not yet available</td>
             <td>Not yet available</td>
           </tr>
@@ -284,7 +286,7 @@ Ultimately, I decided to pool together several textbooks and use each chapter in
 
 <hr/>
 
-<h3>Japanese Language</h3>
+<h4>Japanese Language</h4>
 
 <img src="{{site.baseurl}}/media/japan.jpg" width="37.5%" alt="Japanese text, to symbolize the language." class="rounded" style="float: right; margin-left: 16px; margin-bottom: 16px"/>
 
@@ -292,14 +294,16 @@ In Fall 2015, after a summer working at the <a href="https://en.wikipedia.org/wi
 
 Despite all this <a href="{{site.baseurl}}/media/japan/schedule.pdf">detailed planning</a>, however, I was never able to fully realize this goal during my time at Cornell due to demanding schedules (though Cornell houses a <a href="http://www.thebestcolleges.org/10-most-innovative-colleges-for-foreign-language-study/">top-10 Asian languages department</a>, I'm told). I hope to eventually be able to take a few semesters of Japanese classes while at Princeton (which also has an excellent Asian languages department). However, I <i>was</i> able to make some progress during Winter 2015. I was able to <a href="{{site.baseurl}}/media/intro-jap.pdf">teach myself</a> two of the writing systems and get a grasp of exactly what learning Japanese entailed during that time. The following notes are the result of my efforts during that two-month recess.
 
-<div class="panel panel-default accordion" id="accordionJap">
-  <div class="panel-heading">
-    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionJap" href="#collapseJap">Expand/collapse table</a>
-  </div>
-
-  <div id="collapseJap" class="panel-collapse collapse">
-    <div class="panel-body">
-      <table class="table table-bordered table-hover">
+<div id="accordionJap" class="accordion">
+  <div class="card m-b-0">
+    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordionJap" href="#collapseJap">
+      <a class="card-title" href="#">
+        Expand/collapse table
+      </a>
+    </div>
+    <div id="collapseJap" class="card-block collapse">
+      <p>* work in progress</p>
+      <table class="table table-sm table-bordered table-hover">
         <thead>
           <tr>
             <th>#</th>
