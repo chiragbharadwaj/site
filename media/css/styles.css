@@ -4,6 +4,9 @@
   font-weight: 400;
   src: local('Arizonia Regular'), local('Arizonia-Regular'), url('../fonts/Arizonia-Regular.woff2') format('woff2'), url('../fonts/Arizonia-Regular.woff') format('woff');
 }
+.navbar {
+  margin-bottom: 20px;
+}
 .logo {
   font-family: Arizonia, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
@@ -11,15 +14,23 @@
 }
 body {
   overflow: auto;
+  font-size: 14px;
   margin-bottom: 60px;
 }
 .date {
-  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Cambria, Georgia, serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 .vertical-align {
   display: flex;
   align-items: center;
+}
+.carousel-caption {
+  top: -15px;
+  bottom: auto;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
 }
 #footer {
   position: fixed;

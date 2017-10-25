@@ -5,7 +5,7 @@ excerpt: |
   Siva Somayyajula and I wrote a paper on the theoretical design of a refinement logics proof assistant for our final project in Prof. Bob Constable's undergraduate applied logic class (CS 4860) at Cornell University. We also implemented such an assistant by following our design. We hope that our assistant makes it easier for students and researchers alike to work with proof assistants based on custom proof calculi by generating executables.
 ---
 
-## Motivation
+### Motivation
 
 As PL and logic enthusiasts, [Siva Somayyajula][siva] and I embarked on a journey in Fall 2016 by taking [Prof. Bob Constable][constable]'s course in [applied logic][] at Cornell University, which was a small class of about 20 students. We discussed classic topics like logic systems, refinement rules, and formal methods, as well as newer ideas in the field, such as automated reasoning, [proof assistants][nuprl], and constructive type/logic systems.
 
@@ -15,13 +15,13 @@ Our goal is to provide a simple solution for these researchers that works at a l
 
 This type of proof calculus-based assistant generation can ultimately be quite helpful, even to students studying functional programming from an axiomatic standpoint for the first time, such as in Cornell's very own [CS 3110][] course.
 
-## [Paper][]
+### [Paper][]
 
 The details of this framework can be found in our [paper][] on the refinement logics, which discusses a hypothetical implementation of this framework as well as a general implementation of constructive logics in OCaml, a functional programming language.
 
 We discuss providing the rules for an example calculus in our framework. We elected to discuss propositional calculus and how to use its rules in this implementation to create a helpful proof assistant. We also provide instructions on how future work can extend this to first-order logic, which has more complicated governing axioms.
 
-## [Implementation][refined-logic]
+### [Implementation][refined-logic]
 
 We also have an implementation of the aforementioned framework, which again provides a generalized method of generating proof assistants for arbitrary proof calculi. We implemented the hypothetical propositional refinement calculus as an example, and left a similar implementation for first-order logic as an exercise for the reader. Future work can examine the set-up and structure of the code (which is adequately commented using interface files) to implement the proof calculi for custom logic systems.
 

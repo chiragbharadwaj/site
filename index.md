@@ -3,58 +3,76 @@ layout: default
 excerpt: I am a first-year MSE candidate at Princeton University in the Department of Computer Science. I graduated from Cornell University with a B.Sc. in computer science in May 2017.
 ---
 
-![me]({{site.baseurl}}/media/me.png){:width="25%" alt="Photo: Chirag Bharadwaj." class="img-circle" style="float: left; margin: 12px"}
+<div class="row">
+  <div class="col-md-3">
+    <div id="profile" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-2.jpg" height="90%" width="90%" alt="2017.09.14" title="2017.09.14">
+        </div>
+        <div class="carousel-item">
+          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-1.png" height="90%" width="90%" alt="2015.08.28" title="2015.08.28">
+        </div>
+      </div>
+      <a class="carousel-control-next" href="#profile" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-9">
+    <h3>Chirag Bharadwaj</h3>
+    <h6 style="font-weight: normal"><a href="https://en.wikipedia.org/wiki/IPA">IPA</a>: <code class="highlighter-rouge">/ʃɪɹɑːg/</code>, like the former <a href="https://en.wikipedia.org/wiki/Jacques_Chirac">French president</a></h6>
+    <p>
+      Department of Computer Science <br>
+      Princeton University <br>
+      35 Olden Street | 194 Nassau Street <br>
+      Princeton, NJ 08540
+    </p>
+    <p>
+      <img class="eq" src="{{site.baseurl}}/media/email.png" height="21px"/>
+    </p>
+    <p>
+      My <a href="{{site.baseurl}}/media/cv.pdf">curriculum vitae</a> (as of {{site.updated}})
+    </p>
+  </div>
+</div>
 
-### About
+<hr/>
 
-Hi, I'm Chirag ([IPA][]: `/ʃɪɹɑːg/`, like the former [French president][chirac]), and I am a first-year [MSE][] candidate in computer science at [Princeton University][princeton]. I have yet to be assigned an advisor at Princeton. My research interests lie in an unlikely pair of fields: [programming languages][pl] and [computer architecture][comparch].
+<h4>About</h4>
 
-I previously attended [Cornell University][cornell], where I received a B.Sc. in computer science in May 2017. I was fortunate to have been advised by [Adrian Sampson][samps], who helped cultivate my initial interests and synthesize them into a veritable form. My [undergraduate thesis][thesis] focused on a theoretical framework called LambdaLab that would provide appropriate tools for instruction in the lambda calculus. I also [tinkered with][llvm] NVIDIA's [CUDA][] programming language with applications to [heterogeneous hardware][braid] in graphics programming.
+<p>
+  A more personal bio is available <a href="{{site.baseurl}}/misc/about.html">here</a>.
+</p>
 
-Most of my undergraduate research focused on what Adrian calls [*approximate computing*][approx], an emerging field at the cornerstone of programming languages and computer architecture. Approximate computing captures the idea that computers can have better performance if we can allow them to have certain imperfections. This type of model is still fairly new, so researching ways to synthesize various languages, compilers, and hardware to examine this trade-off more closely is one of my significant goals.
+<p>
+  I am a first-year <a href="https://www.cs.princeton.edu/grad/degrees#masters">MSE</a> candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>. I have yet to be assigned an advisor. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a> and type systems, but broadly my interests span many aspects of <a href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a>, such as category theory, computational complexity, and logics.
+</p>
 
-Here's a [curriculum vitae][cv] as of {{site.updated}}. You can also contact me at <img class="eq" src="{{site.baseurl}}/media/email.png" height="18px"/>. I'm always up for some discussion over [Hoagie Haven][hoagie]!
+<p>
+  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell—in stark contrast to the present—I worked on the practical side of things, providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">&lambda;-calculus</a>. I also <a href="https://github.com/chiragbharadwaj/llvm">tinkered with</a> NVIDIA's CUDA programming language.
+</p>
 
-----
+<p>
+  In my free time, I enjoy being hilariously incompetent at <a href="https://online-go.com/user/view/303490">Baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Texas Hold 'Em poker, badminton, figure skating, 5Ks, piano, and cooking dinner.
+</p>
 
-![pton]({{site.baseurl}}/media/princeton.jpg){:width="37.5%" alt="In the fall, Princeton is often breathtakingly beautiful." class="img-rounded" style="float: right; margin-left: 16px"}
+<p>
+  Feel free to reach out. I'm always down to talk over <a href="{{site.baseurl}}/media/hoagie-haven.jpg">Hoagie Haven</a>!
+</p>
 
-### Personal
+<h4>Links</h4>
 
-The ethnic origins of my name are from Greater South Asia. In particular, *Chirag* is from an Persian word that means "light or to enlighten", and *Bharadwaj* is a family name—after [Bharadwaja][], a great ancient sage who lived in the years following the collapse of the Indus Valley Civilization. Supposedly, I am part of a family that can trace their lineage back to him across many generations. My parents gave me the first name that I have because I was born soon after [Diwali][], which is a festival of lights. Of course, in Asian cultures, the family name comes first, so historically my name would have been written `भारद्वाज चिराग`.
-
-I was born in Flushing, NY, which is a small and diverse [ethnic enclave][flushing] in the borough of Queens in New York City. I grew up there for a little while. I don't think I will ever forget the beautiful [parks][corona]. Flushing is home to around 70,000 people, of which about 70% are of Asian heritage like myself, at least according to the [2010 census][census].
-
-I attended middle school and [high school][semifinalist] in Princeton, NJ—a relatively quiet neighborhood in suburbia. Princeton is [downright beautiful][princeton-2] (but only Ithaca is [gorges][ithaca]). There is so much [greenery][princeton-1] and it feels really nice to be surrounded by so much forestry in the Garden State. Princeton has many areas that are designated as "preserved open space", so a lot of the greenery is pretty much legally required to be there. You can even [get in trouble][trees] if you cut down trees! They don't take "the Garden State" lightly, I guess.
-
-[ipa]:          https://en.wikipedia.org/wiki/IPA
-[chirac]:       https://en.wikipedia.org/wiki/Jacques_Chirac
-[mse]:          https://www.cs.princeton.edu/grad/degrees#masters
-[princeton]:    https://cs.princeton.edu/
-
-[pl]:           http://www.cs.princeton.edu/research/areas/pls
-[comparch]:     http://www.cs.princeton.edu/research/areas/cac
-
-[cornell]:      https://www.cs.cornell.edu/
-[samps]:        http://www.cs.cornell.edu/~asampson/
-[thesis]:       {{site.baseurl}}/media/ugrad-thesis.pdf
-[llvm]:         https://github.com/chiragbharadwaj/llvm
-[cuda]:         http://www.nvidia.com/object/cuda_home_new.html
-[braid]:        https://capra.cs.cornell.edu/braid/
-[approx]:       http://www.cs.cornell.edu/~asampson/media/dissertation.pdf
-[hoagie]:       {{site.baseurl}}/media/hoagie-haven.jpg
-
-[cv]:           {{site.baseurl}}/media/cv.pdf
-
-[bharadwaja]:   https://en.wikipedia.org/wiki/Bharadwaja
-[diwali]:       {{site.baseurl}}/media/diwali.png
-
-[flushing]:     {{site.baseurl}}/media/flushing.jpg
-[corona]:       {{site.baseurl}}/media/corona.jpg
-[census]:       http://www1.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/t_pl_p3a_nta.pdf
-
-[semifinalist]: http://www.centraljersey.com/archives/south-brunswick-boe-honors-merit-semi-finalists/article_4d2075ba-9de1-5f39-90ec-1b7c2e65d676.html
-[princeton-1]:  {{site.baseurl}}/media/princeton-1.jpg
-[princeton-2]:  {{site.baseurl}}/media/princeton-2.jpg
-[ithaca]:       {{site.baseurl}}/media/ithaca.jpg
-[trees]:        http://www.princetonshadetree.org/faq
+<ul style="margin-left: -1em">
+  <li><a href="https://github.com/chiragbharadwaj">GitHub</a>, in which I share code</li>
+  <li><a href="https://scholar.google.com/citations?hl=en&user=4_0POVAAAAAJ">Google Scholar</a>, in which I pretend to be a competent researcher</li>
+  <li><a href="https://www.linkedin.com/in/chiragbharadwaj/">LinkedIn</a>, in which I act professional</li>
+  <li><a href="https://medium.com/@chiragbharadwaj">Medium</a>, in which I write articles</li>
+  <li><a href="https://soundcloud.com/chiragbharadwaj">SoundCloud</a>, in which I make music</li>
+  <li><a href="https://www.youtube.com/channel/UCf4xxZMtFBAsvjgg0z64xlg">YouTube</a>, in which I make videos</li>
+  <li>Miscellaneous:
+    <ul style="margin-left: -1em">
+      <li>My <a href="http://www.chronicle.com/article/Inside-the-Meme-Thread-a/240268">15 minutes of fame</a> for internet memes</li>
+    </ul>
+  </li>
+</ul>

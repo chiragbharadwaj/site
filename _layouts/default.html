@@ -20,6 +20,16 @@
     <link rel="stylesheet" href="{{site.baseurl}}/media/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/media/css/styles.css">
 
+    <!-- Linking in some scripts for rendering before DOM is ready. -->
+    <script src="{{site.baseurl}}/media/js/jquery-3.1.1.min.js"></script>
+    <script src="{{site.baseurl}}/media/js/tether.min.js"></script>
+    <script src="{{site.baseurl}}/media/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#profile').carousel({});
+      });
+    </script> 
+
     <!-- Description and author of the webpage. -->
     <meta name="description" content="Computer Scientist. Researcher. Pianist.">
     <meta name="author" content="Chirag Bharadwaj">
@@ -36,22 +46,18 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-expand-md navbar-light bg-faded">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{site.baseurl}}/"><div class="logo">Chirag Bharadwaj</div></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
+        <a class="navbar-brand" href="{{site.baseurl}}/"><div class="logo">Chirag Bharadwaj</div></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="navbar-collapse collapse">
+          <ul class="navbar-nav">
             {% assign shorturl = page.url | replace:'index.html','' %}
             {% for item in site.navigation %}
-            <li{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="active"{% endif %}>
-              <a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
+            <li{% if item.link == shorturl or item.link == '/blog/' and page.dat %} class="nav-item active"{% else %} class="nav-item"{% endif %}>
+              <a class="nav-link" href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
             </li>
             {% endfor %}
           </ul>
@@ -70,9 +76,6 @@
         </p>
       </div>
     </div>
-
-    <script src="{{site.baseurl}}/media/js/jquery-3.1.1.min.js"></script>
-    <script src="{{site.baseurl}}/media/js/bootstrap.min.js"></script>
 
     {% if page.katex %}
     <!-- Auto-rendering KaTeX on pages with equations. -->

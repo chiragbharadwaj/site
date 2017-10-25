@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<h2>{{page.title}}</h2>
+<h3>{{page.title}}</h3>
 
 {% if page.collection == "drafts" %}
 <p>Unpublished Draft</p>
 {% else %}
-<h4 style="font-weight: normal">{{ page.date | date: '%-d %B %Y' }}</h4>
+<h6 style="font-weight: normal">{{ page.date | date: '%-d %B %Y' }}</h6>
 {% endif %}
 
 <hr style="height: 3px"/>
