@@ -11,7 +11,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
           <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-3.jpg" height="100%" width="100%" alt="2017.09.14" title="2017.09.14">
         </div>
         <div class="carousel-item">
-          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-2.jpg" height="100%" width="100%" alt="2017.06.10" title="2017.06.10">
+          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-2.png" height="100%" width="100%" alt="2017.06.10" title="2017.06.10">
         </div>
         <div class="carousel-item">
           <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-1.png" height="100%" width="100%" alt="2015.08.28" title="2015.08.28">
