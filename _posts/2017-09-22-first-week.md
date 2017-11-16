@@ -3,7 +3,7 @@ title: "My First Weeks in Graduate School"
 kind: article
 layout: post
 excerpt: |
-  I've learned a lot from my first few weeks in graduate school. There are a lot of lessons to be found in any new place, and graduate school is not any different. From the mundane day-to-day changes to a whole different understanding of scientific communities, I think it's safe to say that experiencing graduate school first hand has helped me see things differently already. I can't wait to start diving fully into research and (hopefully) begin a career in academia.
+  I've learned a lot from my first few weeks in graduate school. There are a lot of lessons to be found in any new place, and graduate school is not any different. From the mundane day-to-day changes to a whole different understanding of scientific communities, I think it's safe to say that experiencing graduate school first hand has helped me see things differently already. I can't wait to dive right into research in the coming weeks.
 ---
 
 It's been a hectic few weeks in grad school so far. Here's what I've concluded after my first little taste of life in academia:

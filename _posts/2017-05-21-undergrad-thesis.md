@@ -3,7 +3,7 @@ title: "LambdaLab: Interactive &lambda;-calculus for Learning"
 kind: article
 layout: post
 excerpt: |
-  For my undergraduate thesis at Cornell, I laid out a theoretical foundation for an interactive visual tool that students could utilize to aid in learning the lambda calculus. Lambda calculus underscores some of the fundamental core of functional programming languages. Its simplicity and power often work as a useful model for semantic analysis. However, some of its abstraction often pose challenges in the classroom. Arguably some of the pedagogical methods by which lambda calculus is instructed to newly-minted functional programming students is wanting. This is where LambdaLab comes into the picture.
+  For my undergraduate thesis at Cornell, I laid out a theoretical foundation for an interactive visual tool that students could utilize to aid in learning the lambda calculus. Lambda calculus underscores some of the fundamental core of functional programming languages. Its simplicity and power often work as a useful model for semantic analysis. However, some of its abstractions often pose pedagogical challenges. Arguably some of the methods by which lambda calculus is instructed to newly-minted FPL students is wanting. This is where LambdaLab comes into play.
 ---
 
 ### Motivation

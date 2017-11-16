@@ -7,14 +7,17 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
   <div class="col-md-3">
     <div id="profile" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-3.jpg" height="100%" width="100%" alt="2017.09.14" title="2017.09.14">
+        </div>
+        <div class="carousel-item">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-2.png" height="100%" width="100%" alt="2017.06.10" title="2017.06.10">
+        </div>
+        <div class="carousel-item">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-1.png" height="100%" width="100%" alt="2015.08.28" title="2015.08.28">
+        </div>
         <div class="carousel-item active">
-          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-3.jpg" height="100%" width="100%" alt="2017.09.14" title="2017.09.14">
-        </div>
-        <div class="carousel-item">
-          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-2.png" height="100%" width="100%" alt="2017.06.10" title="2017.06.10">
-        </div>
-        <div class="carousel-item">
-          <img class="mx-auto rounded-circle" src="{{site.baseurl}}/media/me-1.png" height="100%" width="100%" alt="2015.08.28" title="2015.08.28">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-0.jpg" height="100%" width="100%" alt="2014.06.23" title="2014.06.23">
         </div>
       </div>
       <a class="carousel-control-next" href="#profile" data-slide="next">
@@ -23,6 +26,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
     </div>
   </div>
   <div class="col-md-9">
+    <br/>
     <h3>Chirag Bharadwaj</h3>
     <h6 style="font-weight: normal"><a href="https://en.wikipedia.org/wiki/IPA">IPA</a>: <code class="highlighter-rouge">/ʃɪɹɑːg/</code>, like the former <a href="https://en.wikipedia.org/wiki/Jacques_Chirac">French president</a></h6>
     <p>
@@ -34,9 +38,9 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
     <p>
       <img class="eq" src="{{site.baseurl}}/media/email.png" height="21px"/>
     </p>
-    <p>
-      My <a href="{{site.baseurl}}/media/cv.pdf">curriculum vitae</a> (as of {{site.updated}})
-    </p>
+    <h6 style="font-weight: normal">
+      <a href="{{site.baseurl}}/media/cv.pdf">Curriculum vitae</a> as of {{site.updated}}
+    </h6>
   </div>
 </div>
 
@@ -44,7 +48,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 
 <h4>About</h4>
 
-<p>
+<p style="font-weight: bold">
   A more personal bio is available <a href="{{site.baseurl}}/misc/about.html">here</a>.
 </p>
 
@@ -57,7 +61,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 </p>
 
 <p>
-  In my free time, I enjoy being hilariously incompetent at <a href="https://online-go.com/user/view/303490">Baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Texas Hold 'Em poker, badminton, figure skating, 5Ks, piano, and cooking dinner.
+  In my free time, I enjoy being hilariously incompetent at <a href="https://online-go.com/user/view/303490">baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Hearts, badminton, figure skating, 5Ks, piano, and cooking dinner.
 </p>
 
 <p>
@@ -69,7 +73,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 <ul style="margin-left: -1em">
   <li><a href="https://github.com/chiragbharadwaj">GitHub</a>, in which I share code</li>
   <li><a href="https://scholar.google.com/citations?hl=en&user=4_0POVAAAAAJ">Google Scholar</a>, in which I pretend to be a competent researcher</li>
-  <li><a href="https://www.linkedin.com/in/chiragbharadwaj/">LinkedIn</a>, in which I act professional</li>
+  <li><a href="https://www.linkedin.com/in/chiragbharadwaj/">LinkedIn</a>, in which I act "professional"</li>
   <li><a href="https://medium.com/@chiragbharadwaj">Medium</a>, in which I write articles</li>
   <li><a href="https://soundcloud.com/chiragbharadwaj">SoundCloud</a>, in which I make music</li>
   <li><a href="https://www.youtube.com/channel/UCf4xxZMtFBAsvjgg0z64xlg">YouTube</a>, in which I make videos</li>

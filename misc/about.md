@@ -10,9 +10,9 @@ excerpt: TBD.
 
 I was born in November 1996 in Flushing, NY, which is a small and diverse [ethnic enclave][flushing] in the borough of Queens in New York City. I grew up there for a little while. I don't think I will ever forget the beautiful [parks][corona]. Flushing is home to around 70,000 people, of which about 70% are of Asian heritage like myself, at least according to the [2010 census][census].
 
-I attended middle school and [high school][semifinalist] in Kendall Park, NJ—a relatively quiet neighborhood in suburbia. This part of New Jersey is [downright beautiful][princeton-2] (Note: only Ithaca can be [gorges][ithaca]). There is so much [greenery][princeton-1] and it feels really nice to be surrounded by so much forestry in the Garden State. There are many areas that are designated as "preserved open space", so a lot of the greenery is pretty much legally required to be there. You can even [get in trouble][trees] if you cut down trees! They don't take "The Garden State" lightly...
+I attended middle school and [high school][semifinalist] in Kendall Park, NJ—a relatively quiet neighborhood in suburbia. This part of New Jersey is [downright beautiful][princeton-2] (Note: only Ithaca is [gorges][ithaca]). There is so much [greenery][princeton-1] and it feels really nice to be surrounded by so much forestry in the Garden State. There are many areas that are designated as "preserved open space", so a lot of the greenery is pretty much legally required to be there. You can even [get in trouble][trees] if you cut down trees! They don't take "The Garden State" lightly...
 
-### Anthroponymic etymology
+### [Anthroponymic][anthro] etymology
 
 People often [ask what my heritage is][names] after learning my name.
 
@@ -31,6 +31,7 @@ The ethnic origins of my name are from Greater South Asia. In particular, &laquo
 [ithaca]:       {{site.baseurl}}/media/ithaca.jpg
 [trees]:        http://www.princetonshadetree.org/faq
 [parsi]:        https://en.wikipedia.org/wiki/Persian_language
+[anthro]:       https://en.wikipedia.org/wiki/Anthroponymy
 [cheragh]:      https://en.wikipedia.org/wiki/Shah_Cheragh
 [names]:        https://www.washingtonpost.com/news/post-nation/wp/2017/09/22/the-soft-bigotry-of-having-to-change-your-name-because-somehow-tchaikovksy-is-easier/
 [devanagari]:   https://en.wikipedia.org/wiki/Devanagari
