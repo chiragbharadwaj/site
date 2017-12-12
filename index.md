@@ -77,6 +77,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
   <li><a href="https://medium.com/@chiragbharadwaj">Medium</a>, in which I write articles</li>
   <li><a href="https://soundcloud.com/chiragbharadwaj">SoundCloud</a>, in which I make music</li>
   <li><a href="https://www.youtube.com/channel/UCf4xxZMtFBAsvjgg0z64xlg">YouTube</a>, in which I make videos</li>
+  <li><a href="https://www.last.fm/user/chiragbharadwaj">last.fm</a>, in which I scrobble</li>
   <li>Miscellaneous:
     <ul style="margin-left: -1em">
       <li>My <a href="http://www.chronicle.com/article/Inside-the-Meme-Thread-a/240268">15 minutes of fame</a> for internet memes</li>
