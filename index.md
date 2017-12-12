@@ -53,11 +53,11 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 </p>
 
 <p>
-  I am a first-year <a href="https://www.cs.princeton.edu/grad/degrees#masters">MSE</a> candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>. I have yet to be assigned an advisor. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a> and type systems, but broadly my interests span many aspects of <a href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a>, such as category theory, computational complexity, and logics.
+  I am a first-year <a href="https://www.cs.princeton.edu/grad/degrees#masters">MSE</a> candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>. I have yet to be assigned an advisor. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a> and algebraic theories, but broadly my interests span many aspects of <a href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a>, such as computational complexity, category theory, and logics.
 </p>
 
 <p>
-  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell—in stark contrast to the present—I worked on the practical side of things, providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">&lambda;-calculus</a>. I also <a href="https://github.com/chiragbharadwaj/llvm">tinkered with</a> NVIDIA's CUDA programming language.
+  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell, I worked on providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">&lambda;-calculus</a> as part of the research project for my senior thesis. I also <a href="https://github.com/chiragbharadwaj/llvm">tinkered with</a> NVIDIA's CUDA programming language for a different project.
 </p>
 
 <p>
