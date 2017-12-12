@@ -1,5 +1,5 @@
 ---
-title: "Generating Text through Natural Language Methods"
+title: "Reddit Comments via Generative Grammar Modelling"
 layout: post
 excerpt: |
   Shantanu Gore and I wrote a paper on the design and implementation of a learning-based text generator for our final project in Prof. Haym Hirsh's undergraduate artificial intelligence class (CS 4701) at Cornell University. Our design aims to use methods from natural-language processing to generate realistic comments for the social media site Reddit.
