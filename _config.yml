@@ -9,7 +9,7 @@ email:   'cb625@cornell.edu'
 baseurl: http://www.cs.princeton.edu/~chiragb
 url:     http://www.cs.princeton.edu/~chiragb
 github:  https://github.com/chiragbharadwaj/site
-updated: 2017.12.12
+updated: 2017.12.25
 
 # Markdown configuration (using `kramdown` instead of `rdiscount`).
 markdown: kramdown
