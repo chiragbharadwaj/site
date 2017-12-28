@@ -60,7 +60,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 </p>
 
 <p>
-  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell, I worked on providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">&lambda;-calculus</a> as part of the research project for my senior thesis. I also <a href="https://github.com/chiragbharadwaj/llvm">tinkered with</a> NVIDIA's CUDA programming language for a different project.
+  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell, I worked on providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">&lambda;-calculus</a> as part of the research project for my senior thesis. I also <a href="https://github.com/chiragbharadwaj/cuda">tinkered with</a> NVIDIA's CUDA programming language for a different project.
 </p>
 
 <p>
