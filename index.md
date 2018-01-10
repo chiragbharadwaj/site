@@ -33,8 +33,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
     <h3>Chirag Bharadwaj</h3>
     <h6 style="font-weight: normal"><a href="https://en.wikipedia.org/wiki/IPA">IPA</a>: <code class="highlighter-rouge">/ʃɪɹɑːg/</code>, like the former <a href="https://en.wikipedia.org/wiki/Jacques_Chirac">French president</a></h6>
     <p>
-      Department of Computer Science <br>
-      Princeton University <br>
+      Department of Computer Science, Princeton University <br>
       35 Olden Street | 194 Nassau Street <br>
       Princeton, NJ 08540
     </p>
@@ -42,7 +41,8 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
       <img class="eq" src="{{site.baseurl}}/media/email.png" height="21px"/>
     </p>
     <h6 style="font-weight: normal">
-      <a href="{{site.baseurl}}/media/cv.pdf">Curriculum vitae</a> as of {{site.updated}}
+      <a href="{{site.baseurl}}/media/cv.pdf">Curriculum vitae</a> as of {{site.updated}} <br> <br>
+      <a href="{{site.baseurl}}/media/resume.pdf">Resume</a> (not updated regularly)
     </h6>
   </div>
 </div>
