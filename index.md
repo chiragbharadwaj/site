@@ -41,8 +41,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
       <img class="eq" src="{{site.baseurl}}/media/email.png" height="21px"/>
     </p>
     <h6 style="font-weight: normal">
-      <a href="{{site.baseurl}}/media/cv.pdf">Curriculum vitae</a> as of {{site.updated}} <br> <br>
-      <a href="{{site.baseurl}}/media/resume.pdf">Resume</a> (not updated regularly)
+      <a href="{{site.baseurl}}/media/cv.pdf">Curriculum vitae</a> as of {{site.updated}}
     </h6>
   </div>
 </div>
@@ -56,7 +55,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 </p>
 
 <p>
-  I am a first-year <a href="https://www.cs.princeton.edu/grad/degrees#masters">MSE</a> candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>. I have yet to be assigned an advisor. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a> and algebraic theories, but broadly my interests span many aspects of <a href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a>, such as computational complexity, category theory, and logics.
+  I am a first-year <a href="https://www.cs.princeton.edu/grad/degrees#masters">MSE</a> candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>. I have yet to be assigned an advisor. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Computer_architecture">computer architecture</a> and <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a>. Broadly speaking, I am also interested in <a href="https://en.wikipedia.org/wiki/Theoretical_linguistics">theoretical linguistics</a>, computational complexity, and algebraic theories of <a href="https://en.wikipedia.org/wiki/Formal_system">formal systems</a>.
 </p>
 
 <p>
