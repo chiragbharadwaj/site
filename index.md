@@ -63,7 +63,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 </p>
 
 <p>
-  Ask me about: <a href="https://online-go.com/user/view/303490">baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Hearts, <a href="https://en.wikipedia.org/wiki/The_Resistance_(game)#Avalon_variant">Avalon</a>, badminton, <a href="http://proskatenj.com/">figure skating</a>, running 5Ks, <a href="{{site.baseurl}}/misc/classical.html">piano</a>, alternative rock, teas, <a href="{{site.baseurl}}/media/tofu-bowl.jpg">cooking</a>.
+  Ask me about: <a href="https://online-go.com/user/view/303490">baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Hearts, Avalon, badminton, <a href="http://proskatenj.com/">figure skating</a>, running 5Ks, <a href="{{site.baseurl}}/misc/classical.html">piano</a>, alternative rock, learning languages, tea, and <a href="{{site.baseurl}}/media/tofu-bowl.jpg">cooking</a>.
 </p>
 
 <h4>Links</h4>
