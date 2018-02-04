@@ -59,15 +59,11 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 </p>
 
 <p>
-  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell, I worked on providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">&lambda;-calculus</a> as part of the research project for my senior thesis. I also <a href="https://github.com/chiragbharadwaj/cuda">tinkered with</a> NVIDIA's CUDA programming language for a different project.
+  Previously, I attended <a href="https://www.cs.cornell.edu">Cornell University</a>, where I graduated in May 2017 with a B.Sc. in computer science. At Cornell, I worked on providing appropriate pedagogical tools for the <a href="https://en.wikipedia.org/wiki/Lambda_calculus">lambda-calculus</a> as part of the research project for my senior thesis. I also <a href="https://github.com/chiragbharadwaj/cuda">tinkered with</a> NVIDIA's <a href="https://developer.nvidia.com/about-cuda">CUDA</a> programming language for a different project.
 </p>
 
 <p>
-  In my free time, I enjoy being hilariously incompetent at <a href="https://online-go.com/user/view/303490">baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Hearts, badminton, figure skating, 5Ks, piano, and cooking dinner.
-</p>
-
-<p>
-  Feel free to reach out. I'm always down to talk over <a href="{{site.baseurl}}/media/hoagie-haven.jpg">Hoagie Haven</a>!
+  Ask me about: <a href="https://online-go.com/user/view/303490">baduk</a>, online <a href="https://www.chess.com/member/chiragster">chess</a>, Hearts, <a href="https://en.wikipedia.org/wiki/The_Resistance_(game)#Avalon_variant">Avalon</a>, badminton, <a href="http://proskatenj.com/">figure skating</a>, running 5Ks, <a href="{{site.baseurl}}/misc/classical.html">piano</a>, alternative rock, teas, <a href="{{site.baseurl}}/media/tofu-bowl.jpg">cooking</a>.
 </p>
 
 <h4>Links</h4>

@@ -10,7 +10,7 @@ excerpt: "Miscellaneous: What I do in my free time."
 
 #### What makes me tick?
 
-I do lots of [random][] things in my [free][] time, from distance running, to [classical piano][nsms], to learning [new things][nuclear], to [cooking][], to [exploring][trip] the United States, to urban male [fashion trends][mfa], to writing long, run-on sentences with lots of gratuitous [pointers][] and [Oxford commas][oxford]. I've caricatured some of these personal interests below, along with various things I've done over the years in my free time. You could consider this an "enrichment" page, as it were. I've captured some of my interests below.
+I do lots of [random][] things in my [free][] time, from distance running, to [classical piano][nsms], to learning [new things][nuclear], to [cooking][], to [eating][], to [exploring][trip] the United States, to urban male [fashion trends][mfa], to writing long, run-on sentences with lots of gratuitous [pointers][] and [Oxford commas][oxford]. I've caricatured some of these personal interests below, along with various things I've done over the years in my free time. You could consider this an "enrichment" page, as it were. I've captured some of my interests below.
 
 ----
 
@@ -46,6 +46,7 @@ I do lots of [random][] things in my [free][] time, from distance running, to [c
 [nsms]:        http://www.nsmspiano.org
 [nuclear]:     {{site.baseurl}}/media/nuclear.pdf
 [cooking]:     https://www.youtube.com/user/maangchi
+[eating]:      {{site.baseurl}}/media/hoagie-haven.jpg
 [trip]:        {{site.baseurl}}/media/itinerary.pdf
 [mfa]:         https://www.reddit.com/r/malefashionadvice
 [pointers]:    https://cdecl.org
