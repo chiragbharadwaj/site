@@ -56,6 +56,8 @@ navigation:
     link:  /research/
   - title: Blog
     link:  /blog/
+  - title: Calendar
+    link:  /calendar/
   - title: Miscellaneous
     link:  /misc/
 

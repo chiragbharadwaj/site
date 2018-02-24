@@ -50,3 +50,6 @@ body {
 .katex {
   font-size: 1.15em !important;
 }
+.fc h2 {
+  font-size: 24px;
+}
