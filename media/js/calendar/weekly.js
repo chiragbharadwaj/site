@@ -7,7 +7,10 @@ var fullCalTransorm = function(event) {
     event.color = '#e67399';
   } else if (title.search("ELE 375") != -1) {
     event.color = '#59bfb3';
-  } else if (title.search("Research") != -1 || title.search("FPO") != -1) {
+  } else if (title.search("Research") != -1 || title.search("FPO")   != -1
+          || title.search("ASPLOS")   != -1 || title.search("ISCA")  != -1
+          || title.search("HPCA")     != -1 || title.search("MICRO") != -1
+          || title.search("TECHCON")  != -1) {
     event.color = '#d1051f';
   } else if (title.search("Gym") != -1) {
     event.color = '#4cb052';
