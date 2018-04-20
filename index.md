@@ -71,7 +71,7 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
 <h4><a href="{{site.baseurl}}/misc/about.html">About</a></h4>
 
 <p>
-  I am a first-year MSE candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>, advised by <a href="https://www.princeton.edu/~mrm/">Margaret Martonosi</a>. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Computer_architecture">computer architecture</a> and <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a>. Broadly speaking, I am also interested in <a href="https://en.wikipedia.org/wiki/Theoretical_linguistics">theoretical linguistics</a>, computational complexity, and algebraic theories of <a href="https://en.wikipedia.org/wiki/Formal_system">formal systems</a>.
+  I am a first-year MSE candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>, advised by <a href="https://www.princeton.edu/~mrm/">Margaret Martonosi</a>. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Computer_architecture">computer architecture</a>, hardware accelerator models, and heterogeneous chips. Broadly speaking, I am also interested in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a>, software/hardware verification, and algebraic theories of <a href="https://en.wikipedia.org/wiki/Formal_system">formal systems</a>.
 </p>
 
 <p>
