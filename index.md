@@ -8,6 +8,9 @@ excerpt: I am a first-year MSE candidate at Princeton University in the Departme
     <div id="profile" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-6.jpg" height="100%" width="100%" alt="2018.05.01" title="2015.05.01">
+        </div>
+        <div class="carousel-item">
           <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-5.jpg" height="100%" width="100%" alt="2018.03.21" title="2018.03.21">
         </div>
         <div class="carousel-item">
