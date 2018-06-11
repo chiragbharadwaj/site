@@ -57,7 +57,7 @@ excerpt: I am a MSE candidate at Princeton University in the Department of Compu
 
     <ul style="margin-left: -1em">
       <li><a href="https://github.com/chiragbharadwaj">GitHub</a>, in which I share code</li>
-      <li><a href="https://scholar.google.com/citations?hl=en&user=4_0POVAAAAAJ">Google Scholar</a>, in which I pretend to be a competent researcher</li>
+      <li><a href="https://scholar.google.com/citations?hl=en&user=4_0POVAAAAAJ">Google Scholar</a>, in which I masquerade as a researcher</li>
       <li><a href="https://www.linkedin.com/in/chiragbharadwaj/">LinkedIn</a>, in which I act "professional"</li>
       <li><a href="https://medium.com/@chiragbharadwaj">Medium</a>, in which I write articles</li>
       <li><a href="https://soundcloud.com/chiragbharadwaj">SoundCloud</a>, in which I make music</li>
