@@ -8,7 +8,10 @@ excerpt: I am a MSE candidate at Princeton University in the Department of Compu
     <div id="profile" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-6.jpg" height="100%" width="100%" alt="2018.05.01" title="2015.05.01">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-7.jpg" height="100%" width="100%" alt="2018.06.29" title="2018.06.29">
+        </div>
+        <div class="carousel-item">
+          <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-6.jpg" height="100%" width="100%" alt="2018.05.01" title="2018.05.01">
         </div>
         <div class="carousel-item">
           <img class="mx-auto rounded" src="{{site.baseurl}}/media/me-5.jpg" height="100%" width="100%" alt="2018.03.21" title="2018.03.21">
@@ -47,7 +50,7 @@ excerpt: I am a MSE candidate at Princeton University in the Department of Compu
       <img class="eq" src="{{site.baseurl}}/media/email.png" height="21px"/>
     </p>
     <h6 style="font-weight: normal">
-      <a href="{{site.baseurl}}/media/cv.pdf">CV</a> as of {{site.updated}}
+      <a href="{{site.baseurl}}/media/cv.pdf">CV</a>/<a href="{{site.baseurl}}/media/resume.pdf">resume</a> as of {{site.updated}}
     </h6>
   </div>
   <div class="col-md-5">
@@ -74,7 +77,7 @@ excerpt: I am a MSE candidate at Princeton University in the Department of Compu
 <h4><a href="{{site.baseurl}}/misc/about.html">About</a></h4>
 
 <p>
-  I am a first-year MSE candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>, advised by <a href="https://www.princeton.edu/~mrm/">Margaret Martonosi</a>. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Computer_architecture">computer architecture</a>, hardware accelerator models, and heterogeneous chips. Broadly speaking, I am also interested in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a>, software/hardware verification, and algebraic theories of <a href="https://en.wikipedia.org/wiki/Formal_system">formal systems</a>.
+  I am a second-year MSE candidate in computer science at <a href="https://cs.princeton.edu/">Princeton University</a>. My primary research interests are in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming languages</a>, compiler design, <a href="https://en.wikipedia.org/wiki/Formal_system">formal systems</a>, and <a href="https://en.wikipedia.org/wiki/Computer_architecture">computer architecture</a>. Broadly speaking, I am also interested in hardware accelerator models, heterogeneous chips, and <a href="https://en.wikipedia.org/wiki/Software_verification">software</a>/<a href="https://en.wikipedia.org/wiki/Electronic_design_automation#Analysis_and_verification">hardware verification</a>.
 </p>
 
 <p>
