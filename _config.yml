@@ -21,6 +21,7 @@ highlighter: rouge
 # Files and directories to include/exclude when building the static site.
 include:
   - _assets
+  - _data
 exclude:
   - .gitignore
   - CNAME

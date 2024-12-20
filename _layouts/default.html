@@ -8,7 +8,7 @@
 
     <!-- The title to appear in the tab name. -->
     <title>
-      {{ site.name }}{% if page.title %}: {{page.title}}{% endif %}
+      {{ site.name }}{% if page.title %} | {{page.title}}{% endif %}
     </title>
 
     <!-- Device-compatibility: Resizes on smaller-sized windows. -->
@@ -20,18 +20,18 @@
     <link rel="stylesheet" href="{{site.baseurl}}/_assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/_assets/css/styles.css">
 
+    {% if page.katex %}
+    <!-- Linking in KaTeX if MathJax is chosen (i.e. overriding it.) -->
+    <link rel="stylesheet" href="{{site.baseurl}}/_assets/css/katex.min.css">
+    {% endif %}
+
     <!-- Linking in some scripts for rendering before DOM is ready. -->
     <script src="{{site.baseurl}}/_assets/js/jquery.min.js"></script>
     <script src="{{site.baseurl}}/_assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('#profile').carousel({});
-      });
-    </script> 
 
     <!-- Author and description of the webpage. -->
     <meta name="author" content="Chirag Bharadwaj">
-    <meta name="description" content="TBD.">
+    <meta name="description" content="TBD">
 
     <!-- Opengraph styling, if some other page links to this one. -->
     <meta property="og:url" content="{{site.url}}">

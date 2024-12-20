@@ -1,3 +1,4 @@
+/* Arizonia: for logos and fancy text */
 @font-face {
   font-family: 'Arizonia';
   font-style: normal;
@@ -5,6 +6,8 @@
   src: url('../fonts/arizonia-regular.woff2') format('woff2'),
        url('../fonts/arizonia-regular.woff')  format('woff');
 }
+
+/* Merriweather: serif, for plain readable text */
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
@@ -14,7 +17,7 @@
 }
 @font-face {
   font-family: 'Merriweather';
-  font-style: italic
+  font-style: italic;
   font-weight: 300;
   src: url('../fonts/merriweather-light-italic.woff2') format('woff2'),
        url('../fonts/merriweather-light-italic.woff')  format('woff');
@@ -28,7 +31,7 @@
 }
 @font-face {
   font-family: 'Merriweather';
-  font-style: italic
+  font-style: italic;
   font-weight: 400;
   src: url('../fonts/merriweather-italic.woff2') format('woff2'),
        url('../fonts/merriweather-italic.woff')  format('woff');
@@ -42,11 +45,13 @@
 }
 @font-face {
   font-family: 'Merriweather';
-  font-style: italic
+  font-style: italic;
   font-weight: 700;
   src: url('../fonts/merriweather-bold-italic.woff2') format('woff2'),
        url('../fonts/merriweather-bold-italic.woff')  format('woff');
 }
+
+/* Open Sans: sans-serif, for titles and section headers */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -75,6 +80,8 @@
   src: url('../fonts/open-sans-bold-italic.woff2') format('woff2'),
        url('../fonts/open-sans-bold-italic.woff')  format('woff');
 }
+
+/* Inconsolata: monospaced, for code blocks and syntax highlighting */
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
@@ -90,52 +97,30 @@
        url('../fonts/inconsolata-bold.woff') format('woff');
 }
 
-.navbar {
-  margin-bottom: 20px;
-}
-.nav-item .nav-link {
-  color: #646464;
-}
-.nav-item .nav-link.active {
-  color: #434343;
-  background-color: #e1e1e1;
-}
+/* logo: for top-level logo/branding on every page */
 .logo {
   font-family: Arizonia, Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: #c7254e;
 }
-body {
-  overflow: auto;
-  font-size: 14px;
+
+/* html: for overall page formatting */
+html {
+  background: white;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
-.date {
+
+/* body: for the actual text found in pages by default */
+body {
+  margin: auto;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
-}
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-.carousel-caption {
-  top: -15px;
-  bottom: auto;
-}
-.carousel-control.left,
-.carousel-control.right {
-  background-image: none;
-}
-#footer {
-  position: fixed;
-  bottom: 0;
+  max-width: 64em;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
 }
+
+/* katex: for rendering equations dynamically on posts */
 .katex {
   font-size: 1.15em !important;
-}
-.fc h2 {
-  font-size: 24px;
 }
