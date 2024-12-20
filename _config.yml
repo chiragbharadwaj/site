@@ -1,0 +1,41 @@
+# Identifying/contact information.
+name:    thehalfyak
+author:  Chirag Bharadwaj
+email:   'cb625@cornell.edu'
+baseurl: http://www.thehalfyak.pro
+url:     http://www.thehalfyak.pro
+github:  https://github.com/chiragbharadwaj/chiragbharadwaj.github.io
+updated: 2024-12-19
+
+# Markdown configuration (using `kramdown` instead of `rdiscount`).
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: true
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  entity_output: symbolic
+  math_engine: katex
+highlighter: rouge
+
+# Files and directories to include/exclude when building the static site.
+include:
+  - _assets
+exclude:
+  - .gitignore
+  - CNAME
+
+# Link style for blog posts.
+permalink: /blog/:year/:month/:title.html
+
+# Default scoping rules for posts/drafts in the blog structure.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      type: pages
+    values:
+      permalink: /:path/:basename:output_ext
