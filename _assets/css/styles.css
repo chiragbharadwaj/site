@@ -51,13 +51,57 @@
        url('../fonts/merriweather-bold-italic.woff')  format('woff');
 }
 
-/* Open Sans: sans-serif, for titles and section headers */
+/* Source Sans: sans-serif, for titles and section headers */
+@font-face {
+  font-family: 'Source Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/source-sans-light.woff2') format('woff2'),
+       url('../fonts/source-sans-light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/source-sans-light-italic.woff2') format('woff2'),
+       url('../fonts/source-sans-light-italic.woff')  format('woff');
+}
+@font-face {
+  font-family: 'Source Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-sans-regular.woff2') format('woff2'),
+       url('../fonts/source-sans-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/source-sans-italic.woff2') format('woff2'),
+       url('../fonts/source-sans-italic.woff')  format('woff');
+}
+@font-face {
+  font-family: 'Source Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/source-sans-bold.woff2') format('woff2'),
+       url('../fonts/source-sans-bold.woff')  format('woff');
+}
+@font-face {
+  font-family: 'Source Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/source-sans-bold-italic.woff2') format('woff2'),
+       url('../fonts/source-sans-bold-italic.woff')  format('woff');
+}
+
+/* Open Sans: sans-serif, more widely-kerned than Source Sans */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/open-sans.woff2') format('woff2'),
-       url('../fonts/open-sans.woff') format('woff');
+  src: url('../fonts/open-sans-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -99,9 +143,9 @@
 
 /* logo: for top-level logo/branding on every page */
 .logo {
-  font-family: Arizonia, Helvetica, Arial, sans-serif;
+  font-family: 'Arizonia', Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: #c7254e;
+  color: #7d1935;
 }
 
 /* html: for overall page formatting */
@@ -113,14 +157,66 @@ html {
 
 /* body: for the actual text found in pages by default */
 body {
-  margin: auto;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  max-width: 64em;
+  color: #444444;
+  
+  line-height: 1.5em;
+  margin-bottom: 1.2em;
+  margin: auto;
+  max-width: 56em;
   width: 100%;
+}
+
+/* headings: for the section titles, page titles, etc. */
+h1 {
+  font-style: bold;
+  font-size: 140%;
+  border: none;
+}
+h2 {
+  font-size: 120%;
+  border: none;
+}
+h3 {
+  font-size: 100%;
+  border: none;
+}
+h1, h2, h3 {
+  font-style: bold;
+  color: #00204E;
+}
+
+/* table: for structured content that is organized into rows/columns */
+table {
+  border-collapse: separate;
+  border-spacing: 1em 0;
+  margin-bottom: 1em;
+}
+td {
+  padding-right: 1em;
+}
+
+/* a: for links to other pages, websites, etc. */
+a {
+  color: #c7254e;
+  text-decoration: none;
+  border-bottom: none;
+}
+a:hover {
+  color: #c7254e;
+  text-decoration: underline;
+}
+
+/* img: for embedding images and image-like content */
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* katex: for rendering equations dynamically on posts */
 .katex {
-  font-size: 1.15em !important;
+  font-size: 1em !important;
 }
