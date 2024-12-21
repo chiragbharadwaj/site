@@ -61,5 +61,13 @@
       });
     </script>
     {% endif %}
+
+    <div class="container">
+      <!-- Generate a simple, informational footer per page. -->
+      <hr/>
+      <footer>
+        Generated on {% last_modified {{page.path}} %} using Jekyll, Markdown, and KaTeX.
+      </footer>
+    </div>
   </body>
 </html>

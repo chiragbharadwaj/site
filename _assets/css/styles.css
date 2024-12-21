@@ -144,7 +144,7 @@
 /* logo: for top-level logo/branding on every page */
 .logo {
   font-family: 'Arizonia', Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 36px;
   color: #7d1935;
 }
 
@@ -162,29 +162,52 @@ body {
   color: #444444;
   
   line-height: 1.5em;
-  margin-bottom: 1.2em;
   margin: auto;
   max-width: 56em;
   width: 100%;
 }
 
+/* footer: for the text shown at the bottom of the page */
+footer {
+  font-size: 12px;
+  line-height: 1.25em;
+  margin-top: -1em;
+}
+
 /* headings: for the section titles, page titles, etc. */
 h1 {
-  font-style: bold;
-  font-size: 140%;
-  border: none;
+  font-size: 160%;
 }
 h2 {
   font-size: 120%;
-  border: none;
 }
 h3 {
   font-size: 100%;
-  border: none;
 }
 h1, h2, h3 {
   font-style: bold;
-  color: #00204E;
+  font-weight: 700;
+  border: none;
+  color: #00204e;
+}
+
+/* code: for in-line syntax highlighting and blocked code snippets */
+code.language-plaintext {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  padding: 0.2em;
+  border-radius: 4px;
+  color: #c7254e;
+  background-color: #f7f7f7;
+}
+div.highlighter-rouge {
+  font-family: 'Inconsolata', monospace;
+  width: 100%;
+  font-size: 14px;
+  padding: 1em 1em 0.1em 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  background-color: #f7f7f7;
 }
 
 /* table: for structured content that is organized into rows/columns */
@@ -218,5 +241,5 @@ img {
 
 /* katex: for rendering equations dynamically on posts */
 .katex {
-  font-size: 1em !important;
+  font-size: 1.1em !important;
 }
