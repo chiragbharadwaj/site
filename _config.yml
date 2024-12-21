@@ -22,6 +22,7 @@ highlighter: rouge
 include:
   - _assets
   - _data
+  - _plugins
 exclude:
   - .gitignore
   - CNAME
