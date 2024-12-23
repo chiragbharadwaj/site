@@ -3,6 +3,7 @@ layout: default
 title: home
 excerpt: |
   A loose collection of blogs and musings about math, machine learning, personal finance, art, music, shogi...
+hide_nav: true
 ---
 
 <div class="logo" markdown="1">

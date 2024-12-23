@@ -163,7 +163,7 @@ body {
   
   line-height: 1.5em;
   margin: auto;
-  max-width: 64em;
+  max-width: 68em;
   width: 100%;
 }
 
@@ -246,27 +246,10 @@ img {
 }
 
 /* sidebar: for navigating back to the home page */
-@media (max-width: 64em) {
-  #sidebar {
-    background: none;
-    border: none;
-	  display: block;
-  }
-  #sidebar p {
-    display: inline-block;
-    padding-right: 1em;
-  }
-}
-@media (min-width: 64em) {
-  body {
-    margin-top: 1em;
-    display: grid;
-    grid-gap: 0em;
-    grid-template-columns: 7.5% 85.0% 7.5%;
-  }
-  #sidebar {
-    padding-top: 3em;
-  }
+.sidebar {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-right: 1em;
 }
 
 /* katex: for rendering equations dynamically on posts */
