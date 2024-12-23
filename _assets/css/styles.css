@@ -184,6 +184,12 @@ h2 {
 h3 {
   font-size: 100%;
 }
+h4 {
+  font-size: 100%;
+  font-style: bold;
+  font-weight: 700;
+  border: none;
+}
 h1, h2, h3 {
   font-style: bold;
   font-weight: 700;
@@ -205,7 +211,7 @@ div.highlighter-rouge {
   width: 100%;
   font-size: 14px;
   padding: 1em 1em 0.1em 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
   border-radius: 4px;
   background-color: #f7f7f7;
 }
@@ -214,7 +220,7 @@ div.highlighter-rouge {
 table {
   border-collapse: separate;
   border-spacing: 1em 0;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
 }
 td {
   padding-right: 1em;
