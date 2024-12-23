@@ -62,12 +62,14 @@
     </script>
     {% endif %}
 
+    {% unless page.hide_footer %}
+    <!-- Generate a simple, informational footer per page (if needed). -->
     <div class="container">
-      <!-- Generate a simple, informational footer per page. -->
       <hr/>
       <footer>
         This page was generated using Jekyll, Markdown, and KaTeX.
       </footer>
     </div>
+    {% endunless %}
   </body>
 </html>
