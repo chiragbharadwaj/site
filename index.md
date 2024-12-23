@@ -15,7 +15,6 @@ thehalfyak
 
 I work in machine learning, primarily in the recommendations space. A lot of my work focuses on the personalization of items from high-cardinality catalogues over millions of users. The associated engineering challenges of scaling and maintaining these online systems have formed the mainstay of my career over the last several years.
 
-
 ### Contact
 
 |---|---|

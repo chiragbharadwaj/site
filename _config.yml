@@ -1,11 +1,8 @@
 # Identifying/contact information.
 name:    thehalfyak
-author:  Chirag Bharadwaj
-email:   'cb625@cornell.edu'
 baseurl: chiragbharadwaj.github.io
-url:     http://www.thehalfyak.pro
+url:     https://www.thehalfyak.pro
 github:  https://github.com/chiragbharadwaj/chiragbharadwaj.github.io
-updated: 2024-12-19
 
 # Markdown configuration (using `kramdown` instead of `rdiscount`).
 markdown: kramdown
@@ -25,9 +22,6 @@ include:
 exclude:
   - .gitignore
   - CNAME
-
-# Link style for blog posts.
-permalink: /blog/:year/:month/:title.html
 
 # Default scoping rules for posts/drafts in the blog structure.
 defaults:
