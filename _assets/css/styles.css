@@ -247,9 +247,13 @@ img {
 
 /* sidebar: for navigating back to the home page */
 .sidebar {
-  padding-top: 3em;
   padding-bottom: 3em;
   padding-right: 1em;
+}
+@media (min-width: 68em) {
+  .sidebar {
+    padding-top: 3em;
+  }
 }
 
 /* katex: for rendering equations dynamically on posts */

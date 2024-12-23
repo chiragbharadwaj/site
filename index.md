@@ -54,4 +54,4 @@ I also track my progress with my hobbies and interests on some associated blogs.
 - Shogi tactics
 - Chinese language/literature
 - Piano performances
-- Sketches and paintings
+- Drawings and paintings
