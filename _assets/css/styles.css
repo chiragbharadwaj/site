@@ -247,7 +247,7 @@ img {
 
 /* sidebar: for navigating back to the home page */
 .sidebar {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   padding-right: 1em;
 }
 @media (max-width: 480px) {
@@ -257,7 +257,6 @@ img {
     padding-top: 0em;
     padding-bottom: 0em;
   }
-
 }
 @media (min-width: 68em) {
   .sidebar {
