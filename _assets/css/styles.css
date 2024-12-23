@@ -163,7 +163,7 @@ body {
   
   line-height: 1.5em;
   margin: auto;
-  max-width: 56em;
+  max-width: 64em;
   width: 100%;
 }
 
@@ -183,6 +183,12 @@ h2 {
 }
 h3 {
   font-size: 100%;
+}
+h4 {
+  font-size: 100%;
+  font-style: bold;
+  font-weight: 700;
+  border: none;
 }
 h1, h2, h3 {
   font-style: bold;
@@ -205,7 +211,7 @@ div.highlighter-rouge {
   width: 100%;
   font-size: 14px;
   padding: 1em 1em 0.1em 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
   border-radius: 4px;
   background-color: #f7f7f7;
 }
@@ -214,7 +220,7 @@ div.highlighter-rouge {
 table {
   border-collapse: separate;
   border-spacing: 1em 0;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
 }
 td {
   padding-right: 1em;
@@ -237,6 +243,30 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+/* sidebar: for navigating back to the home page */
+@media (max-width: 64em) {
+  #sidebar {
+    background: none;
+    border: none;
+	  display: block;
+  }
+  #sidebar p {
+    display: inline-block;
+    padding-right: 1em;
+  }
+}
+@media (min-width: 64em) {
+  body {
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 0em;
+    grid-template-columns: 7.5% 85.0% 7.5%;
+  }
+  #sidebar {
+    padding-top: 3em;
+  }
 }
 
 /* katex: for rendering equations dynamically on posts */

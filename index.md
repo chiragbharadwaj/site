@@ -2,8 +2,7 @@
 layout: default
 title: home
 excerpt: |
-  TBD
-katex: true
+  A loose collection of blogs and musings about math, machine learning, personal finance, art, music, shogi...
 ---
 
 <div class="logo" markdown="1">
@@ -12,47 +11,46 @@ thehalfyak
 
 ----
 
-# Top-level Name
+## About me
 
-_This page is under construction._
+I work in machine learning, primarily in the recommendations space. A lot of my work focuses on the personalization of items from high-cardinality catalogues over millions of users. The associated engineering challenges of scaling and maintaining these online systems have formed the mainstay of my career over the last several years.
 
-## Section Name
+### Contact
 
-### Subsection Name
+|---|---|
+|**Email**|cb625 [at] cornell.edu|
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Experience
 
-### Another Subsection Name
-
-Here is some `InlineCode`. And some non-inline code:
-
-```python
-def foo(x: str, y: bool) -> str:
-  y_hat = str(y)
-  return x + y
-```
-
-### Yet Another Subsection Name
-
-Here is *an example* of a table:
-
-|key|value|value|
+|Dates|Firm|Position|
 |---|---|---|
-|a|item|other|
-|b|item|other|
+|12.2024 --|Spotify|Sr. ML Engineer|
+|12.2023 -- 12.2024|Spotify|ML Engineer II|
+|10.2021 -- 12.2023|Spotify|Data Engineer II|
+|09.2019 -- 07.2021|Amazon Music|Software Engineer I|
 
-## Another Section Name
+### Education
 
-### More Subsection Names
+|Dates|Institution|Degree|
+|---|---|---|
+|09.2017 -- 06.2019|Princeton University|MSE, Computer Science|
+|08.2014 -- 05.2017|Cornell University|BSc, Computer Science|
 
-Here is **an example** of an equation:
+## Various writings
 
-\\[p_X(x; \mu, \sigma^2) = \dfrac{1}{\sqrt{2\pi\sigma^2}} \exp \left( \dfrac{(x-\mu)^2}{2\sigma^2} \right).\\]
+This site exists primarily to document my thoughts about mathematics, machine learning, and data engineering. My hope is that these musings and treatises can also serve as a valuable pedagogical tool for other ML practitioners.
 
-Pretty cool, huh?
+### Pedagogical expositions
 
-### Subsectionception!
+- Machine learning from scratch
+- Some solution sketches
 
-Finally, here's an example [of a link][website].
+I also track my progress with my hobbies and interests on some associated blogs.
 
-[website]: https://www.thehalfyak.pro
+### Personal blogs
+
+- Personal finance
+- Shogi tactics
+- Chinese language/literature
+- Piano performances
+- Sketches and paintings
