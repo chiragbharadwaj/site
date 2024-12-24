@@ -25,17 +25,17 @@ I work in machine learning, primarily in the recommendations space. A lot of my 
 
 |Dates|Firm|Position|
 |---|---|---|
-|12.2024 --|Spotify|Sr. ML Engineer|
-|12.2023 -- 12.2024|Spotify|ML Engineer II|
-|10.2021 -- 12.2023|Spotify|Data Engineer II|
-|09.2019 -- 07.2021|Amazon Music|Software Engineer I|
+|2024 --|Spotify|Sr. ML Engineer|
+|2023 -- 2024|Spotify|ML Engineer II|
+|2021 -- 2023|Spotify|Data Engineer II|
+|2019 -- 2021|Amazon Music|Software Engineer I|
 
 ### Education
 
 |Dates|Institution|Degree|
 |---|---|---|
-|09.2017 -- 06.2019|Princeton University|MSE, Computer Science|
-|08.2014 -- 05.2017|Cornell University|BSc, Computer Science|
+|2017 -- 2019|Princeton University|MSE, Computer Science|
+|2014 -- 2017|Cornell University|BSc, Computer Science|
 
 ## Various writings
 

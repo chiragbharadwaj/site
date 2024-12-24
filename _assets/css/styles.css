@@ -172,6 +172,7 @@ footer {
   font-size: 12px;
   line-height: 1.25em;
   margin-top: -1em;
+  margin-bottom: 1em;
 }
 
 /* headings: for the section titles, page titles, etc. */
@@ -252,10 +253,8 @@ img {
 }
 @media (max-width: 480px) {
   html {
-    margin-top: 0em;
-    margin-bottom: 0em;
-    padding-top: 0em;
-    padding-bottom: 0em;
+    margin: 1em;
+    padding: 0em;
   }
 }
 @media (min-width: 68em) {
